@@ -1,5 +1,21 @@
 // ENGINE SCRIPT: AVOID PUTTING GAME SPECIFIC CODE IN HERE
-
+/*
+ * 描述：
+ *  通用函数
+ * 
+ * 目标：
+ *  迭代查找子级对象
+ *  绝对路径查找子级对象
+ *  获取该层中的所有对象
+ *  获取该层中的最高根节点
+ *  List<DicEntry> 到 Vector的转换
+ *  List<DicEntry> 到 Color 的转换
+ *  时间格式化
+ *  金钱分隔符
+ *  拷贝List<DicEntry>
+ *  Dictionary<string, DicEntry> 拷贝到一个类中
+ *  字符串转类型
+ */
 using UnityEngine;
 using System;
 using System.Collections;
