@@ -1,0 +1,357 @@
+GameName = Hammer 2
+GameDescription = Hammer is back to kill them all.
+ShortName = en-US
+Flag = Flag_US
+Language = English (US)
+FilePath = Sprites/Branding/
+AddToYourSiteLink = https://www.assetstore.unity3d.com/en/#!/content/43670
+BrandingLogo = BrandingUnityAssetStore
+BrandingBadge = None
+BrandingURL = https://www.assetstore.unity3d.com/en/#!/content/43670
+BrandingMoreGamesAt = More games at:
+BrandingMoreGamesURL = https://www.assetstore.unity3d.com/en/#!/content/43670
+BrandingSplashLogo = BrandingUnityAssetStore
+BrandingSplashBackground = Black
+BrandingSplashURL = https://www.assetstore.unity3d.com/en/#!/content/43670
+SmallPrint = Hammer 2 - Reloaded © 2015 Xform. Game licensed to Xform Games. All rights reserved.
+LoadingText = LOADING...
+LoadingDoneText = LOADING DONE!
+
+// Menu
+XformGamesPresentsText = XFORM GAMES PRESENTS
+PlayButtonText = PLAY
+CreditsButtonText = CREDITS
+AchievementsButtonText = ACHIEVEMENTS
+MoreGamesButtonText = MORE GAMES
+ShopButtonText = SHOP
+BackButtonText = BACK
+
+// Achievements here
+AchievementsHeaderText = ACHIEVEMENTS
+AchievementUnlockedText = Achievement Unlocked!
+AchievementProgressText = Progress
+Achievement1HeaderText = First Blood
+Achievement1DescriptionText = Complete 1 misson
+Achievement2HeaderText = Man Down
+Achievement2DescriptionText = Die once
+Achievement3HeaderText = Red Barrel Rage
+Achievement3DescriptionText = Destroy 100 red barrels
+Achievement4HeaderText = The Professional
+Achievement4DescriptionText = Drink 1000 cold ones
+Achievement5HeaderText = Tank Buster
+Achievement5DescriptionText = Destroy 50 tanks
+Achievement6HeaderText = The Butcher
+Achievement6DescriptionText = Kill 1000 bad guys
+Achievement7HeaderText = Destroyer Of Worlds
+Achievement7DescriptionText = Destroy 100 buildings
+Achievement8HeaderText = Postman
+Achievement8DescriptionText = Find the 30 hidden packages
+Achievement9HeaderText = Mission Master
+Achievement9DescriptionText = Complete all 30 missions
+Achievement10HeaderText = Money Man
+Achievement10DescriptionText = Own $ 1,000,000
+
+// Credits
+CreditsHeaderText = CREDITS
+CreditsDescriptionText = Hammer 2 - Reloaded © 2015 Xform.\nGame licensed to Xform Games.\nAll rights reserved.\n \nSpecial thanks to:\nMatthew, Joep, Melvin, Stijn, Michael, Eugene, Frank and Lars.
+CreditsLogo = BrandingXformGamesStudio
+VersionText = Version
+
+// Settings
+SettingsHeaderText = SETTINGS
+AudioText = AUDIO
+MusicText = MUSIC
+MusicVolumeText = MUSIC VOLUME
+SoundText = SOUND
+SoundVolumeText = SOUND VOLUME
+GraphicOptionsText = GRAPHICS OPTIONS
+FullscreenText = FULLSCREEN
+FullscreenResolutionText = FULL. RESOLUTION
+EffectsQualityText = EFFECTS QUALITY
+ControlsText = CONTROLS
+InvertMouseText = INVERT MOUSE
+MouseSensitivityText = MOUSE SENSITIVITY
+CameraText = CAMERA
+ThirdPersonText = THIRDPERSON
+FirstPersonText = FIRSTPERSON
+OnText = ON
+OffText = OFF
+LowText = LOW
+MediumText = MEDIUM
+HighText = HIGH
+
+// Help
+HelpHeaderText = HELP
+HelpStoryText = The city streets are packed with bad guys. Who you gonna call? That's right, it's THE HAMMER.\nHe'll straighten them out with his shotgun.
+HelpControlsLeftText = Mouse -  Aim\nArrowkeys/WASD - Move\nSpace/J - Jump\n\nLMB/Z - Fire\nRMB/X - Throw grenade\nLShift/C - Activate Hammer Time\n\nMWheel/Q/E - Cycle weapons\n\nE/Enter - Enter vehicle
+HelpControlsRightText = Esc/P - Pause game\nM - Mute audio toggle\nV - Change view\n\nKill the TARGETS on the MINIMAP\n\nDon't forget to shoot CRATES to collect hidden goodies.\n\nAnd remember:\nShoot first ask questions never.
+
+// Shop
+ShopHeaderText = SHOP
+BuyText = BUY
+OwnedText = OWNED!
+NotEnoughCashText = NOT ENOUGH CASH!
+
+ShopItem1HeaderText = JETPACK
+ShopItem1DescriptionText = A game without a jetpack is barely a game at all.
+ShopItem2HeaderText = UNLIMITED WEAPON AMMO
+ShopItem2DescriptionText = A must-have for every triggerhappy hitman! Fire away!
+ShopItem3HeaderText = UNLIMITED GRENADE AMMO
+ShopItem3DescriptionText = Taking down vehicles and building was never this easy! Stand clear!
+ShopItem4HeaderText = GODMODE
+ShopItem4DescriptionText = You cannot die. Like God. It's a bit like cheating. No wait. It IS cheating.
+ShopItem5HeaderText = VEHICLE GENERATOR
+ShopItem5DescriptionText = You can spawn vehicles at will by pressing the 0 - 9 keys! No more walking.
+ShopItem6HeaderText = OUTFITS
+ShopItem6DescriptionText = You can now change your wardrobe at the outfit marked on your minimap! Kill in style why don't you.
+ShopItem7HeaderText = PARKING
+ShopItem7DescriptionText = New army vehicles have been added at a special parking spot marked on your minimap!
+ShopItem8HeaderText = LOOT DETECTOR
+ShopItem8DescriptionText = Your minimap now displays the location of safes! It's like taking candy from a baby!
+ShopItem9HeaderText = CASH MULTIPLIER
+ShopItem9DescriptionText = We double every buck you make! Helps you save cash quicker for all the other stuff!
+ShopItem10HeaderText = RABBITSFOOT
+ShopItem10DescriptionText = Good old lucky charm. It still smells fresh. You know you want it.
+ShopItem11HeaderText = COLD ONE LOCATOR
+ShopItem11DescriptionText = Pinpoints all beverages and displays them on the minimap! Nifty!
+ShopItem12HeaderText = GOLDEN GUN
+ShopItem12DescriptionText = Replaces your regular gun. Everyone knows a golden gun shoots harder!
+ShopItem13HeaderText = SHOTGUN
+ShopItem13DescriptionText = Own it at the start of each mission.
+ShopItem14HeaderText = MACHINE GUN
+ShopItem14DescriptionText = Own it at the start of each mission.
+ShopItem15HeaderText = RPG
+ShopItem15DescriptionText = Own it at the start of each mission.
+
+// Missions
+MissionSelectHeaderText = SELECT MISSION
+MissionText = Mission
+MissionLockedDescriptionText = Complete the previous mission to unlock this one.
+PreviousPageButtonText = PREVIOUS\nPAGE
+NextPageButtonText = NEXT\nPAGE
+
+Mission1HeaderText = Out For Justice
+Mission1DescriptionText = Kill 100 bad guys
+Mission2HeaderText = Death From Above
+Mission2DescriptionText = Destroy 10 black vans
+Mission3HeaderText = The Only Way Is Up
+Mission3DescriptionText = Destroy 6 gun turrets
+Mission4HeaderText = Underground
+Mission4DescriptionText = Kill 5 juggernauts
+Mission5HeaderText = Urban Warfare
+Mission5DescriptionText = Destroy 5 tanks
+Mission6HeaderText = Parking Garage Mayhem
+Mission6DescriptionText = Kill 150 bad guys
+Mission7HeaderText = Path Of The Mammoth
+Mission7DescriptionText = Destroy the mammoth tank
+Mission8HeaderText = Target Practice
+Mission8DescriptionText = Destroy 10 orange barrels
+Mission9HeaderText = Streets On Fire
+Mission9DescriptionText = Kill 100 bad guys
+Mission10HeaderText = Rocket Girl
+Mission10DescriptionText = Kill Katie!
+Mission11HeaderText = Swat Filled Streets
+Mission11DescriptionText = Kill 50 swat guys
+Mission12HeaderText = The Race
+Mission12DescriptionText = Destroy 50 crates
+Mission13HeaderText = Driving School
+Mission13DescriptionText = Wreck 50 vehicles
+Mission14HeaderText = Blue Streak
+Mission14DescriptionText = Destroy 15 police cars
+Mission15HeaderText = Rooftop Rage
+Mission15DescriptionText = Destroy 2 attack helicopters
+Mission16HeaderText = Infiltration
+Mission16DescriptionText = Destroy 15 army trucks
+Mission17HeaderText = Roof Top Emergency
+Mission17DescriptionText = Destroy 6 emergency exits
+Mission18HeaderText = Back Alley Killer
+Mission18DescriptionText = Kill 100 bad guys
+Mission19HeaderText = Red Barrel Mayhem
+Mission19DescriptionText = Destroy 35 red barrels
+Mission20HeaderText = Armored Assault
+Mission20DescriptionText = Kill the Colonel
+Mission21HeaderText = The Hunter 
+Mission21DescriptionText = Destroy 10 tanks
+Mission22HeaderText = Travelling In Style
+Mission22DescriptionText = Destroy the limousine
+Mission23HeaderText = Metal Swarm
+Mission23DescriptionText = Destroy 10 helicopters
+Mission24HeaderText = Predator
+Mission24DescriptionText = Destroy 15 swat trucks
+Mission25HeaderText = Bombs Away
+Mission25DescriptionText = Destroy 3 jet fighters
+Mission26HeaderText = Coming Through
+Mission26DescriptionText = Destroy 10 buildings
+Mission27HeaderText = Taxi Terror
+Mission27DescriptionText = Destroy 25 yellow cabs
+Mission28HeaderText = Under Siege
+Mission28DescriptionText = Kill 100 soldiers
+Mission29HeaderText = Streets On Fire 2
+Mission29DescriptionText = Destroy 15 black vans
+Mission30HeaderText = The End
+Mission30DescriptionText = Kill the Big Boss
+
+// Pause
+PauseHeaderText = GAME PAUSED
+QuitButtonText = QUIT
+ResumeButtonText = RESUME
+RetryButtonText = RETRY
+
+// Game
+GetReadyText = GET READY!
+GoText = GO !
+HealthText = HEALTH
+HammerTimeText = HAMMER TIME
+ScoreText = SCORE
+TimeText = TIME
+ControlsPauseText = P/ESC - PAUSE
+ControlsMuteText = M - MUTE AUDIO
+
+// Vehicle
+TurretHeaderText = TURRET
+TurretDescriptionText = Use LMB to shoot!
+MissileTurretHeaderText = MISSILE TURRET
+MissileTurretDescriptionText = Use LMB to shoot missiles!
+TankHeaderText = TANK
+TankDescriptionText = Use LMB to shoot shells!
+MammothTankHeaderText = MAMMOTH TANK
+MammothTankDescriptionText = Use RMB to shoot grenades!
+HelicopterHeaderText = HELICOPTER
+HelicopterDescriptionText = SPACE to go up, LSHIFT to go down!
+ApacheHeaderText = ATTACK HELICOPTER
+ApacheDescriptionText = Use RMB to shoot missiles!
+F22HeaderText = JET FIGHTER
+F22DescriptionText = SPACE to boost, LSHIFT to slow down!
+
+// Confirmation
+ConfirmationHeaderText = QUIT
+ConfirmationDescriptionText = Are you sure?
+YesButtonText = YES
+NoButtonText = NO
+
+// Score
+PickUpScoreHeaderText = Score
+PickUpScoreDescriptionText = No description.
+
+// Kill streaks
+PickUpOneKillHeaderText = One Kill Bonus
+PickUpOneKillDescriptionText = Good!
+PickUpDoubleKillHeaderText = Double Kill Bonus
+PickUpDoubleKillDescriptionText = Nice!
+PickUpTripleKillHeaderText = Triple Kill Bonus
+PickUpTripleKillDescriptionText = Great!
+PickUpMultiKillHeaderText = Multi Kill Bonus
+PickUpMultiKillDescriptionText = Awesome!
+PickUpUltraKillHeaderText = Ultra Kill Bonus
+PickUpUltraKillDescriptionText = Incredible!
+PickUpGodLikeKillHeaderText = God Like Kill Bonus
+PickUpGodLikeKillDescriptionText = Epic!
+
+// Weapons
+PickUpWeaponHeaderText = Special Weapon
+PickUpWeaponDescriptionText = Awesome power!
+PickUpDesertEagleHeaderText = Mark VIII
+PickUpDesertEagleDescriptionText = Serious damage!
+PickUpAK47HeaderText = Machine Gun
+PickUpAK47DescriptionText = Fast firing rate!
+PickUpRemingtonHeaderText = Shotgun
+PickUpRemingtonDescriptionText = Blast 'em away!
+PickUpRpgHeaderText = Rocket Launcher
+PickUpRpgDescriptionText = Never mind the collateral damage!
+
+// Explosives
+PickUpExplosiveHeaderText = Grenades
+PickUpExplosiveDescriptionText = Stand clear!
+
+// Gadgets
+PickUpGadgetHeaderText = Gadget
+PickUpGadgetDescriptionText = Activated automatically!
+PickUpTimeFreezeHeaderText = Unlimited Hammer Time
+PickUpTimeFreezeDescriptionText = Tired of living the fast life?
+PickUpPigeonHeaderText = Pigeon Respawn
+PickUpPigeonDescriptionText = You always make a miraculous recovery!
+PickUpMagnetHeaderText = PickUp Magnet
+PickUpMagnetDescriptionText = Come to papa!
+PickUpCashForKillsHeaderText = Cash For Kills
+PickUpCashForKillsDescriptionText = Why work for free?
+PickUpRapidFireHeaderText = Rapid Fire
+PickUpRapidFireDescriptionText = Faster is better in this case!
+PickUpGadgetBonusHeaderText = Gadget Bonus
+PickUpGadgetBonusDescriptionText = No description.
+
+// Health 
+PickUpHealthSmallHeaderText = Painkillers
+PickUpHealthSmallDescriptionText = Giving you the strength to carry on.
+PickUpHealthBigHeaderText = MedKit
+PickUpHealthBigDescriptionText = You feel brand new.
+
+// Cash
+PickUpCashSmallHeaderText = Cash
+PickUpCashSmallDescriptionText = Nice!
+PickUpCashMediumHeaderText = Cash Stack
+PickUpCashMediumDescriptionText = Great! 
+PickUpCashBigHeaderText = Cash Heap
+PickUpCashBigDescriptionText = Awesome!
+PickUpCashBriefcaseHeaderText = Briefcase
+PickUpCashBriefcaseDescriptionText = I like money!
+PickUpSilverHeaderText = Silver
+PickUpSilverDescriptionText = Hard coins!
+PickUpGoldHeaderText = Gold
+PickUpGoldDescriptionText = Gotta have it!
+PickUpRubyHeaderText = Ruby
+PickUpRubyDescriptionText = Sparkling gems!
+PickUpDiamondHeaderText = Diamond
+PickUpDiamondDescriptionText = Shine bright!
+
+// Secret
+PickUpHiddenPackageHeaderText = Hidden Package
+PickUpHiddenPackageDescriptionText = Find one in each mission!
+PickUpColdOneHeaderText = Cold One
+PickUpColdOneDescriptionText = Refreshing!
+PickUpSkinTommyHeaderText = Tommy Outfit
+PickUpSkinTommyDescriptionText = Casual and comfortable.
+PickUpSkinSonnyHeaderText = Sonny Outfit
+PickUpSkinSonnyDescriptionText = Pastels. No socks.
+PickUpSkinArnoldHeaderText = Arnold Outfit
+PickUpSkinArnoldDescriptionText = Sturdy army wear.
+PickUpSkinBruceHeaderText = Bruce Outfit
+PickUpSkinBruceDescriptionText = Sporty yet stylish.
+
+// Results
+ResultsHeaderText = MISSION COMPLETE!
+NewHighscoreText = NEW HIGHSCORE!
+ResultsComment1Text = Well done Hammer. You saved the day!
+ResultsComment2Text = Great work Hammer. You are a hero.
+ResultsComment3Text = Awesome battle Hammer! That's how it's done!
+ResultsComment4Text = You didn't even break a sweat, Hammer!
+ResultsComment5Text = You made mass destruction look easy, Hammer!
+BeatTimeText = Beat
+BeatScoreText = Score
+FindPackageText = Find the package!
+BeatTimeSuccesText = Time beaten!
+BeatScoreSuccesText = Trophy score!
+FindPackageSuccesText = Package found!
+BeatTimeFailureText = Time not beaten
+BeatScoreFailureText =  No trophy score
+FindPackageFailureText = Package not found
+SubmitButtonText = SUBMIT
+ContinueButtonText = CONTINUE
+EndGameButtonText = DONE
+
+// Game Over
+GameOverHeaderText = GAME OVER!
+GameOverComment1Text = Next time, don't die.
+GameOverComment2Text = One word: disappointment.
+GameOverComment3Text = Do not give up.
+GameOverComment4Text = You did great! For a dead man.
+GameOverComment5Text = Try to put a little more love into the killing!
+
+// End Game
+EndGameHeaderText = THE END
+EndGameDescriptionText = Thank you for playing!\nWe had so much fun making this game so we hope you enjoyed it.\nPlease keep following us!
+EndGameComment1Text = Xform Games. Where games come to be free!
+EndGameComment2Text = Good games. Not crap.
+EndGameComment3Text = What are you waiting for?
+EndGameComment4Text = OK OK. A new Burnin' Rubber game is coming.\nJust have patience!!!
+EndGameComment5Text = Now stop whining and go to bed!
+EndGameBackButtonText = OK

@@ -1,0 +1,358 @@
+?GameName = Hammer 2
+GameDescription = Hammer voltou para matar todo mundo.
+ShortName = br-PT
+Flag = Flag_BR
+Language = Português (BR)
+FilePath = Sprites/Branding/
+AddToYourSiteLink = http://www.xformgames.com
+BrandingLogo = BrandingXform
+BrandingBadge = None
+AddToYourSiteLink = http://www.xformgames.com
+BrandingMoreGamesAt = Mais jogos em:
+AddToYourSiteLink = http://www.xformgames.com
+BrandingSplashLogo = BrandingXform
+BrandingSplashBackground = Black
+BrandingSplashURL = http://www.xformgames.com
+SmallPrint = Hammer 2 - Reloaded © 2015 Xform. Jogo licenciado para Xform Games. Todos os direitos reservados.
+LoadingText = CARREGANDO...
+LoadingDoneText = CARREGAMENTO CONCLUÍDO!
+
+// Menu
+XformGamesPresentsText = XFORM GAMES APRESENTA
+PlayButtonText = JOGAR
+CreditsButtonText = CRÉDITOS
+AchievementsButtonText = CONQUISTAS
+MoreGamesButtonText = MAIS JOGOS
+ShopButtonText = LOJA
+BackButtonText = VOLTAR
+
+// Achievements here
+AchievementsHeaderText = CONQUISTAS
+AchievementUnlockedText = Conquista desbloqueada!
+AchievementProgressText = Progresso
+Achievement1HeaderText = Primeiro a sangrar
+Achievement1DescriptionText = Complete 1 missão
+Achievement2HeaderText = Soldado abatido
+Achievement2DescriptionText = Morra uma vez
+Achievement3HeaderText = Raiva de barril vermelho
+Achievement3DescriptionText = Destrua 100 barris vermelhos
+Achievement4HeaderText = O profissional
+Achievement4DescriptionText = Beba 1000 geladas
+Achievement5HeaderText = Destruidor de tanques
+Achievement5DescriptionText = Destrua 50 tanques
+Achievement6HeaderText = O açougueiro
+Achievement6DescriptionText = Mate 1.000 vilões
+Achievement7HeaderText = Destruidor de mundos
+Achievement7DescriptionText = Destrua 100 prédios
+Achievement8HeaderText = Carteiro
+Achievement8DescriptionText = Ache os 30 pacotes escondidos
+Achievement9HeaderText = Mestre das missões
+Achievement9DescriptionText = Complete todas as 30 missões
+Achievement10HeaderText = Homem do dinheiro
+Achievement10DescriptionText = Tenha $ 1.000.000,00
+
+// Credits
+CreditsHeaderText = CRÉDITOS
+CreditsDescriptionText = Hammer 2 - Reloaded © 2015 Xform.\nJogo licenciado para Xform Games.\nTodos os direitos reservados.\n\nAgradecimentos especiais a:\nMatthew, Joep, Melvin, Stijn, Michael, Eugene, Frank e Lars.
+CreditsLogo = BrandingXformGamesStudio
+VersionText = Versão
+
+// Settings
+SettingsHeaderText = CONFIGURAÇÕES
+AudioText = ÁUDIO
+MusicText = MÚSICA
+MusicVolumeText = VOLUME
+SoundText = SOM
+SoundVolumeText = VOLUME
+GraphicOptionsText = OPÇÕES DE GRÁFICOS
+FullscreenText = TELA CHEIA
+FullscreenResolutionText = RESOLUÇÃO TOTAL
+EffectsQualityText = QUALIDADE DOS EFEITOS
+ControlsText = CONTROLES
+InvertMouseText = INVERTER MOUSE
+MouseSensitivityText = SENSIBILIDADE DO MOUSE
+CameraText = CÂMERA
+ThirdPersonText = TERCEIRA PESSOA
+FirstPersonText = PRIMEIRA PESSOA
+OnText = SIM
+OffText = NÃO
+LowText = BAIXA
+MediumText = MÉDIA
+HighText = ALTA
+
+// Help
+HelpHeaderText = AJUDA
+HelpStoryText = As ruas da cidade estão repletas de vilões. Quem pode ajudar? É isso mesmo, só O HAMMER.\nEle vai colocá-los na linha com sua espingarda.
+HelpControlsLeftText = Mouse -  Mirar\nSetas/WASD - Movimento\nEspaço/J - Pular\n\nBMouseD/Z - Disparar\nBMouseE/X - Arremessar granada\nShiftEsq/C - Ativar Hammer Time\n\nRodaM/Q/E - Alternar armas\n\nE/Enter - Entrar em veículo
+HelpControlsRightText = Esc/P - Pausar jogo\nM - Alternar som mudo\nV - Mudar visão\n\nMate os ALVOS no MINIMAPA\n\nNão esqueça de atirar nos CAIXOTES para coletar itens escondidos.\n\nE lembre-se:\nAtire primeiro, pergunte jamais.
+
+// Shop
+ShopHeaderText = LOJA
+BuyText = COMPRAR
+OwnedText = JÁ TEM!
+NotEnoughCashText = DINHEIRO INSUFICIENTE!
+
+ShopItem1HeaderText = MOCHILA-FOGUETE
+ShopItem1DescriptionText = Um jogo sem mochila-foguete não é um jogo de verdade.
+ShopItem2HeaderText = MUNIÇÃO DE ARMA ILIMITADA
+ShopItem2DescriptionText = Item obrigatório para todo assassino com dedo grudado no gatilho! Pode atirar!
+ShopItem3HeaderText = MUNIÇÃO DE GRANADA ILIMITADA
+ShopItem3DescriptionText = Detonar veículos e prédios nunca foi tão fácil! Sai da frente!
+ShopItem4HeaderText = MODO INVENCÍVEL
+ShopItem4DescriptionText = Você não pode morrer. Como Deus. É meio como trapacear. Não, espera. É trapaça.
+ShopItem5HeaderText = GERADOR DE VEÍCULOS
+ShopItem5DescriptionText = Você pode gerar veículos à vontade pressionando as teclas 0 - 9! Chega de andar.
+ShopItem6HeaderText = TRAJES
+ShopItem6DescriptionText = Agora você pode mudar seu traje no vestiário marcado no seu minimapa! Que tal matar com estilo?
+ShopItem7HeaderText = ESTACIONAMENTO
+ShopItem7DescriptionText = Novos veículos do exército foram adicionados em um estacionamento especial indicado no minimapa!
+ShopItem8HeaderText = DETECTOR DE PILHAGEM
+ShopItem8DescriptionText = Seu minimapa agora mostra a localização de cofres! É como roubar doce de bebê!
+ShopItem9HeaderText = MULTIPLICADOR DE DINHEIRO
+ShopItem9DescriptionText = Nós duplicamos toda grana que ganhar! Ajuda você a economizar mais rápido para comprar o resto!
+ShopItem10HeaderText = PÉ DE COELHO
+ShopItem10DescriptionText = Bom e o velho amuleto da sorte. Ainda tem cheirinho de fresco. Você sabe que quer.
+ShopItem11HeaderText = LOCALIZADOR DE GELADAS
+ShopItem11DescriptionText = Localiza todas as bebidas e mostra no minimapa! Joia!
+ShopItem12HeaderText = ARMA DOURADA
+ShopItem12DescriptionText = Substitui sua arma normal. Todo mundo sabe que arma dourada atira mais forte!
+ShopItem13HeaderText = ESPINGARDA
+ShopItem13DescriptionText = Tenha essa arma no começo das missões.
+ShopItem14HeaderText = METRALHADORA
+ShopItem14DescriptionText = Tenha essa arma no começo das missões.
+ShopItem15HeaderText = LANÇA-FOGUETE
+ShopItem15DescriptionText = Tenha essa arma no começo das missões.
+
+// Missions
+MissionSelectHeaderText = SELECIONE A MISSÃO
+MissionText = Missão
+MissionLockedDescriptionText = Complete a missão anterior para desbloquear esta.
+PreviousPageButtonText = PÁGINA\nANTERIOR 
+NextPageButtonText = PRÓXIMA\nPÁGINA 
+
+Mission1HeaderText = Em busca de justiça
+Mission1DescriptionText = Mate 100 vilões
+Mission2HeaderText = Morte do céu
+Mission2DescriptionText = Destrua 10 vans pretas
+Mission3HeaderText = Só dá para subir
+Mission3DescriptionText = Destrua 6 torres com armas
+Mission4HeaderText = Submundo
+Mission4DescriptionText = Mate 5 jamantas
+Mission5HeaderText = Guerra urbana
+Mission5DescriptionText = Destrua 5 tanques
+Mission6HeaderText = Massacre no Estacionamento
+Mission6DescriptionText = Mate 150 vilões
+Mission7HeaderText = Caminho do Mamute
+Mission7DescriptionText = Destrua o tanque mamute
+Mission8HeaderText = Tiro ao alvo
+Mission8DescriptionText = Destrua 10 barris laranja
+Mission9HeaderText = Ruas em chamas
+Mission9DescriptionText = Mate 100 vilões
+Mission10HeaderText = Garota foguete
+Mission10DescriptionText = Mate a Katie!
+Mission11HeaderText = Ruas cheias de SWAT
+Mission11DescriptionText = Mate 50 agentes da SWAT
+Mission12HeaderText = A corrida
+Mission12DescriptionText = Destrua 50 caixotes
+Mission13HeaderText = Autoescola
+Mission13DescriptionText = Destrua 50 veículos
+Mission14HeaderText = Sequência azul
+Mission14DescriptionText = Destrua 15 viaturas
+Mission15HeaderText = Fúria no telhado
+Mission15DescriptionText = Destrua 2 helicópteros de ataque
+Mission16HeaderText = Infiltração
+Mission16DescriptionText = Destrua 15 caminhões do exército
+Mission17HeaderText = Emergência no telhado
+Mission17DescriptionText = Destrua 6 saídas de emergência
+Mission18HeaderText = Matador de beco
+Mission18DescriptionText = Mate 100 vilões
+Mission19HeaderText = Massacre do barril vermelho
+Mission19DescriptionText = Destrua 35 barris vermelhos
+Mission20HeaderText = Assalto Blindado
+Mission20DescriptionText = Mate o coronel
+Mission21HeaderText = O caçador 
+Mission21DescriptionText = Destrua 10 tanques
+Mission22HeaderText = Viajando com estilo
+Mission22DescriptionText = Destrua a limusine
+Mission23HeaderText = Enxame de metal
+Mission23DescriptionText = Destrua 10 helicópteros
+Mission24HeaderText = Predador
+Mission24DescriptionText = Destrua 10 vans da SWAT
+Mission25HeaderText = Bombas ao ar
+Mission25DescriptionText = Destrua 3 caças
+Mission26HeaderText = Sai da frente
+Mission26DescriptionText = Destrua 10 prédios
+Mission27HeaderText = Terror do táxi
+Mission27DescriptionText = Destrua 25 táxis amarelos
+Mission28HeaderText = Força em alerta
+Mission28DescriptionText = Mate 100 soldados
+Mission29HeaderText = Ruas em chamas 2
+Mission29DescriptionText = Destrua 15 vans pretas
+Mission30HeaderText = O fim
+Mission30DescriptionText = Mate o chefão
+
+// Pause
+PauseHeaderText = JOGO PAUSADO
+QuitButtonText = SAIR
+ResumeButtonText = RETOMAR
+RetryButtonText = REPETIR
+
+// Game
+GetReadyText = A POSTOS!
+GoText = VAMOS!
+HealthText = SAÚDE
+HammerTimeText = HAMMER TIME
+ScoreText = PONTUAÇÃO
+TimeText = TEMPO
+ControlsPauseText = P/ESC - PAUSA
+ControlsMuteText = M - SOM MUDO
+
+// Vehicle
+TurretHeaderText = TORRE
+TurretDescriptionText = Use BMouseEsq para atirar!
+MissileTurretHeaderText = TORRE DE MÍSSEIS
+MissileTurretDescriptionText = Use BMouseEsq para disparar mísseis!
+TankHeaderText = TANQUE
+TankDescriptionText = Use BMouseEsq para atirar o canhão!
+MammothTankHeaderText = TANQUE MAMUTE
+MammothTankDescriptionText = Use BMouseDir para disparar granadas!
+HelicopterHeaderText = HELICÓPTERO
+HelicopterDescriptionText = ESPAÇO para subir, ShiftEsq para descer! 
+ApacheHeaderText = HELICÓPTERO DE ATAQUE
+ApacheDescriptionText = Use BMouseDir para disparar mísseis!
+F22HeaderText = CAÇA
+F22DescriptionText = ESPAÇO para acelerar, ShiftEsq para desacelerar!
+
+// Confirmation
+ConfirmationHeaderText = SAIR
+ConfirmationDescriptionText = Tem certeza?
+YesButtonText = SIM
+NoButtonText = NÃO
+
+// Score
+PickUpScoreHeaderText = Pontuação
+PickUpScoreDescriptionText = Sem descrição.
+
+// Kill streaks
+PickUpOneKillHeaderText = Bônus de eliminação simples
+PickUpOneKillDescriptionText = Boa!
+PickUpDoubleKillHeaderText = Bônus de eliminação dupla
+PickUpDoubleKillDescriptionText = Legal!
+PickUpTripleKillHeaderText = Bônus de eliminação tripla
+PickUpTripleKillDescriptionText = Ótimo!
+PickUpMultiKillHeaderText = Bônus de multieliminação
+PickUpMultiKillDescriptionText = Impressionante!
+PickUpUltraKillHeaderText = Bônus de ultra eliminação
+PickUpUltraKillDescriptionText = Incrível!
+PickUpGodLikeKillHeaderText = Bônus de eliminação divina
+PickUpGodLikeKillDescriptionText = Épico!
+
+// Weapons
+PickUpWeaponHeaderText = Arma especial
+PickUpWeaponDescriptionText = Poder incrível!
+PickUpDesertEagleHeaderText = Mark VIII
+PickUpDesertEagleDescriptionText = Causa muito dano!
+PickUpAK47HeaderText = Metralhadora
+PickUpAK47DescriptionText = Taxa de tiro rápida!
+PickUpRemingtonHeaderText = Espingarda
+PickUpRemingtonDescriptionText = Detone todos eles!
+PickUpRpgHeaderText = Lança-foguete
+PickUpRpgDescriptionText = O dano colateral não importa!
+
+// Explosives
+PickUpExplosiveHeaderText = Granadas
+PickUpExplosiveDescriptionText = Sai da frente!
+
+// Gadgets
+PickUpGadgetHeaderText = Dispositivo
+PickUpGadgetDescriptionText = Ativado automaticamente!
+PickUpTimeFreezeHeaderText = Câmera lenta de tiro ilimitada
+PickUpTimeFreezeDescriptionText = Cansou de viver a vida rápida?
+PickUpPigeonHeaderText = Regeneração de Pombas
+PickUpPigeonDescriptionText = Você sempre faz uma recuperação milagrosa!
+PickUpMagnetHeaderText = Ímã de itens
+PickUpMagnetDescriptionText = Vem pro papai!
+PickUpCashForKillsHeaderText = Dinheiro por eliminações
+PickUpCashForKillsDescriptionText = Por que trabalhar de graça?
+PickUpRapidFireHeaderText = Disparo rápido
+PickUpRapidFireDescriptionText = Mais rápido é melhor neste caso!
+PickUpGadgetBonusHeaderText = Bônus de dispositivo
+PickUpGadgetBonusDescriptionText = Sem descrição.
+
+// Health 
+PickUpHealthSmallHeaderText = Analgésicos
+PickUpHealthSmallDescriptionText = Dá a você a força para seguir em frente.
+PickUpHealthBigHeaderText = Kit médico
+PickUpHealthBigDescriptionText = Você se sentirá novo em folha.
+
+// Cash
+PickUpCashSmallHeaderText = Dinheiro
+PickUpCashSmallDescriptionText = Legal!
+PickUpCashMediumHeaderText = Maço de dinheiro
+PickUpCashMediumDescriptionText = Ótimo! 
+PickUpCashBigHeaderText = Monte de dinheiro
+PickUpCashBigDescriptionText = Impressionante!
+PickUpCashBriefcaseHeaderText = Maleta
+PickUpCashBriefcaseDescriptionText = Adoro dinheiro!
+PickUpSilverHeaderText = Prata
+PickUpSilverDescriptionText = Moeda de metal!
+PickUpGoldHeaderText = Ouro
+PickUpGoldDescriptionText = Tem que ter!
+PickUpRubyHeaderText = Rubi
+PickUpRubyDescriptionText = Joias brilhantes!
+PickUpDiamondHeaderText = Diamante
+PickUpDiamondDescriptionText = Brilhe!
+
+// Secret
+PickUpHiddenPackageHeaderText = Pacote escondido
+PickUpHiddenPackageDescriptionText = Ache um em cada missão!
+PickUpColdOneHeaderText = Gelada
+PickUpColdOneDescriptionText = Refrescante!
+PickUpSkinTommyHeaderText = Traje do Tommy
+PickUpSkinTommyDescriptionText = Casual e confortável.
+PickUpSkinSonnyHeaderText = Traje do Sonny
+PickUpSkinSonnyDescriptionText = Cores pastéis. Sem meias.
+PickUpSkinArnoldHeaderText = Traje do Arnold
+PickUpSkinArnoldDescriptionText = Roupagem do exército resistente.
+PickUpSkinBruceHeaderText = Traje do Bruce
+PickUpSkinBruceDescriptionText = Traje esporte mas estiloso.
+
+// Results
+ResultsHeaderText = MISSÃO CONCLUÍDA!
+NewHighscoreText = NOVO RECORDE!
+ResultsComment1Text = Muito bem, Hammer. Você salvou o dia!
+ResultsComment2Text = Ótimo trabalho, Hammer. Você é um herói.
+ResultsComment3Text = Que batalha incrível, Hammer! É assim que se faz!
+ResultsComment4Text = Você nem suou, Hammer!
+ResultsComment5Text = Você faz a destruição em massa parecer fácil, Hammer!
+BeatTimeText = Supere
+BeatScoreText = Pontuação
+FindPackageText = Ache o pacote!
+BeatTimeSuccesText = Tempo superado!
+BeatScoreSuccesText = Pontuação de troféu!
+FindPackageSuccesText = Pacote achado!
+BeatTimeFailureText = Tempo não superado
+BeatScoreFailureText =  Sem pontuação de troféu
+FindPackageFailureText = Pacote não achado
+SubmitButtonText = ENVIAR
+ContinueButtonText = CONTINUAR
+EndGameButtonText = PRONTO
+
+// Game Over
+GameOverHeaderText = FIM DE JOGO!
+GameOverComment1Text = Da próxima vez, não morra.
+GameOverComment2Text = Uma palavra: decepção.
+GameOverComment3Text = Não desista.
+GameOverComment4Text = Você foi muito bem! Para um homem morto.
+GameOverComment5Text = Tente colocar mais amor na matança!
+
+// End Game
+EndGameHeaderText = O FIM
+EndGameDescriptionText = Obrigado por jogar!\nNós nos divertimos muito na criação deste jogo e esperamos que tenha gostado.\nContinue acompanhando a gente!
+EndGameComment1Text = Xform Games. Onde os jogos vão para ser grátis!
+EndGameComment2Text = Bons jogos. Nada de porcaria.
+EndGameComment3Text = O que está esperando?
+EndGameComment4Text = Está bem. Um novo jogo Burnin' Rubber chegará em breve.\nSeja paciente!!!
+EndGameComment5Text = Agora pare de reclamar e vá dormir!
+EndGameBackButtonText = OK
+

@@ -1,0 +1,90 @@
+﻿//----------------------------------------------------------------------
+// Globals
+//----------------------------------------------------------------------
+// Here we store default globals for all our games. This originates to our early dev. days and we kinda stuck with it, since it is easy and fast!
+// NOTE1: values are seperate by a tab (or space, but keep it consistent, can also use multiple tabs or spaces for outlining), so: <VariableName> <TAB> <Value>
+// NOTE2: Case sensitive: write true (preferred) or True for a boolean value, not TRUE or TrUe or TruE, same for false
+// NOTE3: Programmer note: when adding a new variable also add it in Data.cs in the globals section with copy functions (see CopyFromGlobalsToData and CopyFromDataToGlobals) ... not ideal,.. TBD
+
+//----------------------------------------------------------------------
+// Scene: Menu or Level  (Note this is not the same as the Unity Scenes! The scenes only apply in the Unity Game scene)
+//----------------------------------------------------------------------
+Scene	Menu   // Either Menu or Level (case sensitive!)
+
+// Saving data
+VersionNumber	v1.1.1 // Should be increased at every release (stored in UserData and if this number and VersionNumber in UserData differ, UserData is reset, the last number is used internally, the first number for every release (Alpha/Beta/Release1/2/etc) to the outside world. the 'v' is necessary for now.
+LoadUserData	true // Whether user data should be loaded, this will override defined properties.
+
+// The SaveList contains all globals to be saved. If you want a new global to be saved, add it to this list.
+// VersionNumber must be in here so we can compare the version of the save data with the current version and if it differs then the save data is reset
+SaveList	[VersionNumber, SFX, SFXVolume, Music, MusicVolume, Quality, Mission, MissionProgress, UnlockedMissions, Cash, Highscore, MedalProgression, BoughtShopItems] 
+
+//----------------------------------------------------------------------
+// Audio
+//----------------------------------------------------------------------
+SFX		true
+Music	true
+
+SFXVolume		1.0
+MusicVolume		1.0
+
+//----------------------------------------------------------------------
+// Visuals
+//----------------------------------------------------------------------
+Quality				Fantastic	// For now, it can be Fastest, Simple or Fantastic. Let's keep it in lign with the Unity settings we'll be using.
+FullScreenWidth		1280		// resolution width to be used in full screen
+FullScreenHeight	720			// resolution height to be used in full screen
+TargetFrameRate		60			// -1 makes standalone games render as fast as they can, and web player games to render at 50-60 frames/second depending on the platform. 
+
+//----------------------------------------------------------------------
+// Misc
+//----------------------------------------------------------------------
+ClickLinks	true		// Allow calling an URL to the system, potentially opening a browser.
+Branding	UnityAssetStore		// Can be: None, UnityAssetStore, Xform, XformMobile...
+Platform	PC			// can be: PC (= also webplayer), iOS, Android  -> if you're wondering why we have a separate platform variable next to Unity's platform variable: changing Unity's platform can take like X minutes, this one is changed in a second
+						// Also note that this variable and Unity's platform are not coupled at all, when creating a build you should make sure they match. We just use this to simulate a device, when testing e.g. different interface elements.
+Preloader	true		// Display Preloader before menu
+Splash		false		// Display Splash before menu
+
+//----------------------------------------------------------------------
+// About cheats/debug
+//----------------------------------------------------------------------
+Debug	false
+Cheats	false
+
+CheatText	cheat		 // String to be typed in main menu to activate cheats
+
+//----------------------------------------------------------------------
+// Game specific variables
+//----------------------------------------------------------------------
+Cash	0
+MedalProgression		[#Medal1: 0, #Medal2: 0, #Medal3: 0, #Medal4: 0, #Medal5: 0, #Medal6: 0, #Medal7: 0, #Medal8: 0, #Medal9: 0, #Medal10: 0]
+
+InvertMouse			false
+MouseSensitivity	0.5
+
+Mission				1
+MissionProgress		Dynamic		// 'Dynamic' is just a string placeholder. This global will contain a JSON string of all missions played.
+MissionEnds			true		// if false a mission never ends. For debug purposes
+UnlockedMissions	1
+LoopMissionsAt		30
+SkipMissionSelect	true		// Skips the mission select, but ONLY when you didn't play the 1 mission yet. So you start instantly in mission 1. After returning you go to the mission select.
+
+BoughtShopItems		[]
+//BoughtShopItems	[ShopItem1, ShopItem2, ShopItem3] // Sample how you can unlock ShopItems to test/debug, just add to list and uncomment it (You can comment the previous line if you want, but it should override)
+
+GodMode		false 				// You're godlike
+
+Highscore	0
+
+//----------------------------------------------------------------------
+// Game specific debug
+//----------------------------------------------------------------------
+BuildAI				true		// if false no enemies will be build
+AIController		true		// if false no enemy/AI controlled vehicles will be build
+
+CreateDestructibles	true		// if false no destructibles will be build. Everything is indestructible.
+CreateVehicles		true		// Don't activate/build vehicles. Visually they still will be there but you can't control them.
+
+SkipGetReady		false		// Skip the Get Ready animation before each mission, so you can quickly start and test.
+// YOU NEED ANOTHER ENTER

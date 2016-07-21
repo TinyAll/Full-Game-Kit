@@ -1,0 +1,694 @@
+//----------------------------------------------------------------------
+// SharedData
+//----------------------------------------------------------------------
+// Here we store default data for all our games. This originates to our early dev. days and we kinda stuck with it, since it is easy and fast!
+// It is actually similar to a table/sheet, etc.
+
+// Please keep everything neatly lined out using tabs for readability, note you can use multiple tabs between variable name and value
+// IMPORTANT: 3 and 3.0 are NOT the same, if a value was previously 3.4 and you want to change it to 3, change it to 3.0 instead! Vice versa also holds,
+//            if value is currently 3 you cannot change it to 3.4 but only to whole numbers without a floating point part  (for now at least)
+
+// Ambient Light Color (ALC) consist of 3 float or int values in a list: (RGB)
+// Fog Color (FC) idem
+// Fog Start Distance (FSD), Fog End Distance (FED) single float value
+// Fog Density (FD) single float value, only used when fog is not linear. Which it is.
+// Sun Light Color (SLC) consist of 3 float or int values in a list: (RGB)
+// Sun Light Intensity (SLI) consist of single float value.
+// Hard Shadow Strength (HSS) consist of single float value.
+// Sky Box Texture (SBT) consist of a string that is added to a path BundleAssets/World/Textures/Skybox + SBT + _Texture.
+// See AmbientManager.cs for implementation and use.
+AmbientStyle_Begin
+	Level1			[#ALC: [160, 200, 200], #FC: [177, 170, 156], #FSD: 100.0, #FED: 1000.0, #FD:   0.1, #SLC: [255,249,218,255], #SLI: 0.8, #HSS: 0.75, #SBT: Sunny]
+	Level2			[#ALC: [245, 225, 255], #FC: [175, 148, 148], #FSD: 100.0, #FED:  750.0, #FD:   0.1, #SLC: [255,249,218,255], #SLI: 0.8, #HSS: 0.50, #SBT: Pink]
+	Level3			[#ALC: [245, 225, 255], #FC: [165, 145, 100], #FSD: 100.0, #FED:  500.0, #FD:   0.1, #SLC: [255,249,218,255], #SLI: 0.8, #HSS: 0.25, #SBT: Yellow]
+	Level4			[#ALC: [ 77, 126, 107], #FC: [ 77, 126, 107], #FSD: 100.0, #FED: 1000.0, #FD:   0.1, #SLC: [255,250,120,255], #SLI: 0.8, #HSS: 0.75, #SBT: Green]
+	Level5			[#ALC: [204, 132, 183], #FC: [253,  72,  90], #FSD: 100.0, #FED:  500.0, #FD:   0.1, #SLC: [255,250,170,255], #SLI: 1.0, #HSS: 0.90, #SBT: Red]
+	Level6			[#ALC: [ 79, 108, 168], #FC: [ 63, 102, 170], #FSD:   0.0, #FED:  500.0, #FD:   0.1, #SLC: [111,134,141,255], #SLI: 0.8, #HSS: 0.10, #SBT: Night]
+AmbientStyle_End
+
+// Misc stuff
+Misc_Begin
+	MusicVolume				  1.0
+	MusicPauseVolume		  0.1
+Misc_End
+
+// ShopItems. Used in ShopItems.cs and ShopPanel
+ShopItems_Begin
+	ShopItem1		[#CashPrice:750000]
+	ShopItem2		[#CashPrice:500000]
+	ShopItem3		[#CashPrice:650000]
+	ShopItem4		[#CashPrice:999999]
+	ShopItem5		[#CashPrice:250000]
+	ShopItem6		[#CashPrice: 25000]
+	ShopItem7		[#CashPrice: 75000]
+	ShopItem8		[#CashPrice:100000]
+	ShopItem9		[#CashPrice:200000]
+	ShopItem10		[#CashPrice:	10]
+	ShopItem11		[#CashPrice: 50000]
+	ShopItem12		[#CashPrice:500000]
+	ShopItem13		[#CashPrice: 50000]
+	ShopItem14		[#CashPrice:100000]
+	ShopItem15		[#CashPrice:150000]
+ShopItems_End
+
+// Medals
+// #Data is the amount to be gained to unlock the medal. Look in Localization for specifics
+Medals_Begin
+	Medal1		[#Data: 1]
+	Medal2		[#Data: 1]
+	Medal3		[#Data: 100]
+	Medal4		[#Data: 1000]
+	Medal5		[#Data: 50]
+	Medal6		[#Data: 1000]
+	Medal7		[#Data: 100]
+	Medal8		[#Data: 30] 
+	Medal9		[#Data: 30]
+	Medal10		[#Data: 1000000]
+Medals_End
+
+// Uncomment when sitelock is needed
+//	 NOTE: use "\\" and not "//" cause it's recognized as a comment
+//	 NOTE: for every branding there should be two entries! One with the branding name <Branding> the other with <BrandingRedirect>
+//	 ShowLockScreen indicates whether there to show a lock screen, if so then set this to true, otherwise it will immediately redirect
+SiteLock_Begin
+	AlwaysAllow				[xformgames.com, www.xformgames.com] // these URLs are always allowed
+	Xform					[xform.nl, www.xform.nl] // when using Xform branding this additional URL needs to be checked as well
+	XformRedirect			[#ShowLockScreen: false, #UrlPage: http:\\www.xformgames.com]]	//#ShowLockScreen can be used to show an image to warn the user, #UrlPage is the url to be opened if the sitelock returns true
+	UnityAssetStore			[xform.nl, www.xform.nl, xformgames.com, www.xformgames.com] // when using Xform branding this additional URL needs to be checked as well
+	UnityAssetStoreRedirect	[#ShowLockScreen: false, #UrlPage: https:\\www.assetstore.unity3d.com\en\#!\content/43670]]	//#ShowLockScreen can be used to show an image to warn the user, #UrlPage is the url to be opened if the sitelock returns true
+SiteLock_End
+
+// All camera settings
+// See CameraManager.cs & CameraScript.cs 
+Cameras_Begin
+	// Default
+	Default				[#parentToTarget: false, #targetName: None, #targetOffset: [0.00, 0.00, 0.00], #lookAtOffset: [0.00, 0.00, 1.00], #positionOffset: [0.00, 0.00, 0.00], #mouseSettings: NoInput, #fov: 60.0]
+
+	// Hammer cameras (default, hammer time, gameover, etc.)
+	Hammer				[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [ 0.35, 0.90, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00,    1.10, -3.50], #mouseSettings: Hammer,  #fov: 60.0]
+	HammerBulletTime	[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [ 0.35, 0.90, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00,    1.10, -3.50], #mouseSettings: Hammer,  #fov: 25.0]
+	HammerReverse		[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [-0.35, 0.90, 0.00], #lookAtOffset: [0.00, 0.90, 1.00], #positionOffset: [1.00,    1.25,  3.50], #mouseSettings: NoInput, #fov: 70.0]
+	HammerResults		[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [-0.35, 0.90, 0.00], #lookAtOffset: [0.00, 0.90, 1.00], #positionOffset: [1.00,    1.25,  3.50], #mouseSettings: NoInput, #fov: 60.0, #lerp: true]
+	HammerGameOver		[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [-0.35, 0.00, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [1.00,    5.25,  3.50], #mouseSettings: NoInput, #fov: 60.0, #lerp: true]
+	HammerSky			[#parentToTarget: true, #targetName: Hammer_Prefab, #targetOffset: [ 0.35, 0.90, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [1.00, 1500.25, -3.50], #mouseSettings: NoInput, #fov: 60.0, #lerp: true, #lerpMultiplier: [0.1, 0.1,  0.1]]
+
+	// Result cameras for when you are IN a vehicle
+	VehicleResults		[#parentToTarget: true, #targetName: None, 			#targetOffset: [-0.35, 0.90, 0.00], #lookAtOffset: [0.00, 0.90, 1.00], #positionOffset: [1.00,  5.25, 8.50], #mouseSettings: NoInput, #fov: 60.0, #lerp: true]
+	VehicleGameOver		[#parentToTarget: true, #targetName: None,			#targetOffset: [-0.35, 0.00, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [1.00, 20.25, 8.50], #mouseSettings: NoInput, #fov: 60.0, #lerp: true]
+
+	// Units
+	Tank			[#parentToTarget: true, #targetName: 		  TankTurret, #targetOffset: [0.00, 2.00, 0.00], #lookAtOffset: [0.00, 0.00,  1.00], #positionOffset: [0.00, 1.25, -15.00], #mouseSettings:          Tank]
+	Turret			[#parentToTarget: true, #targetName: 		TurretTurret, #targetOffset: [0.00, 2.00, 0.00], #lookAtOffset: [0.00, 0.00,  1.00], #positionOffset: [0.00, 0.25, -5.00] , #mouseSettings:        Turret]
+	MissileTurret	[#parentToTarget: true, #targetName: MissileTurretTurret, #targetOffset: [0.00, 2.00, 0.00], #lookAtOffset: [0.00, 0.00,  1.00], #positionOffset: [0.00, 0.25, -5.00] , #mouseSettings: MissileTurret]
+	MammothTank		[#parentToTarget: true, #targetName:   MammothTankTurret, #targetOffset: [0.00, 3.00, 0.00], #lookAtOffset: [0.00, 0.00,  2.00], #positionOffset: [0.00, 2.25, -25.00], #mouseSettings:   MammothTank]
+	Helicopter		[#parentToTarget: true, #targetName: 		  Helicopter, #targetOffset: [0.00, 4.00, 0.00], #lookAtOffset: [0.00, 1.00,  3.00], #positionOffset: [0.00, 5.0,  -15.00], #mouseSettings:    Helicopter, #lerp: true]
+	Apache			[#parentToTarget: true, #targetName: 			  Apache, #targetOffset: [0.00, 5.00, 0.00], #lookAtOffset: [0.00, 1.00,  3.00], #positionOffset: [0.00, 8.0,  -25.00], #mouseSettings:    Helicopter, #lerp: true]
+	F22				[#parentToTarget: true, #targetName: 		         F22, #targetOffset: [0.00, 3.00, 0.00], #lookAtOffset: [0.00, 0.00, 10.00], #positionOffset: [0.00, 3.0,  -17.50], #mouseSettings:       NoInput, #lerp: true, #lerpMultiplier: [18.0, 18.0, 18.0], #UsetargetUp: true]
+	SwatVan			[#parentToTarget: true, #targetName:             SwatVan, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 4.00,  1.00], #positionOffset: [0.00, 5.25, -12.00], #mouseSettings:       NoInput, #lerp: true]
+	Van				[#parentToTarget: true, #targetName:                 Van, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.00,  1.00], #positionOffset: [0.00, 3.75, -11.00], #mouseSettings:       NoInput, #lerp: true]
+	Limousine		[#parentToTarget: true, #targetName:           Limousine, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00,  1.00], #positionOffset: [0.00, 1.75,  -8.50], #mouseSettings:       NoInput, #lerp: true]
+	ArmyTruckCloth	[#parentToTarget: true, #targetName:      ArmyTruckCloth, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 4.00,  1.00], #positionOffset: [0.00, 5.25, -13.00], #mouseSettings:       NoInput, #lerp: true]
+
+	// Traffic
+	TrafficSchoolBus		[#parentToTarget: true, #targetName:       TrafficSchoolBus, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.50, 1.00], #positionOffset: [0.00, 5.50,-12.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficSedanSkin1		[#parentToTarget: true, #targetName:           TrafficSedan, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficSedanSkin2		[#parentToTarget: true, #targetName:           TrafficSedan, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficDeliveryTruck	[#parentToTarget: true, #targetName:   TrafficDeliveryTruck, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 4.00, 1.00], #positionOffset: [0.00, 7.25,-15.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficHatchbackSkin1	[#parentToTarget: true, #targetName:       TrafficHatchback, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficHatchbackSkin2	[#parentToTarget: true, #targetName:       TrafficHatchback, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficVanSkin1			[#parentToTarget: true, #targetName:             TrafficVan, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [0.00, 3.75,-11.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficVanSkin2			[#parentToTarget: true, #targetName:             TrafficVan, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [0.00, 3.75,-11.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficPolice			[#parentToTarget: true, #targetName:          TrafficPolice, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficTaxi				[#parentToTarget: true, #targetName:            TrafficTaxi, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficSportsCar		[#parentToTarget: true, #targetName:       TrafficSportsCar, #targetOffset: [0.00, 1.50, 0.00], #lookAtOffset: [0.00, 1.00, 1.00], #positionOffset: [0.00, 1.75, -8.50], #mouseSettings: NoInput, #lerp: true]
+	TrafficTruck			[#parentToTarget: true, #targetName:           TrafficTruck, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.50, 1.00], #positionOffset: [0.00, 5.50,-12.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficTruckTrailer		[#parentToTarget: true, #targetName:    TrafficTruckTrailer, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.50, 1.00], #positionOffset: [0.00, 5.50,-20.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficBus				[#parentToTarget: true, #targetName:             TrafficBus, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.50, 1.00], #positionOffset: [0.00, 5.50,-20.00], #mouseSettings: NoInput, #lerp: true]
+	TrafficTruckGasTrailer	[#parentToTarget: true, #targetName: TrafficTruckGasTrailer, #targetOffset: [0.00, 1.00, 0.00], #lookAtOffset: [0.00, 3.50, 1.00], #positionOffset: [0.00, 5.50,-20.00], #mouseSettings: NoInput, #lerp: true]
+
+	// Cinematic. Used to show stuff during a mission. target will be set dynamically.
+	Cinematic				[#parentToTarget: true, #targetName: None, #targetOffset: [0.00, 0.00, 0.00], #lookAtOffset: [0.00, 0.00, 0.00], #positionOffset: [0.00, 0.00, -1.00], #mouseSettings: NoInput, #lerp: true, #fov: 65.0]
+	
+	// Menu
+	Pause					[#parentToTarget: true, #targetName: None, #targetOffset: [0.35, 0.90, 0.00], #lookAtOffset: [0.00, 3.00, 1.00], #positionOffset: [1.00, 150.25, -3.50], #mouseSettings: NoInput, #lerp: true,  #fov: 60.0, #rayCasting: false]
+	Instant					[#parentToTarget: true, #targetName: None, #targetOffset: [0.00, 0.00, 0.00], #lookAtOffset: [0.00, 0.00, 1.00], #positionOffset: [0.00,   0.00,  0.00], #mouseSettings: NoInput, #lerp: false, #fov: 65.0]]
+	Menu					[#parentToTarget: true, #targetName: None, #targetOffset: [0.00, 0.00, 0.00], #lookAtOffset: [0.00, 0.00, 1.00], #positionOffset: [0.00,   0.00,  0.00], #mouseSettings: NoInput, #lerp: true,  #lerpMultiplier: [10.0, 10.0,  10.0], #shake: true, #fov: 65.0]]
+	MenuNoShake				[#parentToTarget: true, #targetName: None, #targetOffset: [0.00, 0.00, 0.00], #lookAtOffset: [0.00, 0.00, 1.00], #positionOffset: [0.00,   0.00,  0.00], #mouseSettings: NoInput, #lerp: true,  #lerpMultiplier: [10.0, 10.0,  10.0], #shake: false, #fov: 65.0]]
+Cameras_End
+
+// Mouse settigns when mouseInput is processed for the camera
+// See CameraScript.cs
+CameraMouseSettings_Begin
+	// Defaults
+	Default			[#mouseLookX: false, #mouseLookY: true, #mouseLookYLimit: [-85.0, 85.0]]
+	NoInput			[#mouseLookX: false, #mouseLookY: false]
+	
+	// Hammer
+	Hammer			[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-65.0, 65.0], #mouseSensitivity: [2.0, 5.0]]
+	
+	// Units
+	Tank			[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-15.0, 20.0], #mouseSensitivity: [2.0, 5.0]]
+	MammothTank		[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-10.0, 20.0], #mouseSensitivity: [2.0, 5.0]]
+	Turret			[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-40.0, 70.0], #mouseSensitivity: [2.0, 5.0]]
+	MissileTurret	[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-20.0, 50.0], #mouseSensitivity: [2.0, 5.0]]
+	Helicopter		[#mouseLookX: false, #mouseLookY: true,  #mouseLookYLimit: [-40.0, 30.0], #mouseSensitivity: [2.0, 5.0]]
+CameraMouseSettings_End
+
+// Sound sets, only for 3d sounds
+SoundSet_Begin
+	FullSample		[#Volume: 1.0, #Loop: 0, #Pitch: 1.0, #DopplerLevel: 1.0, #RolloffMode: Linear, #MinDistance: 5.0, #MaxDistance: 50.0, #PanLevel: 1.0, #Spread: 0.0]
+	Default			[#Volume: 1.0, #MinDistance:  8.0, #MaxDistance: 25.0]
+	Mini			[#Volume: 1.0, #MinDistance:  1.0, #MaxDistance:  5.0]
+	Small			[#Volume: 1.0, #MinDistance:  5.0, #MaxDistance: 10.0]
+	Medium			[#Volume: 1.0, #MinDistance: 10.0, #MaxDistance: 50.0]
+	Large			[#Volume: 1.0, #DopplerLevel: 0.1, #MinDistance: 60.0, #MaxDistance: 100.0]
+	Huge			[#Volume: 1.0, #DopplerLevel: 0.1, #MinDistance: 90.0, #MaxDistance: 150.0]
+	Destructible    [#Volume: 1.0, #Loop:  0, #Pitch: 1.0, #DopplerLevel: 1.0, #RolloffMode: Linear, #MinDistance: 15.0, #MaxDistance: 50.0, #PanLevel: 1.0, #Spread: 0.0]
+	FireGun			[#Volume: 1.0, #Loop:  0, #Pitch: 1.0, #DopplerLevel: 1.0, #RolloffMode: Linear, #MinDistance:  1.0, #MaxDistance: 200.0,#PanLevel: 1.0, #Spread: 0.0]
+	VehicleEngine	[#Volume: 0.3, #Loop: -1, #Pitch: 1.0, #DopplerLevel: 1.0, #RolloffMode: Linear, #MinDistance:  1.0, #MaxDistance:  8.0, #PanLevel: 1.0, #Spread: 0.0]
+	Aiming			[#Volume: 1.0, #Loop: -1, #Pitch: 1.0, #DopplerLevel: 1.0, #RolloffMode: Linear, #MinDistance:  1.0, #MaxDistance: 100.0,#PanLevel: 1.0, #Spread: 0.0]
+	Silent			[#Volume: 0.0]
+	CarAudio		[#Volume: 1.0, #Loop: -1, #DopplerLevel: 0.1, #MinDistance: 60.0, #MaxDistance: 100.0]
+	Impact			[#Volume: 1.0, #MinDistance: 20.0, #MaxDistance: 60.0]
+	Weapon			[#Volume: 1.0, #MinDistance:  8.0, #MaxDistance: 15.0, #PanLevel: 1.0]
+SoundSet_End
+
+//---------------------------------------------------------------------------------
+// Missions
+//---------------------------------------------------------------------------------
+Missions_Begin
+	Mission1	[#target:       EnemySuit, #targetAmount: 100 ,#targetTime:  60000, #targetScore: 20000, #ambientStyle: Level1]
+	Mission2	[#target:             Van, #targetAmount:  10, #targetTime:  60000, #targetScore: 35000, #ambientStyle: Level2]
+	Mission3	[#target:          Turret, #targetAmount:   6, #targetTime:  90000, #targetScore: 40000, #ambientStyle: Level3]
+	Mission4	[#target:    EnemyArmored, #targetAmount:   5, #targetTime: 120000, #targetScore: 75000, #ambientStyle: Level4]
+	Mission5	[#target:            Tank, #targetAmount:   5, #targetTime: 150000, #targetScore:100000, #ambientStyle: Level5]
+	Mission6	[#target:           Enemy, #targetAmount: 150, #targetTime:  90000, #targetScore: 75000, #ambientStyle: Level3]
+	Mission7	[#target:     MammothTank, #targetAmount:   1, #targetTime:  60000, #targetScore: 45000, #ambientStyle: Level1]
+	Mission8	[#target:    OrangeBarrel, #targetAmount:  10, #targetTime:  60000, #targetScore: 15000, #ambientStyle: Level2]
+	Mission9	[#target:           Enemy, #targetAmount: 100, #targetTime:  60000, #targetScore: 20000, #ambientStyle: Level3]
+	Mission10	[#target:      EnemyKatie, #targetAmount:   1, #targetTime:  60000, #targetScore: 30000, #ambientStyle: Level4]
+	Mission11	[#target:       EnemySwat, #targetAmount:  50, #targetTime:  90000, #targetScore: 40000, #ambientStyle: Level5]
+	Mission12	[#target:      CrateSmall, #targetAmount:  50, #targetTime:  60000, #targetScore: 10000, #ambientStyle: Level1]
+	Mission13	[#target:         Traffic, #targetAmount:  50, #targetTime:  90000, #targetScore: 50000, #ambientStyle: Level3]
+	Mission14   [#target:   TrafficPolice, #targetAmount:  15, #targetTime: 120000, #targetScore: 75000, #ambientStyle: Level2]
+	Mission15	[#target:          Apache, #targetAmount:   2, #targetTime: 120000, #targetScore: 50000, #ambientStyle: Level6]
+	Mission16	[#target:  ArmyTruckCloth, #targetAmount:  15, #targetTime: 150000, #targetScore:150000, #ambientStyle: Level4]
+	Mission17	[#target:   EmergencyExit, #targetAmount:   6, #targetTime:  60000, #targetScore: 25000, #ambientStyle: Level5]
+	Mission18	[#target:       EnemySuit, #targetAmount: 100, #targetTime:  60000, #targetScore: 35000, #ambientStyle: Level6]
+	Mission19	[#target:       RedBarrel, #targetAmount:  35, #targetTime:  60000, #targetScore: 30000, #ambientStyle: Level1]
+	Mission20	[#target: EnemyJuggernaut, #targetAmount:   1, #targetTime: 120000, #targetScore: 20000, #ambientStyle: Level2]
+	Mission21	[#target:            Tank, #targetAmount:  10, #targetTime: 120000, #targetScore: 75000, #ambientStyle: Level3]
+	Mission22	[#target:       Limousine, #targetAmount:   1, #targetTime:  90000, #targetScore: 45000, #ambientStyle: Level2]
+	Mission23	[#target:      Helicopter, #targetAmount:  10, #targetTime: 120000, #targetScore: 45000, #ambientStyle: Level5]
+	Mission24	[#target:         SwatVan, #targetAmount:  15, #targetTime:  90000, #targetScore: 55000, #ambientStyle: Level6]
+	Mission25	[#target:             F22, #targetAmount:   3, #targetTime: 120000, #targetScore: 45000, #ambientStyle: Level3]
+	Mission26	[#target:        Building, #targetAmount:  10, #targetTime: 120000, #targetScore: 65000, #ambientStyle: Level2]
+	Mission27	[#target:     TrafficTaxi, #targetAmount:  25, #targetTime: 180000, #targetScore: 90000, #ambientStyle: Level1]
+	Mission28	[#target:    EnemySoldier, #targetAmount: 100, #targetTime: 150000, #targetScore:100000, #ambientStyle: Level4]
+	Mission29	[#target:             Van, #targetAmount:  15, #targetTime: 180000, #targetScore: 75000, #ambientStyle: Level5]
+	Mission30	[#target:    EnemyBigBoss, #targetAmount:   1, #targetTime:  90000, #targetScore: 20000, #ambientStyle: Level1]
+	Mission31	[#target:        Building, #targetAmount:  25, #targetTime: 300000, #targetScore:   100, #ambientStyle: Level1]
+	Mission99	[#target: 	Enemy, #targetAmount: 99,#targetTime: 100000, #targetScore:20000, #rewards: [NewWeapon, SpecialPower], #spawnLocation:  HammerSpawn99, #enemySet: [], #ambientStyle: Level1]
+Missions_End
+
+//---------------------------------------------------------------------------------
+// Spawners
+// type can be: Enemy, Vehicle, Pickup (default Enemy)
+// subType: See the names as defined here in SharedData in their app. events. (default EnemySuit)
+// interval: time between spawns <=0 will spawn all at once (per frame delay) (default 1.0)
+// unlimitedAmount: override to spawn unlimited stuff (default false)
+// range: range when spawner can start spawning (default 30.0)
+// minMaxOffset: min/max offset range of spawned object (default [0.0, 0.0])
+// rotation: GameObject (use the spawnObject rotation), Random (do something), Offset (outwards from spawnObject), InverseOffset (inwards to spawnObject) (default GameObject)
+//			spawned object's rotation
+// When adding a new one you don't need to use all entries, you can omit some and they'll use their default value
+// You can add Spawners Dynamically through SpawnerManager.addManager, but you can also use the Unity Editor (addComponent to an object and set stuff yourself)
+//---------------------------------------------------------------------------------
+Spawners_Begin
+	SingleSuit		[#type: Enemy, #subType:    EnemySuit, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	SmallSuit		[#type: Enemy, #subType:    EnemySuit, #interval: 0.0, #amount:  3, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [5.0, 15.0], #rotation: GameObject]
+	MediumSuit		[#type: Enemy, #subType:    EnemySuit, #interval: 0.5, #amount: 10, #unlimitedAmount: false, #range:100.0, #minMaxOffset: [5.0, 15.0], #rotation: Offset]
+	BigSuit			[#type: Enemy, #subType:    EnemySuit, #interval: 1.0, #amount: 15, #unlimitedAmount: false, #range:100.0, #minMaxOffset: [5.0, 15.0], #rotation: Offset]
+	
+	SmallSwat		[#type: Enemy, #subType:    EnemySwat, #interval: 0.0, #amount:  3, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [5.0, 15.0], #rotation: Offset]
+	ExitSwat 		[#type: Enemy, #subType:    EnemySwat, #interval: 0.7, #amount: 10, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	ExitNearSwat	[#type: Enemy, #subType:    EnemySwat, #interval: 0.7, #amount: 10, #range: 30.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	InstantSwat		[#type: Enemy, #subType:    EnemySwat, #interval: 0.0, #amount: 5, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [5.0, 15.0], #rotation: GameObject]
+		
+	SingleSoldier	[#type: Enemy, #subType: EnemySoldier, #interval: 2.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SmallSoldier	[#type: Enemy, #subType: EnemySoldier, #interval: 0.0, #amount:  3, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [5.0, 15.0], #rotation: GameObject]
+
+	SmallArmored	[#type: Enemy, #subType: EnemyArmored, #interval: 2.0, #amount:  3, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [10.0, 20.0],  #rotation: Offset]
+	SingleArmored	[#type: Enemy, #subType: EnemyArmored, #interval: 2.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	MediumArmored	[#type: Enemy, #subType: EnemyArmored, #interval: 2.0, #amount: 15, #unlimitedAmount: false, #range: 500.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	
+	KatieBoss		[#type: Enemy, #subType:      EnemyKatie, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 2500.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	JuggernautBoss	[#type: Enemy, #subType: EnemyJuggernaut, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 2500.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	BigBoss			[#type: Enemy, #subType:    EnemyBigBoss, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 2500.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+
+	ExitSuit 		[#type: Enemy, #subType:    EnemySuit, #interval: 0.7, #amount: 10, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	ExitBossSuit 	[#type: Enemy, #subType:    EnemySuit, #interval: 2.0, #amount: 15, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	
+	VanSuit 		[#type: Enemy, #subType:    EnemySuit, #interval: 0.7, #amount: 3, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	VanSwat 		[#type: Enemy, #subType:    EnemySwat, #interval: 0.7, #amount: 3, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	VanSoldier 		[#type: Enemy, #subType:    EnemySoldier, #interval: 0.7, #amount: 3, #range: 80.0, #minMaxOffset: [2.0, 10.0], #rotation: GameObject]
+	
+	SingleTank			[#type: Vehicle, #subType: Tank, 			#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleTurret		[#type: Vehicle, #subType: Turret, 			#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleMissileTurret [#type: Vehicle, #subType: MissileTurret, 	#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleMammothTank	[#type: Vehicle, #subType: MammothTank, 	#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleHelicopter	[#type: Vehicle, #subType: Helicopter, 		#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleApache		[#type: Vehicle, #subType: Apache, 			#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleF22			[#type: Vehicle, #subType: F22, 			#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	SingleVan			[#type: Vehicle, #subType: Van, 			#interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 120.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+
+	SingleDiamond		[#type: PickUp, #subType: Diamond, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [0.0,  0.0], #rotation: GameObject]
+	HiddenPackage		[#type: PickUp, #subType:    HiddenPackage, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	
+	ColdOneSmall		[#type: PickUp, #subType:    ColdOne, #interval: 0.0, #amount:  3, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [2.0, 5.0], #rotation: GameObject]
+	ColdOneBig			[#type: PickUp, #subType:    ColdOne, #interval: 0.0, #amount:  10, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [2.0, 5.0], #rotation: GameObject]
+
+	SingleWeapon		[#type: PickUp, #subType: Weapon, #interval: 0.0, #amount: 10, #unlimitedAmount: false, #range: 50.0, #minMaxOffset: [15.0,  20.0], #rotation: GameObject]
+
+	SkinSonny		[#type: PickUp, #subType:    SkinSonny, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	SkinArnold		[#type: PickUp, #subType:   SkinArnold, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	SkinBruce		[#type: PickUp, #subType:    SkinBruce, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+	SkinTommy		[#type: PickUp, #subType:    SkinTommy, #interval: 0.0, #amount:  1, #unlimitedAmount: false, #range: 100.0, #minMaxOffset: [0.0, 0.0], #rotation: GameObject]
+Spawners_End
+
+// Characters
+Characters_Begin
+	Hammer			[#prefab: Hammer,		#weapon: DesertEagle, 	#explosive: Grenade,	#power: None, #health: 100.0, #speed: 15.0,	#jumpHeight: 15.0, #score: 10] 
+
+	EnemySuit		[#prefab: EnemySuit,	#weapon: EnemyPistol, 	#explosive: None,		#power: None, #health:   1.0, #speed: 10.0,		#jumpHeight:  5.0, #score:  50, #AIData: EnemySuit,		#pickUps: [Random, None, None, None, HealthSmall, CashSmall, CashSmall]] 
+	EnemySwat		[#prefab: EnemySwat,	#weapon: EnemyMP5, 		#explosive: None,		#power: None, #health:   2.0, #speed:  8.0, 	#jumpHeight:  5.0, #score: 100, #AIData: EnemySwat,		#pickUps: [Random, None, None, None, HealthSmall, CashMedium, CashMedium]] 
+	EnemySoldier	[#prefab: EnemySoldier,	#weapon: EnemyM4, 		#explosive: None,		#power: None, #health:   4.0, #speed:  6.0, 	#jumpHeight:  5.0, #score: 125, #AIData: EnemySoldier,	#pickUps: [Random, None, None, None, HealthSmall, CashMedium, CashBig]] 
+	EnemyArmored	[#prefab: EnemyArmored,	#weapon: EnemyMiniGun, 	#explosive: None,		#power: None, #health:  16.0, #speed:  3.0, 	#jumpHeight:  5.0, #score: 150, #AIData: EnemyArmored,	#pickUps: [Random, None, None, None, HealthSmall, CashBig, CashBriefcase]]  
+
+
+	EnemyKatie		[#prefab: EnemyKatie,		#weapon: EnemyKatieRpg,	#explosive: None,		#power: None, #health: 125.0, #speed: 10.0,		#jumpHeight:  5.0, #score: 500, #AIData: EnemyKatie,		#pickUps: []]
+	EnemyJuggernaut	[#prefab: EnemyJuggernaut,	#weapon: EnemyMiniGun, 	#explosive: None,		#power: None, #health: 150.0, #speed: 15.0, 	#jumpHeight: 10.0, #score:1000, #AIData: EnemyJuggernaut,	#pickUps: []]  
+	EnemyBigBoss	[#prefab: EnemyBigBoss,		#weapon: EnemyMiniGun, 	#explosive: None,		#power: None, #health: 200.0, #speed: 25.0, 	#jumpHeight: 10.0, #score:1000, #AIData: EnemyBigBoss,		#pickUps: []]  
+Characters_End
+
+// AI data for the enemies
+CharactersAIData_Begin
+	EnemySuit		[#homeRadius: 50.0, #attackRadius: 10.0]
+	EnemySwat		[#homeRadius: 40.0, #attackRadius: 20.0]
+	EnemySoldier	[#homeRadius: 35.0, #attackRadius: 25.0]
+	EnemyArmored	[#homeRadius: 80.0, #attackRadius: 40.0]
+
+	EnemyKatie			[#homeRadius:100.0, #attackRadius: 50.0]
+	EnemyJuggernaut		[#homeRadius:100.0, #attackRadius: 50.0]
+	EnemyBigBoss		[#homeRadius:100.0, #attackRadius: 50.0]
+CharactersAIData_End
+
+// Weapons
+// Accuracy: 1.0 is dead on!
+Weapons_Begin
+	DesertEagle	[#Prefab: DesertEagle, 	#Rof: 0.70, #Projectile: DesertEagle,		#Amount: 1, #Accuracy: 1.0, #Recoil:  0.0, #Shake: 3.0, #Ammo: 999, #UnlimitedAmmo:  true, #MuzzleFlash: DesertEagle, 	#Shell: DesertEagle,	#Sound: MagnumFire]
+	Remington	[#Prefab: Remington, 	#Rof: 1.10, #Projectile: Remington, 		#Amount: 7, #Accuracy: 0.7, #Recoil:  0.0, #Shake: 3.0, #Ammo:  30, #UnlimitedAmmo: false, #MuzzleFlash: Remington, 	#Shell: Remington, 		#Sound: RemingtonFire]	
+	AK47		[#Prefab: AK47,			#Rof: 0.10, #Projectile: AK47, 				#Amount: 1, #Accuracy: 1.0, #Recoil:  0.0, #Shake: 1.0, #Ammo: 300, #UnlimitedAmmo: false, #MuzzleFlash: AK47, 			#Shell: AK47, 			#Sound: M4Fire]
+	Rpg			[#Prefab: Rpg, 			#Rof: 2.00, #Projectile: RpgRocket,			#Amount: 1, #Accuracy: 1.0, #Recoil: 20.0, #Shake: 1.5, #Ammo:  10, #UnlimitedAmmo: false, #MuzzleFlash: Rpg, 			#Shell: Rpg, 			#Sound: RpgFire]
+	Magnum		[#Prefab: Magnum, 		#Rof: 0.70, #Projectile: Magnum,			#Amount: 1, #Accuracy: 1.0, #Recoil:  0.0, #Shake: 3.0, #Ammo: 999, #UnlimitedAmmo:  true, #MuzzleFlash: Magnum, 		#Shell: None,			#Sound: MagnumFire]
+	
+	EnemyPistol		[#Prefab: ModelAvailable, 	#Rof: 0.70, #Projectile: EnemyBullet, #Amount: 1, 								#Accuracy: 0.97, #Recoil:  0.0, #Shake: 0.0, #Ammo:   1, #UnlimitedAmmo:  true, #MuzzleFlash:  EnemyPistol, #Shell: DesertEagle, #Sound: BerettaFire]
+	EnemyMP5		[#Prefab: ModelAvailable,	#Rof: 0.90, #Projectile: EnemyBullet, #Amount: 1, #Burst:   3, #BurstRof: 0.2,	#Accuracy: 0.95, #Recoil:  0.0, #Shake: 0.0, #Ammo:   1, #UnlimitedAmmo:  true, #MuzzleFlash:     EnemyMP5, #Shell:        AK47, #Sound: MP5Fire]
+	EnemyM4			[#Prefab: ModelAvailable,	#Rof: 0.10, #Projectile: EnemyBullet, #Amount: 1, 								#Accuracy: 0.95, #Recoil:  0.0, #Shake: 0.0, #Ammo:   1, #UnlimitedAmmo:  true, #MuzzleFlash:      EnemyM4, #Shell:        AK47, #Sound: M4Fire]
+	EnemyMiniGun	[#Prefab: ModelAvailable,	#Rof: 0.10, #Projectile: EnemyBullet, #Amount: 1, #Burst: 100, #BurstRof: 0.1,	#Accuracy: 0.90, #Recoil:  0.0, #Shake: 0.0, #Ammo:   1, #UnlimitedAmmo:  true, #MuzzleFlash: EnemyMiniGun, #Shell:        AK47, #Sound: M4Fire]
+
+	EnemyKatieRpg	[#Prefab: ModelAvailable,	#Rof: 2.00, #Projectile: RpgRocket,   #Amount: 1,                               #Accuracy:  1.0, #Recoil: 20.0, #Shake: 1.5, #Ammo: 100, #UnlimitedAmmo: false, #MuzzleFlash: Rpg, 			#Shell:        None, #Sound: RpgFire]
+Weapons_End
+
+// Explosives
+// Secondary weapon
+Explosives_Begin
+	Grenade		[#prefab: Grenade, 		#rof: 2.00, #ammo:  5, #unlimitedAmmo: false, #sound: RpgFire]
+Explosives_End
+
+// Powers
+// Placeholder
+Powers_Begin
+	None		[#Prefab: None]
+Powers_End
+
+// Projectiles
+Projectiles_Begin
+	// Weapons
+	DefaultBullet			[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   1.0, #strength:  1.0]
+	Remington				[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   1.0, #strength: 10.0]
+	DesertEagle				[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   1.0, #strength:  7.0]
+	Magnum					[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:  25.0, #strength: 15.0]
+	AK47					[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   2.0, #strength:  2.0]
+	RpgRocket				[#prefab: RpgRocket,		#lifeTime: 9.0, #speed:  80.0, #damage:  10.0, #strength:  0.0, #explosion: Default, #areaDamage: Small]
+	Missile					[#prefab: Missile,			#lifeTime: 9.0, #speed:  80.0, #damage:  10.0, #strength:  0.0]
+	F22Missile				[#prefab: Missile,			#lifeTime: 9.0, #speed: 120.0, #damage:  10.0, #strength:  0.0]
+	EnemyBullet				[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   1.0, #strength:  2.0]
+	FiftyCaliber			[#prefab: FiftyCaliber,		#lifeTime: 3.0, #speed: 180.0, #damage:   5.0, #strength: 10.0]
+	HelicopterBullet		[#prefab: DefaultBullet,	#lifeTime: 3.0, #speed: 180.0, #damage:   3.0, #strength:  1.0]
+	ApacheRocket			[#prefab: RpgRocket,		#lifeTime: 4.0, #speed: 180.0, #damage:  10.0, #strength:  0.0, #explosion: DefaultSmall, #areaDamage: Small]
+	TankShell				[#prefab: RpgRocket,		#lifeTime: 9.0, #speed: 150.0, #damage:  10.0, #strength:  0.0, #explosion: Default, #areaDamage: Small]
+	
+	// Shell should be named Mortar and TankShell should be named Shell! TBD
+	Shell					[#prefab: Shell,			#lifeTime: 9.0, #speed:  60.0, #damage:  20.0, #strength:  0.0]
+	Bomb					[#prefab: Bomb,				#lifeTime: 9.0, #speed:  60.0, #damage:  20.0, #strength:  0.0]
+	AreaDamage				[#prefab: None,				#lifeTime: 0.0, #speed:   0.0, #damage:   0.0, #strength:  0.0]
+	
+	// Explosives
+	Grenade					[#prefab: Grenade,			#lifeTime: 5.0]
+Projectiles_End
+
+// Explosions
+Explosions_Begin
+	// Default explosions
+	Default			[#prefab: ExplosionDefault, #sound: ExplosionLarge, #range: 30.0, #shake: 0.0]
+	None			[#prefab: ExplosionNone,    #sound: ExplosionSmall, #range: 1.0, #shake: 1.0]
+	DefaultSmall	[#prefab: ExplosionSmall,   #sound: ExplosionSmall, #range: 15.0, #shake: 15.0]
+	DefaultMedium	[#prefab: ExplosionStreaks, #sound: ExplosionLarge, #range: 30.0, #shake: 20.0]
+	DefaultLarge	[#prefab: ExplosionDeluxe,  #sound: ExplosionLarge, #range: 60.0, #shake: 25.0]
+	Electric		[#prefab: ExplosionElectric, #sound: ExplosionLarge, #range: 30.0, #shake: 20.0]
+	Glass			[#prefab: Glass,   #sound: DestructionGlass1, #range: 15.0, #shake: 15.0]
+	Wood			[#prefab: Wood,   #sound: DestructionWood1, #range: 1.0, #shake: 5.0]
+	Metal			[#prefab: Metal,   #sound: DestructionMetal1, #range: 1.0, #shake: 5.0]
+	CrateWeapon		[#prefab: CrateWeapon,   #sound: DestructionMetal1, #range: 1.0, #shake: 5.0]
+	CrateExplosive	[#prefab: CrateExplosive,   #sound: DestructionMetal1, #range: 1.0, #shake: 5.0]
+	CrateGadget		[#prefab: CrateGadget,   #sound: DestructionMetal1, #range: 1.0, #shake: 5.0]
+	OrangeBarrel	[#prefab: ExplosionStreaks,  #sound: ExplosionLarge, #range: 60.0, #shake: 25.0]
+	MotherShipExplosionLoop	[#prefab: MotherShipExplosionLoop,  #sound: ExplosionLarge, #range: 60.0, #shake: 25.0]
+Explosions_End
+
+// AreaDamage
+AreaDamage_Begin
+	// Default areaDAmage
+	Small	[#damage: 10.0, #strength: 10.0, #start: 3.0, #end: 15.0, #lifeTime: 0.3]
+	Medium	[#damage: 10.0, #strength: 10.0, #start: 3.0, #end: 15.0, #lifeTime: 0.45]
+	Large	[#damage: 10.0, #strength: 10.0, #start: 3.0, #end: 15.0, #lifeTime: 0.6]
+AreaDamage_End
+
+
+// Impacts
+// E.g. ricochets
+Impacts_Begin
+	// Default ricochets
+	RicochetConcrete		[#prefab: Ricochet,				#sound: Effects/RicochetConcrete_3]
+	RicochetMetal			[#prefab: Ricochet,				#sound: Effects/RicochetMetal_3]
+	RicochetWood			[#prefab: Ricochet,				#sound: Effects/RicochetWood_3]
+
+	// Default body hits
+	EnemyHitLQ				[#prefab: BloodSplatsLQ,		#sound: Characters/Enemies/EnemyHit_4]
+	EnemyHitSmall			[#prefab: BloodSplatsSmall,		#sound: Characters/Enemies/EnemyHit_4]
+	EnemyHitMedium			[#prefab: BloodSplatsMedium,	#sound: Characters/Enemies/EnemyHit_4]
+	EnemyHitLarge			[#prefab: BloodSplatsLarge,		#sound: Characters/Enemies/EnemyHit_4]
+	
+	// EnemyDie
+	EnemyDie				[#prefab: BloodSplatsLarge,		#sound: Characters/Enemies/EnemyDie_4]
+	
+	// Collision
+	VehicleCollision		[#prefab: VehicleCollision,		#sound: Effects/VehicleCollision]
+
+
+Impacts_End
+
+//---------------------------------------------------------------------------------
+// Vehicles
+//---------------------------------------------------------------------------------
+Vehicles_Begin
+	// Helicopters
+	Helicopter			[#prefab: Helicopter, #type: Helicopter, #typeSetting: Helicopter, #cameraSetting: Helicopter, #health: 15.0, #score: 1500, #mass: 20000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	Apache				[#prefab:     Apache, #type: Helicopter, #typeSetting:     Apache, #cameraSetting:     Apache, #health: 30.0, #score: 2500, #mass: 20000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	
+	// Planes
+	F22					[#prefab:        F22, #type:      Plane, #typeSetting:        F22, #cameraSetting:        F22, #health: 50.0, #score: 5000, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+
+	// Turrets
+	Turret				[#prefab:        Turret, #type: Turret, #typeSetting:        Turret, #cameraSetting:        Turret, #health: 25.0, #score: 750, #mass: 10000, #dynamic: false, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0, #pickUps: [HealthBig]]
+	MissileTurret		[#prefab: MissileTurret, #type: Turret, #typeSetting: MissileTurret, #cameraSetting: MissileTurret, #health: 35.0, #score: 950, #mass: 10000, #dynamic: false, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0, #pickUps: [HealthBig]]
+
+	// Tanks
+	Tank				[#prefab:        Tank, #type: Tank, #typeSetting:        Tank, #cameraSetting:        Tank, #health:  50.0, #score:  1000, #mass: 20000, #dynamic: true, #impact: RicochetMetal, #explosion:            DefaultLarge, #lifeTime: 0.0]
+	MammothTank			[#prefab: MammothTank, #type: Tank, #typeSetting: MammothTank, #cameraSetting: MammothTank, #health: 500.0, #score: 10000, #mass: 30000, #dynamic: true, #impact: RicochetMetal, #explosion: MotherShipExplosionLoop, #lifeTime: 0.0]
+
+	// Cars (previously units)
+	ArmyTruck			[#prefab:      ArmyTruck, #type: Car, #typeSetting:        DeliveryTruck, #cameraSetting:        ArmyTruck, #health:  25.0, #score:  1750, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	ArmyTruckCloth		[#prefab: ArmyTruckCloth, #type: Car, #typeSetting:        DeliveryTruck, #cameraSetting:   ArmyTruckCloth, #health:  25.0, #score:  2000, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	Limousine			[#prefab:      Limousine, #type: Car, #typeSetting:                 Taxi, #cameraSetting:        Limousine, #health:  30.0, #score:  3000, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	SwatVan				[#prefab:        SwatVan, #type: Car, #typeSetting:                  Van, #cameraSetting:          SwatVan, #health:  25.0, #score:  1250, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	Van					[#prefab:            Van, #type: Car, #typeSetting:                  Van, #cameraSetting:              Van, #health:  25.0, #score:   500, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0, #pickUps: [CashBig]]
+
+	// Rest cars (traffic)
+	TrafficBus				[#prefab:             TrafficBus, #type: Car, #typeSetting:           Bus, #cameraSetting:              TrafficBus, #health:  25.0, #score:   750, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficSchoolBus		[#prefab:       TrafficSchoolBus, #type: Car, #typeSetting:           Bus, #cameraSetting:        TrafficSchoolBus, #health:  25.0, #score:   500, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficSedanSkin1		[#prefab:           TrafficSedan, #type: Car, #typeSetting:         Sedan, #cameraSetting:       TrafficSedanSkin1, #health:  15.0, #score:   100, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficSedanSkin2		[#prefab:           TrafficSedan, #type: Car, #typeSetting:         Sedan, #cameraSetting:       TrafficSedanSkin2, #health:  15.0, #score:   200, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficDeliveryTruck	[#prefab:   TrafficDeliveryTruck, #type: Car, #typeSetting: DeliveryTruck, #cameraSetting:    TrafficDeliveryTruck, #health:  20.0, #score:   200, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficHatchbackSkin1	[#prefab:       TrafficHatchback, #type: Car, #typeSetting:     HatchBack, #cameraSetting:   TrafficHatchbackSkin1, #health:  10.0, #score:    50, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficHatchbackSkin2	[#prefab:       TrafficHatchback, #type: Car, #typeSetting:     HatchBack, #cameraSetting:   TrafficHatchbackSkin2, #health:  10.0, #score:    50, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficVanSkin1			[#prefab:             TrafficVan, #type: Car, #typeSetting:           Van, #cameraSetting:         TrafficVanSkin1, #health:  20.0, #score:   200, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficVanSkin2			[#prefab:             TrafficVan, #type: Car, #typeSetting:           Van, #cameraSetting:         TrafficVanSkin2, #health:  20.0, #score:   200, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficPolice			[#prefab:          TrafficPolice, #type: Car, #typeSetting:        Police, #cameraSetting:           TrafficPolice, #health:  15.0, #score:   250, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficTaxi				[#prefab:            TrafficTaxi, #type: Car, #typeSetting:          Taxi, #cameraSetting:             TrafficTaxi, #health:  15.0, #score:   150, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficSportsCar		[#prefab:       TrafficSportsCar, #type: Car, #typeSetting:     SportsCar, #cameraSetting:        TrafficSportsCar, #health:  15.0, #score:  2500, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficTruck			[#prefab:           TrafficTruck, #type: Car, #typeSetting:         Truck, #cameraSetting:            TrafficTruck, #health:  30.0, #score:  1000, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficTruckTrailer		[#prefab:    TrafficTruckTrailer, #type: Car, #typeSetting:  TruckTrailer, #cameraSetting:     TrafficTruckTrailer, #health:  30.0, #score:  1250, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+	TrafficTruckGasTrailer	[#prefab: TrafficTruckGasTrailer, #type: Car, #typeSetting:  TruckTrailer, #cameraSetting:  TrafficTruckGasTrailer, #health:  35.0, #score:  1500, #mass: 10000, #dynamic: true, #impact: RicochetMetal, #explosion: DefaultLarge, #lifeTime: 0.0]
+Vehicles_End
+
+// Vehicles: Helicopters
+HelicopterSettings_Begin
+	Helicopter			[#idleToAimRange:  175.0, #aimSpeed:  5.0, #aimToFireAngle: 15.0, #rof: 0.05, #projectile: HelicopterBullet, #muzzleFlash: DefaultMuzzleFlash, #sound: Weapons/M4Fire]
+	Apache				[#idleToAimRange:  250.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof: 0.05, #projectile: HelicopterBullet, #muzzleFlash: DefaultMuzzleFlash, #sound: Weapons/M4Fire, #aimRange2:200.0, #aimSpeed2:   5.0, #fireRange2:150.0, #fireAngle2: 15.0, #rof2: 0.15, #projectile2: ApacheRocket, #muzzleFlashImage2: TankMuzzleFlash]
+HelicopterSettings_End
+
+// Vehicles: Planes
+PlaneSettings_Begin
+	F22					[#idleToAimRange:  200.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof:0.15,   #sound: Weapons/TankShot, #projectile:     	 F22Missile, #muzzleFlash: MammothTankMuzzleFlashLauncher, #rof2: 1.0, #sound2: Weapons/TankShot2, #projectile2:     	 Bomb, #muzzleFlashImage2: MammothTankMuzzleFlashLauncher]
+PlaneSettings_End
+
+// Vehicles: Turrets
+TurretSettings_Begin
+	Turret				[#idleToAimRange:   50.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof: 0.1, #sound: Weapons/FiftyCaliberFire, #projectile:  FiftyCaliber, #muzzleFlash:        TurretMuzzleFlash]
+	MissileTurret		[#idleToAimRange:  100.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof: 2.5, #sound: Weapons/TankShot,         #projectile:       Missile, #muzzleFlash: MissileTurretMuzzleFlash]
+TurretSettings_End
+
+// Vehicles: Tanks
+TankSettings_Begin
+	Tank				[#idleToAimRange:  100.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof: 2.0,   #sound: Weapons/TankShot, #projectile:     TankShell, #muzzleFlash: TankMuzzleFlash]
+	MammothTank			[#idleToAimRange:  100.0, #aimSpeed:  5.0, #aimToFireAngle: 2.0, #rof: 1.0,   #sound: Weapons/TankShot, #projectile:     TankShell, #muzzleFlash: MammothTankMuzzleFlash,  #aimRange2:200.0, #aimSpeed2:   5.0, #fireRange2:150.0, #fireAngle2: 15.0, #rof2: 2.25, #projectile2: Shell, #muzzleFlashImage2: MammothTankMuzzleFlashLauncher, #sound2: Weapons/TankShot]
+TankSettings_End
+
+// Vehicles: Cars
+CarSettings_Begin
+	Bus				[#maxSpeed:  30.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass: 20000.0, #soundSet: Bus]
+	Sedan			[#maxSpeed:  40.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  5000.0, #soundSet: Sedan]
+	DeliveryTruck	[#maxSpeed:  35.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  8000.0, #soundSet: DeliveryTruck]
+	HatchBack		[#maxSpeed:  45.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  3500.0, #soundSet: HatchBack]
+	Van				[#maxSpeed:  35.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass: 10000.0, #soundSet: Van]
+	Police			[#maxSpeed:  55.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  5000.0, #soundSet: Police]
+	Taxi			[#maxSpeed:  50.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  5000.0, #soundSet: Taxi]
+	SportsCar		[#maxSpeed:  65.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass:  4000.0, #soundSet: SportsCar]
+	Truck			[#maxSpeed:  30.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass: 20000.0, #soundSet: Truck]
+	TruckTrailer	[#maxSpeed:  30.0, #accelerationGain: 1.0, #decelerationGain: 1.0, #turnGain: 45.0, #drag: 0.5,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  8.0, #hoverOffset: 0.1, #mass: 20000.0, #soundSet: TruckTrailer]
+
+	Tank			[#maxSpeed:  18.0, #accelerationGain: 0.3, #decelerationGain: 0.6, #turnGain: 25.0, #drag: 2.0,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  4.0, #hoverOffset: 0.1, #mass: 20000.0, #soundSet: Tank]
+	MammothTank		[#maxSpeed:  14.0, #accelerationGain: 0.3, #decelerationGain: 0.6, #turnGain: 35.0, #drag: 2.0,  #angularDrag: 1.0, #grip:  9.00, #driftGrip: 0.5, #strength: 100.0, #damping:  4.0, #hoverOffset: 0.1, #mass: 30000.0, #soundSet: Tank]
+CarSettings_End
+
+CarSoundSettings_Begin
+	Default			[#sound: Hunter, #allTemp: true]	
+	Bus				[#sound: Hunter, #allTemp: true]
+	Sedan			[#sound: Hunter, #allTemp: true]
+	DeliveryTruck	[#sound: Hunter, #allTemp: true]
+	HatchBack		[#sound: Hunter, #allTemp: true]
+	Van				[#sound: Hunter, #allTemp: true]
+	Police			[#sound: Hunter, #allTemp: true]
+	Taxi			[#sound: Hunter, #allTemp: true]
+	SportsCar		[#sound: Hunter, #allTemp: true]
+	Truck			[#sound: Hunter, #allTemp: true]
+	TruckTrailer	[#sound: Hunter, #allTemp: true]
+	Tank			[#sound: Hunter, #allTemp: true]
+CarSoundSettings_End
+
+// PickUps
+PickUps_Begin
+	Score						[#prefab: PickUpUnknown, 		#value: 0, #sound: Interface/ScoreSmall, #effect: None]
+	
+	CashSmall					[#prefab: PickUpCashSmall, 		#value: 10, #sound: Interface/PickUpCash, #effect: None]
+	CashMedium					[#prefab: PickUpCashMedium, 	#value: 100, #sound: Interface/PickUpCash, #effect: None]
+	CashBig						[#prefab: PickUpCashBig, 		#value: 500, #sound: Interface/PickUpCash, #effect: None]
+	CashBriefcase				[#prefab: PickUpCashBriefcase, 	#value: 1500, #sound: Interface/PickUpDoubleCash, #effect: None]
+	Silver						[#prefab: PickUpSilver, 		#value: 2500, #sound: Interface/PickUpGold, #effect: None]
+	Gold						[#prefab: PickUpGold, 			#value: 5000, #sound: Interface/PickUpGold, #effect: None]
+	Ruby						[#prefab: PickUpRuby, 			#value:10000, #sound: Interface/PickUpGold, #effect: None]
+	Diamond						[#prefab: PickUpDiamond, 		#value:15000, #sound: Interface/PickUpDiamond, #effect: None]
+
+	Weapon						[#prefab: PickUpWeapon, 		#value: 1000, #sound: Interface/PickUpRandomWeapon, #effect: None]
+	AK47						[#prefab: PickUpWeapon, 		#value: 1000, #sound: Interface/PickUpRandomWeapon, #effect: None]
+	Remington					[#prefab: PickUpWeapon, 		#value: 1000, #sound: Interface/PickUpRandomWeapon, #effect: None]
+	DesertEagle					[#prefab: PickUpWeapon, 		#value: 1000, #sound: Interface/PickUpRandomWeapon, #effect: None]
+	Rpg							[#prefab: PickUpWeapon, 		#value: 1000, #sound: Interface/PickUpRandomWeapon, #effect: None]
+	
+	Explosive					[#prefab: PickUpExplosive, 		#value: 1000, #sound: Interface/PickUpRandomGadget,#effect: None]
+	
+	Gadget						[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	TimeFreeze					[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	Pigeon						[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	RapidFire					[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	Magnet						[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	CashForKills				[#prefab: PickUpGadget,			#value: 1000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	GadgetBonus					[#prefab: PickUpGadget,			#value:10000, #sound: Interface/PickUpRandomSpawn, #effect: None]
+	
+	HealthSmall					[#prefab: PickUpHealthSmall,	#value: 25, #sound: Interface/PickUpHealthSmall, #effect: None]
+	HealthBig					[#prefab: PickUpHealthBig,		#value: 100, #sound: Interface/PickUpHealthBig, #effect: None]
+	
+	HiddenPackage				[#prefab: PickUpHiddenPackage,	#value: 1, #sound: Interface/PickUpHiddenPackage, #effect: None]
+	
+	ColdOne						[#prefab: PickUpColdOne,	 	#value: 1, #sound: Interface/PickUpColdOne, #effect: None]
+	
+	OneKill						[#prefab: None,					#value:  0,	 #sound: None, #effect: None]
+	DoubleKill					[#prefab: None,					#value: 200,	 #sound: Interface/ScoreMedium, #effect: None]
+	TripleKill					[#prefab: None, 				#value: 300, #sound: Interface/ScoreMedium, #effect: None]
+	MultiKill					[#prefab: None, 				#value: 500, #sound: Interface/ScoreMedium, #effect: None]
+	UltraKill					[#prefab: None, 				#value: 1000, #sound: Interface/ScoreBig, #effect: None]
+	GodLikeKill					[#prefab: None, 				#value: 1500, #sound: Interface/Scorelarge, #effect: None]
+	
+	SkinTommy					[#prefab: PickUpSkinTommy,		#value: 1, #sound: Interface/OutfitTommyCervetti, #effect: None]
+	SkinSonny					[#prefab: PickUpSkinSonny,		#value: 1, #sound: Interface/OutfitSonnyCricket, #effect: None]
+	SkinBruce					[#prefab: PickUpSkinBruce,		#value: 1, #sound: Interface/OutfitBroesLi, #effect: None]
+	SkinArnold					[#prefab: PickUpSkinArnold,		#value: 1, #sound: Interface/OutfitArnieSwarzie, #effect: None]
+
+PickUps_End
+
+// Map
+MapIcons_Begin
+	Target			[#prefab: MapIconTarget, #scale: 5.0, #minimapIcon: true]					
+	OutfitSign		[#prefab: MapIconOutfitSign, #scale: 10.0, #minimapIcon: true]					
+	ParkingSign		[#prefab: MapIconParkingSign, #scale: 10.0, #minimapIcon: true]					
+	Safe			[#prefab: MapIconSafe, #scale: 10.0, #minimapIcon: true]					
+	ColdOne			[#prefab: MapIconColdOne, #scale: 5.0, #minimapIcon: false]					
+	BeverageMachine	[#prefab: MapIconBeverageMachine, #scale: 10.0, #minimapIcon: true]					
+MapIcons_End
+
+// Destructibles
+Destructibles_Begin
+	Default							[#health:    10.0, #score:   0, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+
+	// Buildings
+	Building						[#health:   100.0, #score: 1000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+
+	// Special buildings for mission that need to be hard to destroy.
+	BuildingStreetToMidA1			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingSpecialEnterA2			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialA5			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialA4			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialA3			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialA2			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialA1			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidSpecialB5			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	BuildingHighSpecialEnterA1		[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingMidToHighA2				[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialEnterA3		[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialA1			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialA2			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialA3			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialB1			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialB2			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighSpecialB3			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	BuildingSubwayExit				[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingSubwayEntrance			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingSubwayA					[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingSubwayEndOfLine			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingLandmarkTerminal		[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingLandmarkGarage			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingLandmarkStadium			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	// Mission 30
+	BuildingLandmark11				[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+
+	//Mission 17
+	BuildingHighB					[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	// Mission 19
+	BuildingHighD					[#health:  1000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	// Mission 5
+	BuildingMidA_Prefab				[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	// Mission 23
+	BuildingRooftopsOfficeA			[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	BuildingHighC					[#health: 10000.0, #score: 10000, #impact: RicochetConcrete, #explosion: DefaultLarge,	#lifetime:  -1.0]
+	
+	// Misc
+	Antenna					[#health:100.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]	
+	Bench					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	BusStop					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	Chair					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	CrateSmall				[#health:  1.0, #score:  10, #impact: RicochetMetal, #explosion: Wood, 			#dynamic: true, #mass: 10, #lifetime: 0.0]
+	CrateMedium				[#health: 10.0, #score:  10, #impact: RicochetMetal, #explosion: Wood, 			#dynamic: true, #mass: 20, #lifetime: 0.0]
+	CrateBig				[#health: 50.0, #score:  10, #impact: RicochetMetal, #explosion: Wood, 			#dynamic: true, #mass:100, #lifetime: 0.0]
+	ConcreteSlab			[#health:500.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall,	#lifetime: 0.0]
+	FireHydrant				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	GarbageBin				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	GarbageContainer		[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	GarbageContainerLid		[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	GasTank					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	GlassPlate				[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: Glass, 		#lifetime: 0.0]
+	GlassPlateBig			[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: Glass, 		#lifetime: 0.0]
+	LetterBox				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	MenuBoard				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	OilDrum					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	Parasol					[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	ParkingMeter			[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	RoadSignLow				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	SignStop				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	SnackMachine			[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	StopSign				[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]
+	StreetLightDouble		[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 3.0]
+	StreetLightSingle		[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 3.0]
+	TrafficLightCornerPole	[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 3.0]
+	TrafficLightPole		[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 3.0]
+	TrafficLightSingle		[#health:  3.0, #score:  10, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 2.0]	
+	TreeA					[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: None, 			#lifetime: 0.0]
+	TreeB					[#health:  5.0, #score:  10, #impact: RicochetMetal, #explosion: None, 			#lifetime: 0.0]
+
+	// Misc important
+	CrateWeapon				[#health:      1.0, #score:  100, #impact: RicochetMetal, #explosion: CrateWeapon, 		#dynamic: true, #mass: 10, #lifetime: 0.0, #pickUps: [Weapon]]
+	CrateExplosive			[#health:      1.0, #score:  100, #impact: RicochetMetal, #explosion: CrateExplosive, 	#dynamic: true, #mass: 10, #lifetime: 0.0, #pickUps: [Explosive]]
+	CrateGadget				[#health:      1.0, #score:  100, #impact: RicochetMetal, #explosion: CrateGadget, 		#dynamic: true, #mass: 10, #lifetime: 0.0, #pickUps: [Gadget]]
+	BlueBarrel				[#health:     50.0, #score:   50, #impact: RicochetMetal, #explosion: None, 			#dynamic: true, #mass: 10, #lifetime: 3.0]
+	RedBarrel				[#health:      1.0, #score:  150, #impact: RicochetMetal, #explosion: DefaultSmall, 	#dynamic: true, #mass: 10, #lifetime: 0.0]
+	OrangeBarrel			[#health:      5.0, #score:  500, #impact: RicochetMetal, #explosion: OrangeBarrel, 	#dynamic: true, #mass: 10, #lifetime: 0.0, #pickUps: [Diamond]]
+	EmergencyExit			[#health:     15.0, #score:  350, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 0.0]
+	Container				[#health:  10000.0, #score:  100, #impact: RicochetMetal, #explosion: None, 			#lifetime: 0.0]
+	ContainerRamp			[#health:  10000.0, #score:  100, #impact: RicochetMetal, #explosion: None, 			#lifetime: 0.0]
+	Bridge					[#health:  10000.0, #score: 1000, #impact: RicochetMetal, #explosion: DefaultSmall, 	#lifetime: 0.0]
+	SafeA					[#health:     10.0, #score:  500, #impact: RicochetMetal, #explosion: Electric, 		#lifetime: 0.0, #pickUps: [Gold, CashMedium, CashMedium]]
+	SafeB					[#health:     20.0, #score: 1000, #impact: RicochetMetal, #explosion: Electric, 		#lifetime: 0.0, #pickUps: [Ruby, Silver, CashMedium, CashBig]]
+	SafeC					[#health:     30.0, #score: 1500, #impact: RicochetMetal, #explosion: Electric, 		#lifetime: 0.0, #pickUps: [Diamond, CashBig, CashBig, CashBig, CashBriefcase]]
+	BeverageMachine			[#health:     30.0, #score: 1500, #impact: RicochetMetal, #explosion: Electric, 		#lifetime: 0.0, #pickUps: [ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne, ColdOne]]
+	
+	// Advertisements
+	BillBoardFeet1					[#health:     50.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardFeet2					[#health:     50.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardFeet3					[#health:     50.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	Abri1							[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	Abri2							[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	Abri3							[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	AbriFeet1						[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	AbriFeet2						[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	AbriFeet3						[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleSmall1				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleSmall2				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleSmall3				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleMedium2			[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleBig1				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleBig2				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoardPoleBig3				[#health:     40.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoard1						[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoard2						[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BillBoard3						[#health:     20.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BannerPoles1					[#health:  10000.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+	BannerPoles2					[#health:  10000.0, #score: 10, #impact:    RicochetMetal, #explosion: DefaultSmall,	#lifetime:   1.0]
+Destructibles_End
+// YOU NEED ANOTHER ENTER
