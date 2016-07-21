@@ -1,5 +1,16 @@
 // Stijn 16/05/2013 - Added this to extend GameObject functionality. Stumbled upon this from KGF system (see Candy Mountain Massacre 3: KGFUtility.cs
-
+/*
+ * 描述：
+ *  扩展功能
+ * 
+ * 目标：
+ *  递归设置active
+ *  递归设置layer
+ *  解除子节点的父子关系
+ *  停止所有子节点的粒子效果
+ *  开启或停止所有子节点的音频
+ *  检测物体是否在相机的视野中
+ */
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

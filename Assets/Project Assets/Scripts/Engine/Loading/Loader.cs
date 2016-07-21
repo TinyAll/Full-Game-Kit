@@ -4,7 +4,17 @@
 // Loader has been introduced to load from either resources or bundles
 // feel free to add functions to load different types of objects
 // maybe we can use a template somehow
-
+/*
+ * 描述：
+ *  加载资源
+ * 
+ * 目标：
+ *  加载各种资源
+ * 
+ * 
+ * 
+ 
+ */
 using UnityEngine;
 using System.Collections;
 

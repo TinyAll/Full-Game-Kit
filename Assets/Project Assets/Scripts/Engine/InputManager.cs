@@ -2,7 +2,15 @@
 
 using UnityEngine;
 using System.Collections;
-
+/*
+ * 描述：
+ *  输入管理
+ *  
+ * 目标：
+ *  控制levelScript中的游戏暂停
+ * 
+ * 
+ */
 public class InputManager
 {
 	// Constructor

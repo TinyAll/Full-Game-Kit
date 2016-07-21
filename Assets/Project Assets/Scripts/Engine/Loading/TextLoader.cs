@@ -19,7 +19,12 @@
 
 // TODO Regarding Windows 8, we should force a proper decimalseparator or the values will be parsed wrong! (might be good anyway)
 // TODO make sure that a string like "blabla/bla.txt" can be parsed without errors
-
+/*
+ * 描述
+ *  用来加载本地文本
+ * 
+ * 
+ */
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

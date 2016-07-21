@@ -1,5 +1,12 @@
 // ENGINE SCRIPT: AVOID PUTTING GAME SPECIFIC CODE IN HERE
-
+/*
+ * 描述：
+ *  设置显示
+ * 目标：
+ *  设置画质等级
+ *  设置相机效果
+ *  全屏功能
+ */
 using UnityEngine;
 using System;
 using System.Collections;

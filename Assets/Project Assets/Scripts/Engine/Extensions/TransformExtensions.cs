@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/*
+ * 描述：
+ *  Transform的一些方法
+ * 
+ * 目标：
+ *  世界坐标重置
+ *  相对坐标重置
+ * 
+ * 
+ */
 public static class TransformExtensions
 {
 	public static void Reset(this Transform t)
