@@ -3,6 +3,24 @@
 // This entire class only consist of static variables for easy access without having to create or get instances
 // It should only contain engine data such as cheats, debug, sfx, etc. and not game specific data
 // The annoying thing is the copying of data from and to globals, I think what we'd like is a reference variable (pointers)
+/*
+ * 描述：
+ *  记录文本格式的Globals和Shared文件
+ * 
+ * 目标：
+ *  解析aGlobalsText和aSharedText到Globals和Shared变量中
+ *  
+ *  初始化GameData
+ * 
+ *  复制内容到成员变量
+ * 
+ *  需要本地存储的数据放入saveList中
+ * 
+ * 当改变Globals和Shared变量，相应的改变到GameData中
+ * 
+ 
+ 
+ */
 
 using UnityEngine;
 using System.Collections;

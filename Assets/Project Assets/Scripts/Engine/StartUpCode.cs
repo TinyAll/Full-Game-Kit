@@ -1,5 +1,27 @@
 // ENGINE SCRIPT: AVOID PUTTING GAME SPECIFIC CODE IN HERE
 // This script starts up the game, and checks for sitelock
+/*
+ * 描述：
+ *  游戏第一个进入的脚本，初始化一些东西
+ * 
+ * 目标：
+ *  初始化Data     根据globalsText和sharedText
+ *  
+ *  判断显示网页
+ *  
+ *  设置在后台运行
+ *  
+ *  设置帧率 
+ *  
+ *  初始化UserData数据
+ * 
+ *  初始化MissionManager
+ * 
+ *  初始化Scripts
+ * 
+ *  调用GameData的Start进入加载场景
+ * 
+ */
 
 using UnityEngine;
 using System;

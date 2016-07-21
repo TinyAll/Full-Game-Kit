@@ -2,6 +2,15 @@
 // Stijn 23/07/2012
 // This entire class only consist of static variables for easy access without having to create or get instances
 
+/*
+ * 描述：
+ *  更容易的去获取句柄
+ * 
+ * 目标：
+ *  创建 AudioManager
+ *  创建 InputManager
+ *  创建 CheatManager
+ */
 using UnityEngine;
 using System.Collections;
 

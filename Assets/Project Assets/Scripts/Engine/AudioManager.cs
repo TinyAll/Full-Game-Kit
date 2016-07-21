@@ -2,7 +2,18 @@
 // This script/component is attached to the GameAudio game object
 // To play global audio sounds/music such as the game music
 // All audio should be started from here as this also regulates the mutes
-
+/*
+ * 描述：
+ *  音频管理
+ * 
+ * 目标：
+ *  创建一个AudioListener
+ *  
+ *  维护一个音乐和声音的列表
+ *  
+ *  静音功能
+ *  
+ */
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
