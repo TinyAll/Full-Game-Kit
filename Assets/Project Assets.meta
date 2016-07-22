@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 2aa133029748fc441874c12d786d9c1b
+labels:
+- Shooter
+- Thirdperson
+- Xform
+- Action
+- Complete
+- Cartoon
+- Effects
+- Weapons
+- Vehicle
+- Car
+- UGUI
+- Drive
+- Camera
+- Fullgame
+- Characters
+- Shop
+- Destructible
+folderAsset: yes
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

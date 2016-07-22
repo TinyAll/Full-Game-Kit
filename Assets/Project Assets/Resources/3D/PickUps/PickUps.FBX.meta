@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: d05cda3d4bdf0c845bbdce4615acf9d0
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: PickUpBeerCan
+    100002: PickUpCashBig
+    100004: PickUpCashBriefcase
+    100006: PickUpCashMedium
+    100008: PickUpCashSmall
+    100010: PickUpDiamond
+    100012: PickUpExplosive
+    100014: PickUpGadget
+    100016: PickUpGold
+    100018: PickUpHealthBig
+    100020: PickUpHealthSmall
+    100022: PickUpHiddenPackage
+    100024: PickUpRuby
+    100026: //RootNode
+    100028: PickUpSilver
+    100030: PickUpUnknown
+    100032: PickUpWeapon
+    100034: PickUpColdOne
+    100036: PickUpSkinArnold
+    100038: PickUpSkinBruce
+    100040: PickUpSkinSonny
+    100042: PickUpSkinTommy
+    400000: PickUpBeerCan
+    400002: PickUpCashBig
+    400004: PickUpCashBriefcase
+    400006: PickUpCashMedium
+    400008: PickUpCashSmall
+    400010: PickUpDiamond
+    400012: PickUpExplosive
+    400014: PickUpGadget
+    400016: PickUpGold
+    400018: PickUpHealthBig
+    400020: PickUpHealthSmall
+    400022: PickUpHiddenPackage
+    400024: PickUpRuby
+    400026: //RootNode
+    400028: PickUpSilver
+    400030: PickUpUnknown
+    400032: PickUpWeapon
+    400034: PickUpColdOne
+    400036: PickUpSkinArnold
+    400038: PickUpSkinBruce
+    400040: PickUpSkinSonny
+    400042: PickUpSkinTommy
+    3300000: PickUpBeerCan
+    3300002: PickUpCashBig
+    3300004: PickUpCashBriefcase
+    3300006: PickUpCashMedium
+    3300008: PickUpCashSmall
+    3300010: PickUpDiamond
+    3300012: PickUpExplosive
+    3300014: PickUpGadget
+    3300016: PickUpGold
+    3300018: PickUpHealthBig
+    3300020: PickUpHealthSmall
+    3300022: PickUpHiddenPackage
+    3300024: PickUpRuby
+    3300026: PickUpSilver
+    3300028: PickUpUnknown
+    3300030: PickUpWeapon
+    3300032: PickUpColdOne
+    3300034: PickUpSkinArnold
+    3300036: PickUpSkinBruce
+    3300038: PickUpSkinSonny
+    3300040: PickUpSkinTommy
+    4300000: PickUpCashSmall
+    4300002: PickUpHiddenPackage
+    4300004: PickUpBeerCan
+    4300006: PickUpHealthBig
+    4300008: PickUpHealthSmall
+    4300010: PickUpUnknown
+    4300012: PickUpGadget
+    4300014: PickUpExplosive
+    4300016: PickUpWeapon
+    4300018: PickUpDiamond
+    4300020: PickUpRuby
+    4300022: PickUpGold
+    4300024: PickUpSilver
+    4300026: PickUpCashBriefcase
+    4300028: PickUpCashBig
+    4300030: PickUpCashMedium
+    4300032: PickUpColdOne
+    4300034: PickUpSkinSonny
+    4300036: PickUpSkinTommy
+    4300038: PickUpSkinArnold
+    4300040: PickUpSkinBruce
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

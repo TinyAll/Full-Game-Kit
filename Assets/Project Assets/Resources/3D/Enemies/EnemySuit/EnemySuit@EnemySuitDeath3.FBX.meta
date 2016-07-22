@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 66aca5a5099b80e479b84f01be5d15a2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: EnemySuit
+    100002: EnemySuit Bip
+    100004: EnemySuit Footsteps
+    100006: EnemySuit Head
+    100008: EnemySuit HeadNub
+    100010: EnemySuit L Calf
+    100012: EnemySuit L Clavicle
+    100014: EnemySuit L Finger0
+    100016: EnemySuit L Finger0Nub
+    100018: EnemySuit L Foot
+    100020: EnemySuit L Forearm
+    100022: EnemySuit L Hand
+    100024: EnemySuit L Thigh
+    100026: EnemySuit L Toe0
+    100028: EnemySuit L Toe0Nub
+    100030: EnemySuit L UpperArm
+    100032: EnemySuit Neck
+    100034: EnemySuit Pelvis
+    100036: EnemySuit R Calf
+    100038: EnemySuit R Clavicle
+    100040: EnemySuit R Finger0
+    100042: EnemySuit R Finger0Nub
+    100044: EnemySuit R Foot
+    100046: EnemySuit R Forearm
+    100048: EnemySuit R Hand
+    100050: EnemySuit R Thigh
+    100052: EnemySuit R Toe0
+    100054: EnemySuit R Toe0Nub
+    100056: EnemySuit R UpperArm
+    100058: EnemySuit Spine
+    100060: EnemySuit Spine1
+    100062: //RootNode
+    100064: EnemySuitWeapon
+    100066: EnemySuitWeaponFire1_Dummy
+    100068: EnemySuitWeaponShell1_Dummy
+    100070: WeaponDummy
+    400000: EnemySuit
+    400002: EnemySuit Bip
+    400004: EnemySuit Footsteps
+    400006: EnemySuit Head
+    400008: EnemySuit HeadNub
+    400010: EnemySuit L Calf
+    400012: EnemySuit L Clavicle
+    400014: EnemySuit L Finger0
+    400016: EnemySuit L Finger0Nub
+    400018: EnemySuit L Foot
+    400020: EnemySuit L Forearm
+    400022: EnemySuit L Hand
+    400024: EnemySuit L Thigh
+    400026: EnemySuit L Toe0
+    400028: EnemySuit L Toe0Nub
+    400030: EnemySuit L UpperArm
+    400032: EnemySuit Neck
+    400034: EnemySuit Pelvis
+    400036: EnemySuit R Calf
+    400038: EnemySuit R Clavicle
+    400040: EnemySuit R Finger0
+    400042: EnemySuit R Finger0Nub
+    400044: EnemySuit R Foot
+    400046: EnemySuit R Forearm
+    400048: EnemySuit R Hand
+    400050: EnemySuit R Thigh
+    400052: EnemySuit R Toe0
+    400054: EnemySuit R Toe0Nub
+    400056: EnemySuit R UpperArm
+    400058: EnemySuit Spine
+    400060: EnemySuit Spine1
+    400062: //RootNode
+    400064: EnemySuitWeapon
+    400066: EnemySuitWeaponFire1_Dummy
+    400068: EnemySuitWeaponShell1_Dummy
+    400070: WeaponDummy
+    2300000: EnemySuitWeapon
+    3300000: EnemySuitWeapon
+    4300000: EnemySuit
+    4300002: EnemySuitWeapon
+    7400000: EnemySuitDeath3
+    9500000: //RootNode
+    13700000: EnemySuit
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "MuscleClip 'EnemySuit@EnemySuitDeath3' conversion warning:
+      Bone length is different in avatar and animation\n\n     'EnemySuit L Thigh'
+      : position error = 18.576750 mm\n\n     'EnemySuit R Thigh' : position error
+      = 26.123257 mm\n\nMuscleClip 'EnemySuit@EnemySuitDeath3' conversion warning:
+      'EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine' is between humanoid transforms
+      and has rotation animation. This might lower retargeting quality.\n\nMuscleClip
+      'EnemySuit@EnemySuitDeath3'conversion warning: 'EnemySuit Bip/EnemySuit Pelvis/EnemySuit
+      Spine/EnemySuit Spine1/EnemySuit Neck/EnemySuit R Clavicle' has translation
+      animation. It is not supported.\n\nMuscleClip 'EnemySuit@EnemySuitDeath3'conversion
+      warning: 'EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+      Neck/EnemySuit L Clavicle' has translation animation. It is not supported.\n\nMuscleClip
+      'EnemySuit@EnemySuitDeath3'conversion warning: 'EnemySuit Bip/EnemySuit Pelvis/EnemySuit
+      Spine/EnemySuit L Thigh' has translation animation. It is not supported.\n\nMuscleClip
+      'EnemySuit@EnemySuitDeath3'conversion warning: 'EnemySuit Bip/EnemySuit Pelvis/EnemySuit
+      Spine/EnemySuit R Thigh' has translation animation. It is not supported.\n\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EnemySuitDeath3
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySuit
+        weight: 0
+      - path: EnemySuit Bip
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Footsteps
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit L Thigh
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit L Thigh/EnemySuit
+          L Calf
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit L Thigh/EnemySuit
+          L Calf/EnemySuit L Foot
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit L Thigh/EnemySuit
+          L Calf/EnemySuit L Foot/EnemySuit L Toe0
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit L Thigh/EnemySuit
+          L Calf/EnemySuit L Foot/EnemySuit L Toe0/EnemySuit L Toe0Nub
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit R Thigh
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit R Thigh/EnemySuit
+          R Calf
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit R Thigh/EnemySuit
+          R Calf/EnemySuit R Foot
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit R Thigh/EnemySuit
+          R Calf/EnemySuit R Foot/EnemySuit R Toe0
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit R Thigh/EnemySuit
+          R Calf/EnemySuit R Foot/EnemySuit R Toe0/EnemySuit R Toe0Nub
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit Head
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit Head/EnemySuit HeadNub
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle/EnemySuit L UpperArm
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle/EnemySuit L UpperArm/EnemySuit L Forearm
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle/EnemySuit L UpperArm/EnemySuit L Forearm/EnemySuit
+          L Hand
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle/EnemySuit L UpperArm/EnemySuit L Forearm/EnemySuit
+          L Hand/EnemySuit L Finger0
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit L Clavicle/EnemySuit L UpperArm/EnemySuit L Forearm/EnemySuit
+          L Hand/EnemySuit L Finger0/EnemySuit L Finger0Nub
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand
+        weight: 1
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/EnemySuit R Finger0
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/EnemySuit R Finger0/EnemySuit R Finger0Nub
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/WeaponDummy
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/WeaponDummy/EnemySuitWeapon
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/WeaponDummy/EnemySuitWeapon/EnemySuitWeaponFire1_Dummy
+        weight: 0
+      - path: EnemySuit Bip/EnemySuit Pelvis/EnemySuit Spine/EnemySuit Spine1/EnemySuit
+          Neck/EnemySuit R Clavicle/EnemySuit R UpperArm/EnemySuit R Forearm/EnemySuit
+          R Hand/WeaponDummy/EnemySuitWeapon/EnemySuitWeaponShell1_Dummy
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: EnemySuit Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit Neck
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySuit R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemySuit(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: -6.18172393e-08, z: -6.18172535e-08, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit Bip
+      position: {x: 0, y: 1.07823491, z: 0}
+      rotation: {x: .500000119, y: .50000006, z: .49999994, w: -.49999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit Footsteps
+      position: {x: 5.76085624e-09, y: -1.3546404e-09, z: -1.10467708}
+      rotation: {x: -2.40200304e-09, y: -1.18545107e-09, z: .771624625, w: .636078179}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.501034737, y: -.498034, z: .550350308, w: -.445017934}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemySuit Spine
+      position: {x: -.116313696, y: -.00187640544, z: .000167215359}
+      rotation: {x: 2.05636024e-06, y: 2.98027309e-08, z: -2.98022762e-08, w: -1}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: EnemySuit L Thigh
+      position: {x: .116639137, y: .0244495552, z: .097611092}
+      rotation: {x: .0237397384, y: -.998749733, z: .00104401389, w: -.0439812429}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit L Calf
+      position: {x: -.462126553, y: 1.49011612e-08, z: -2.98023224e-08}
+      rotation: {x: 3.26447456e-08, y: -2.51032617e-08, z: -.0475125201, w: -.998870671}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit L Foot
+      position: {x: -.554087937, y: -1.49011612e-08, z: 2.98023224e-08}
+      rotation: {x: .0599286593, y: -.0453484431, z: .0210108776, w: -.996950746}
+      scale: {x: .999999762, y: .999999881, z: .999999583}
+      transformModified: 1
+    - name: EnemySuit L Toe0
+      position: {x: -.116324939, y: .209513426, z: -2.98023224e-08}
+      rotation: {x: -1.54545585e-08, y: 1.54543098e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit L Toe0Nub
+      position: {x: -.0151728243, y: -1.86264515e-09, z: 0}
+      rotation: {x: -1.54380171e-08, y: -1.46588475e-08, z: 1, w: -2.53609969e-08}
+      scale: {x: -1.00000012, y: -.999999762, z: -1.00000012}
+      transformModified: 1
+    - name: EnemySuit R Thigh
+      position: {x: .115952253, y: -.0193730872, z: -.0998886302}
+      rotation: {x: -.0331688896, y: .998749495, z: .00124294218, w: -.0373866856}
+      scale: {x: 1.00000012, y: 1, z: 1.00000048}
+      transformModified: 1
+    - name: EnemySuit R Calf
+      position: {x: -.462126434, y: 2.98023224e-08, z: 1.49011612e-08}
+      rotation: {x: -3.9666471e-08, y: 1.0735026e-07, z: .0663472414, w: .997796595}
+      scale: {x: 1, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySuit R Foot
+      position: {x: -.554088056, y: 1.86264515e-09, z: -1.49011612e-08}
+      rotation: {x: .0771231875, y: -.0398739837, z: -.0301328916, w: .99576813}
+      scale: {x: 1, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: EnemySuit R Toe0
+      position: {x: -.116324939, y: .209513441, z: -1.49011612e-08}
+      rotation: {x: -6.9595002e-10, y: 4.16746957e-08, z: -.707106888, w: .707106769}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemySuit R Toe0Nub
+      position: {x: -.015172869, y: 0, z: 0}
+      rotation: {x: 0, y: -2.1451294e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit Spine1
+      position: {x: -.250256658, y: -.000182695687, z: -2.48653814e-05}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit Neck
+      position: {x: -.231532454, y: -7.61393458e-05, z: 0}
+      rotation: {x: 6.11312458e-08, y: 4.02982778e-07, z: -.156041279, w: -.98775059}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit Head
+      position: {x: -.100556254, y: 0, z: 3.7252903e-09}
+      rotation: {x: -3.34070727e-08, y: -6.21578408e-07, z: .224562466, w: -.974459708}
+      scale: {x: .999999702, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: EnemySuit HeadNub
+      position: {x: -.237707496, y: 1.49011612e-08, z: 0}
+      rotation: {x: -1.26121322e-13, y: -3.01980629e-14, z: 2.34930564e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit L Clavicle
+      position: {x: -.0181123018, y: -.0558150411, z: .035403192}
+      rotation: {x: -.698444963, y: .110336795, z: .69844532, w: .110338829}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit L UpperArm
+      position: {x: -.15443705, y: 0, z: 1.1920929e-07}
+      rotation: {x: .00342725217, y: -.0235786829, z: .0269817468, w: .999351978}
+      scale: {x: .999999762, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit L Forearm
+      position: {x: -.263060689, y: 0, z: 0}
+      rotation: {x: -4.26985558e-08, y: -1.0817244e-08, z: .0251885243, w: .999682784}
+      scale: {x: 1.00000036, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySuit L Hand
+      position: {x: -.279411674, y: 0, z: 0}
+      rotation: {x: -.706825197, y: -6.33459596e-09, z: -5.26144195e-09, w: .707388282}
+      scale: {x: .999999881, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySuit L Finger0
+      position: {x: -.184654474, y: 0, z: -2.98023224e-08}
+      rotation: {x: -.000398133008, y: 5.93264457e-12, z: -1.49011612e-08, w: .99999994}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: EnemySuit L Finger0Nub
+      position: {x: -.0316100121, y: 0, z: -2.98023224e-08}
+      rotation: {x: -7.45058149e-09, y: -1.49011612e-08, z: -1.49011612e-08, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemySuit R Clavicle
+      position: {x: -.0181123018, y: -.0558148623, z: -.0354034901}
+      rotation: {x: .698445261, y: -.110338822, z: .698445022, w: .11033687}
+      scale: {x: .999999762, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: EnemySuit R UpperArm
+      position: {x: -.15443705, y: -7.4505806e-09, z: 0}
+      rotation: {x: -.00748895248, y: .0397688188, z: -.0338151641, w: .99860847}
+      scale: {x: 1.00000012, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: EnemySuit R Forearm
+      position: {x: -.263060808, y: 0, z: 1.1920929e-07}
+      rotation: {x: .000422435813, y: -.0126726385, z: .0136030186, w: .999827147}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit R Hand
+      position: {x: -.279411674, y: -1.1920929e-07, z: -1.1920929e-07}
+      rotation: {x: .706692636, y: .0111071756, z: -.0108720511, w: .707350016}
+      scale: {x: 1, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuit R Finger0
+      position: {x: -.184654355, y: 0, z: 2.98023224e-08}
+      rotation: {x: .000398144184, y: 7.45058015e-09, z: -2.96640533e-12, w: .99999994}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemySuit R Finger0Nub
+      position: {x: -.0316100121, y: 0, z: -2.98023224e-08}
+      rotation: {x: 1.117587e-08, y: -8.3266707e-17, z: 1, w: 7.45057971e-09}
+      scale: {x: -1.00000012, y: -1.00000012, z: -1}
+      transformModified: 1
+    - name: WeaponDummy
+      position: {x: -.0463418365, y: -.0268343687, z: -.0154929385}
+      rotation: {x: .257834256, y: .0225575883, z: -.0841859728, w: .962250173}
+      scale: {x: 1.00000036, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySuitWeapon
+      position: {x: -8.94069672e-08, y: 1.1920929e-07, z: 1.1920929e-07}
+      rotation: {x: -1.49011647e-08, y: -7.45058149e-09, z: -1.34110508e-07, w: 1}
+      scale: {x: .999999583, y: .999999821, z: .999999881}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a3c09b26639916b419ecf3fb1e58e075,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: d449bed764717d943a6190e410900974
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: EnemySoldier
+    100002: EnemySoldier Bip
+    100004: EnemySoldier Footsteps
+    100006: EnemySoldier Head
+    100008: EnemySoldier HeadNub
+    100010: EnemySoldier L Calf
+    100012: EnemySoldier L Clavicle
+    100014: EnemySoldier L Finger0
+    100016: EnemySoldier L Finger0Nub
+    100018: EnemySoldier L Foot
+    100020: EnemySoldier L Forearm
+    100022: EnemySoldier L Hand
+    100024: EnemySoldier L Thigh
+    100026: EnemySoldier L Toe0
+    100028: EnemySoldier L Toe0Nub
+    100030: EnemySoldier L UpperArm
+    100032: EnemySoldier Neck
+    100034: EnemySoldier Pelvis
+    100036: EnemySoldier R Calf
+    100038: EnemySoldier R Clavicle
+    100040: EnemySoldier R Finger0
+    100042: EnemySoldier R Finger0Nub
+    100044: EnemySoldier R Foot
+    100046: EnemySoldier R Forearm
+    100048: EnemySoldier R Hand
+    100050: EnemySoldier R Thigh
+    100052: EnemySoldier R Toe0
+    100054: EnemySoldier R Toe0Nub
+    100056: EnemySoldier R UpperArm
+    100058: EnemySoldier Spine
+    100060: EnemySoldier Spine1
+    100062: //RootNode
+    100064: EnemySoldierWeapon
+    100066: EnemySoldierWeaponFire1_Dummy
+    100068: EnemySoldierWeaponShell1_Dummy
+    100070: WeaponDummy
+    400000: EnemySoldier
+    400002: EnemySoldier Bip
+    400004: EnemySoldier Footsteps
+    400006: EnemySoldier Head
+    400008: EnemySoldier HeadNub
+    400010: EnemySoldier L Calf
+    400012: EnemySoldier L Clavicle
+    400014: EnemySoldier L Finger0
+    400016: EnemySoldier L Finger0Nub
+    400018: EnemySoldier L Foot
+    400020: EnemySoldier L Forearm
+    400022: EnemySoldier L Hand
+    400024: EnemySoldier L Thigh
+    400026: EnemySoldier L Toe0
+    400028: EnemySoldier L Toe0Nub
+    400030: EnemySoldier L UpperArm
+    400032: EnemySoldier Neck
+    400034: EnemySoldier Pelvis
+    400036: EnemySoldier R Calf
+    400038: EnemySoldier R Clavicle
+    400040: EnemySoldier R Finger0
+    400042: EnemySoldier R Finger0Nub
+    400044: EnemySoldier R Foot
+    400046: EnemySoldier R Forearm
+    400048: EnemySoldier R Hand
+    400050: EnemySoldier R Thigh
+    400052: EnemySoldier R Toe0
+    400054: EnemySoldier R Toe0Nub
+    400056: EnemySoldier R UpperArm
+    400058: EnemySoldier Spine
+    400060: EnemySoldier Spine1
+    400062: //RootNode
+    400064: EnemySoldierWeapon
+    400066: EnemySoldierWeaponFire1_Dummy
+    400068: EnemySoldierWeaponShell1_Dummy
+    400070: WeaponDummy
+    2300000: EnemySoldierWeapon
+    3300000: EnemySoldierWeapon
+    4300000: EnemySoldier
+    4300002: EnemySoldierWeapon
+    7400000: EnemySoldierHit2
+    9500000: //RootNode
+    13700000: EnemySoldier
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "MuscleClip 'EnemySoldier@EnemySoldierHit2' conversion
+      warning: Bone length is different in avatar and animation\n\n     'EnemySoldier
+      L Thigh' : position error = 4.388757 mm\n\n     'EnemySoldier R Thigh' : position
+      error = 10.368693 mm\n\nMuscleClip 'EnemySoldier@EnemySoldierHit2'conversion
+      warning: 'EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+      Spine1' has translation animation. It is not supported.\n\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EnemySoldierHit2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .918112457
+        functionName: ResetAnimation
+        data: Hit2
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySoldier
+        weight: 0
+      - path: EnemySoldier Bip
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Footsteps
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          L Thigh
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          L Thigh/EnemySoldier L Calf
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          L Thigh/EnemySoldier L Calf/EnemySoldier L Foot
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          L Thigh/EnemySoldier L Calf/EnemySoldier L Foot/EnemySoldier L Toe0
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          L Thigh/EnemySoldier L Calf/EnemySoldier L Foot/EnemySoldier L Toe0/EnemySoldier
+          L Toe0Nub
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          R Thigh
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          R Thigh/EnemySoldier R Calf
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          R Thigh/EnemySoldier R Calf/EnemySoldier R Foot
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          R Thigh/EnemySoldier R Calf/EnemySoldier R Foot/EnemySoldier R Toe0
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          R Thigh/EnemySoldier R Calf/EnemySoldier R Foot/EnemySoldier R Toe0/EnemySoldier
+          R Toe0Nub
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier Head
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier Head/EnemySoldier HeadNub
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle/EnemySoldier L UpperArm
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle/EnemySoldier L UpperArm/EnemySoldier
+          L Forearm
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle/EnemySoldier L UpperArm/EnemySoldier
+          L Forearm/EnemySoldier L Hand
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle/EnemySoldier L UpperArm/EnemySoldier
+          L Forearm/EnemySoldier L Hand/EnemySoldier L Finger0
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier L Clavicle/EnemySoldier L UpperArm/EnemySoldier
+          L Forearm/EnemySoldier L Hand/EnemySoldier L Finger0/EnemySoldier L Finger0Nub
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand
+        weight: 1
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/EnemySoldier R Finger0
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/EnemySoldier R Finger0/EnemySoldier R Finger0Nub
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/WeaponDummy
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/WeaponDummy/EnemySoldierWeapon
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/WeaponDummy/EnemySoldierWeapon/EnemySoldierWeaponFire1_Dummy
+        weight: 0
+      - path: EnemySoldier Bip/EnemySoldier Pelvis/EnemySoldier Spine/EnemySoldier
+          Spine1/EnemySoldier Neck/EnemySoldier R Clavicle/EnemySoldier R UpperArm/EnemySoldier
+          R Forearm/EnemySoldier R Hand/WeaponDummy/EnemySoldierWeapon/EnemySoldierWeaponShell1_Dummy
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: EnemySoldier Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier Neck
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemySoldier L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemySoldier(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier
+      position: {x: 5.96046448e-08, y: 0, z: -5.31158062e-10}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .918377101, y: 1, z: .973710358}
+      transformModified: 1
+    - name: EnemySoldier Bip
+      position: {x: 0, y: 1.07294881, z: .0603648089}
+      rotation: {x: .5, y: .5, z: .5, w: -.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier Footsteps
+      position: {x: -3.7252903e-09, y: 2.35925413e-09, z: -1.07296789}
+      rotation: {x: 2.50456567e-09, y: 9.49771373e-10, z: .707106709, w: .707106948}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.49826014, y: -.501733899, z: .49826014, w: -.50173378}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier Spine
+      position: {x: -.110702634, y: -.000189699233, z: 1.53785436e-07}
+      rotation: {x: 2.05636024e-06, y: 2.98024858e-08, z: -2.98022798e-08, w: -1}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier Spine1
+      position: {x: -.238159776, y: -.000175468624, z: -4.86679141e-10}
+      rotation: {x: -7.9936051e-14, y: -2.9802278e-08, z: -2.98023615e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier Neck
+      position: {x: -.220341563, y: -7.24568963e-05, z: -2.00969907e-10}
+      rotation: {x: 1.6792745e-08, y: 4.5233665e-07, z: -.156041294, w: -.98775059}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySoldier Head
+      position: {x: -.0956959724, y: 2.98023224e-08, z: 0}
+      rotation: {x: -1.54239039e-08, y: -6.65133484e-07, z: .224562436, w: -.974459708}
+      scale: {x: .999999821, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: EnemySoldier HeadNub
+      position: {x: -.226218224, y: 0, z: 0}
+      rotation: {x: 5.5067062e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier L Clavicle
+      position: {x: -.0172368288, y: -.0531172752, z: .033692006}
+      rotation: {x: -.698444963, y: .110336833, z: .69844532, w: .110338777}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier L UpperArm
+      position: {x: -.146972507, y: 0, z: 0}
+      rotation: {x: .00497513125, y: -.0397143848, z: -.00119397568, w: .99919796}
+      scale: {x: .999999404, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: EnemySoldier L Forearm
+      position: {x: -.287953258, y: 0, z: 1.1920929e-07}
+      rotation: {x: -8.51873594e-08, y: 2.44705536e-08, z: .00737291574, w: .99997288}
+      scale: {x: 1.0000006, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySoldier L Hand
+      position: {x: -.265906632, y: 1.49011612e-08, z: -1.1920929e-07}
+      rotation: {x: -.706825197, y: 6.21575058e-09, z: -6.43626308e-09, w: .707388282}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySoldier L Finger0
+      position: {x: -.175729275, y: 1.1920929e-07, z: 1.49011612e-08}
+      rotation: {x: -.000398159085, y: 3.46279422e-10, z: 7.45071915e-09, w: .99999994}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemySoldier L Finger0Nub
+      position: {x: -.0300822258, y: -1.1920929e-07, z: 0}
+      rotation: {x: 2.32830644e-10, y: 3.49245965e-10, z: 7.4505806e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier R Clavicle
+      position: {x: -.0156880617, y: -.0483374596, z: -.0336921327}
+      rotation: {x: .69844532, y: -.110338777, z: .698445022, w: .11033684}
+      scale: {x: .999999762, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: EnemySoldier R UpperArm
+      position: {x: -.147142023, y: -7.4505806e-09, z: 0}
+      rotation: {x: -.00502365874, y: .0391880535, z: -.000922544335, w: .999218881}
+      scale: {x: 1, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: EnemySoldier R Forearm
+      position: {x: -.289838731, y: 0, z: 0}
+      rotation: {x: 3.25813332e-08, y: -9.89030191e-10, z: .00728958193, w: .999973416}
+      scale: {x: 1.00000024, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySoldier R Hand
+      position: {x: -.275800496, y: 1.49011612e-08, z: -1.1920929e-07}
+      rotation: {x: .706583738, y: .00487064477, z: -.0047739041, w: .7075966}
+      scale: {x: .999999702, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier R Finger0
+      position: {x: -.158086628, y: 0, z: 0}
+      rotation: {x: .000398158591, y: 1.16415301e-10, z: -4.63517537e-14, w: .99999994}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier R Finger0Nub
+      position: {x: -.0300821662, y: 0, z: 0}
+      rotation: {x: -1.16415322e-10, y: -4.65661287e-10, z: 1, w: 6.11781325e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: WeaponDummy
+      position: {x: -.0695576966, y: -.0392198563, z: -.00111718476}
+      rotation: {x: .130402014, y: -.00569347944, z: -.0432461984, w: .990501225}
+      scale: {x: 1.00000024, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySoldierM4X
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.45057882e-09, y: 0, z: -0, w: 1}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemySoldier L Thigh
+      position: {x: .110702515, y: .000277526677, z: .0962630808}
+      rotation: {x: .0251235683, y: -.998746574, z: .00108426937, w: -.0432781354}
+      scale: {x: .999999762, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: EnemySoldier L Calf
+      position: {x: -.439790189, y: 7.4505806e-09, z: 0}
+      rotation: {x: 9.00215298e-08, y: -7.85918743e-08, z: -.0500490963, w: -.998746812}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: EnemySoldier L Foot
+      position: {x: -.527306676, y: -7.4505806e-09, z: 1.49011612e-08}
+      rotation: {x: .0598925725, y: -.0447170548, z: .0222056955, w: -.996955454}
+      scale: {x: .999999881, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: EnemySoldier L Toe0
+      position: {x: -.110702507, y: .199386865, z: 1.49011612e-08}
+      rotation: {x: -1.54544502e-08, y: 1.54544484e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier L Toe0Nub
+      position: {x: -.0144394636, y: 1.8189894e-12, z: -1.49011612e-08}
+      rotation: {x: -1.36601067e-15, y: -2.51016644e-30, z: 1, w: -1.83758927e-15}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: EnemySoldier R Thigh
+      position: {x: .110702515, y: .000278055668, z: -.0962630808}
+      rotation: {x: -.0331688263, y: .998749495, z: .00124300632, w: -.0373866521}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: EnemySoldier R Calf
+      position: {x: -.43979013, y: 3.7252903e-09, z: 0}
+      rotation: {x: 5.97696115e-09, y: 1.48013157e-10, z: .066347234, w: .997796655}
+      scale: {x: .999999881, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: EnemySoldier R Foot
+      position: {x: -.527306676, y: 0, z: -1.49011612e-08}
+      rotation: {x: .0771231949, y: -.0398738384, z: -.0301329475, w: .99576807}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemySoldier R Toe0
+      position: {x: -.110702515, y: .209654346, z: 0}
+      rotation: {x: -1.54542832e-08, y: 1.5454269e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemySoldier R Toe0Nub
+      position: {x: -.0144394785, y: 0, z: 0}
+      rotation: {x: 0, y: -5.88216525e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 73ac2559d02e9d2428dbfb297c6b7d73,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

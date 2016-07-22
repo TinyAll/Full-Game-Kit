@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: ed3926288aaeab3449ade0acf14a3d2b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: EnemyArmored
+    100002: EnemyArmored Bip
+    100004: EnemyArmored Footsteps
+    100006: EnemyArmored Head
+    100008: EnemyArmored HeadNub
+    100010: EnemyArmored L Calf
+    100012: EnemyArmored L Clavicle
+    100014: EnemyArmored L Finger0
+    100016: EnemyArmored L Finger0Nub
+    100018: EnemyArmored L Foot
+    100020: EnemyArmored L Forearm
+    100022: EnemyArmored L Hand
+    100024: EnemyArmored L Thigh
+    100026: EnemyArmored L Toe0
+    100028: EnemyArmored L Toe0Nub
+    100030: EnemyArmored L UpperArm
+    100032: EnemyArmored Neck
+    100034: EnemyArmored Pelvis
+    100036: EnemyArmored R Calf
+    100038: EnemyArmored R Clavicle
+    100040: EnemyArmored R Finger0
+    100042: EnemyArmored R Finger0Nub
+    100044: EnemyArmored R Foot
+    100046: EnemyArmored R Forearm
+    100048: EnemyArmored R Hand
+    100050: EnemyArmored R Thigh
+    100052: EnemyArmored R Toe0
+    100054: EnemyArmored R Toe0Nub
+    100056: EnemyArmored R UpperArm
+    100058: EnemyArmored Spine
+    100060: EnemyArmored Spine1
+    100062: //RootNode
+    100064: EnemyArmoredMiniGun
+    100066: WeaponDummy
+    400000: EnemyArmored
+    400002: EnemyArmored Bip
+    400004: EnemyArmored Footsteps
+    400006: EnemyArmored Head
+    400008: EnemyArmored HeadNub
+    400010: EnemyArmored L Calf
+    400012: EnemyArmored L Clavicle
+    400014: EnemyArmored L Finger0
+    400016: EnemyArmored L Finger0Nub
+    400018: EnemyArmored L Foot
+    400020: EnemyArmored L Forearm
+    400022: EnemyArmored L Hand
+    400024: EnemyArmored L Thigh
+    400026: EnemyArmored L Toe0
+    400028: EnemyArmored L Toe0Nub
+    400030: EnemyArmored L UpperArm
+    400032: EnemyArmored Neck
+    400034: EnemyArmored Pelvis
+    400036: EnemyArmored R Calf
+    400038: EnemyArmored R Clavicle
+    400040: EnemyArmored R Finger0
+    400042: EnemyArmored R Finger0Nub
+    400044: EnemyArmored R Foot
+    400046: EnemyArmored R Forearm
+    400048: EnemyArmored R Hand
+    400050: EnemyArmored R Thigh
+    400052: EnemyArmored R Toe0
+    400054: EnemyArmored R Toe0Nub
+    400056: EnemyArmored R UpperArm
+    400058: EnemyArmored Spine
+    400060: EnemyArmored Spine1
+    400062: //RootNode
+    400064: EnemyArmoredMiniGun
+    400066: WeaponDummy
+    2300000: EnemyArmored
+    2300002: EnemyArmoredMiniGun
+    3300000: EnemyArmored
+    3300002: EnemyArmoredMiniGun
+    4300000: EnemyArmored
+    4300002: EnemyArmoredMiniGun
+    7400000: EnemyArmoredBlownAway2
+    9500000: //RootNode
+    13700000: EnemyArmored
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "MuscleClip 'EnemyArmored@EnemyArmoredBlownAway2' conversion
+      warning: Bone length is different in avatar and animation\n\n     'EnemyArmored
+      L Thigh' : position error = 23.045019 mm\n\n     'EnemyArmored R Thigh' : position
+      error = 20.017090 mm\n\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EnemyArmoredBlownAway2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemyArmored
+        weight: 0
+      - path: EnemyArmored Bip
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Footsteps
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          L Thigh
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          L Thigh/EnemyArmored L Calf
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          L Thigh/EnemyArmored L Calf/EnemyArmored L Foot
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          L Thigh/EnemyArmored L Calf/EnemyArmored L Foot/EnemyArmored L Toe0
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          L Thigh/EnemyArmored L Calf/EnemyArmored L Foot/EnemyArmored L Toe0/EnemyArmored
+          L Toe0Nub
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          R Thigh
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          R Thigh/EnemyArmored R Calf
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          R Thigh/EnemyArmored R Calf/EnemyArmored R Foot
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          R Thigh/EnemyArmored R Calf/EnemyArmored R Foot/EnemyArmored R Toe0
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          R Thigh/EnemyArmored R Calf/EnemyArmored R Foot/EnemyArmored R Toe0/EnemyArmored
+          R Toe0Nub
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored Head
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored Head/EnemyArmored HeadNub
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle/EnemyArmored L UpperArm
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle/EnemyArmored L UpperArm/EnemyArmored
+          L Forearm
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle/EnemyArmored L UpperArm/EnemyArmored
+          L Forearm/EnemyArmored L Hand
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle/EnemyArmored L UpperArm/EnemyArmored
+          L Forearm/EnemyArmored L Hand/EnemyArmored L Finger0
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored L Clavicle/EnemyArmored L UpperArm/EnemyArmored
+          L Forearm/EnemyArmored L Hand/EnemyArmored L Finger0/EnemyArmored L Finger0Nub
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm/EnemyArmored R Hand
+        weight: 1
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm/EnemyArmored R Hand/EnemyArmored R Finger0
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm/EnemyArmored R Hand/EnemyArmored R Finger0/EnemyArmored R Finger0Nub
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm/EnemyArmored R Hand/WeaponDummy
+        weight: 0
+      - path: EnemyArmored Bip/EnemyArmored Pelvis/EnemyArmored Spine/EnemyArmored
+          Spine1/EnemyArmored Neck/EnemyArmored R Clavicle/EnemyArmored R UpperArm/EnemyArmored
+          R Forearm/EnemyArmored R Hand/WeaponDummy/EnemyArmoredMiniGun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: EnemyArmored Bip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored Neck
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyArmored R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemyArmored(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored
+      position: {x: 5.96046448e-08, y: 0, z: -5.31158062e-10}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Bip
+      position: {x: 0, y: 1.06381452, z: 0}
+      rotation: {x: .498703092, y: -.5012936, z: -.5012936, w: -.498703092}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Footsteps
+      position: {x: 5.19021714e-09, y: -2.33611241e-09, z: -1.06244361}
+      rotation: {x: -2.50456544e-09, y: -9.49771373e-10, z: .707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.499999642, y: .500000358, z: .499999642, w: .500000358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Spine
+      position: {x: -.110702634, y: -.00020620499, z: 1.53808287e-07}
+      rotation: {x: -2.08047595e-06, y: 6.93676043e-07, z: -.000398115313, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Thigh
+      position: {x: .110702515, y: .000294036174, z: .0962630808}
+      rotation: {x: .00960162748, y: .993535399, z: .0707122982, w: .088289611}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Calf
+      position: {x: -.439790249, y: -9.31322575e-10, z: 2.98023224e-08}
+      rotation: {x: 5.04743936e-09, y: -7.42247508e-09, z: .00559136271, w: .999984384}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Foot
+      position: {x: -.527306795, y: -4.42378223e-09, z: 2.98023224e-08}
+      rotation: {x: .0103864279, y: .0887066498, z: -.0101556359, w: .995951891}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored L Toe0
+      position: {x: -.110702507, y: .199386865, z: 0}
+      rotation: {x: -1.54544466e-08, y: 1.54544448e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Toe0Nub
+      position: {x: -.0144394636, y: 1.16415322e-10, z: 0}
+      rotation: {x: 9.71398983e-16, y: -5.9481031e-32, z: 1, w: 6.12323426e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: EnemyArmored R Thigh
+      position: {x: .110702515, y: .000294570171, z: -.0962630808}
+      rotation: {x: .00932929199, y: .993550897, z: -.0693512037, w: -.0892187506}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Calf
+      position: {x: -.439790308, y: -5.58793545e-09, z: 0}
+      rotation: {x: 8.14894552e-09, y: 4.55644203e-11, z: .00559136271, w: .999984384}
+      scale: {x: 1.00000024, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Foot
+      position: {x: -.527306616, y: -6.98491931e-10, z: 0}
+      rotation: {x: .00834756065, y: -.0897823125, z: -.00826134346, w: .995892167}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Toe0
+      position: {x: -.110702507, y: .209654331, z: -2.98023224e-08}
+      rotation: {x: -1.54542779e-08, y: 1.54542779e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Toe0Nub
+      position: {x: -.0144394785, y: 0, z: 2.98023224e-08}
+      rotation: {x: 2.05934987e-30, y: 1.15931091e-15, z: -1.77635684e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Spine1
+      position: {x: -.258897662, y: -.000190750347, z: -5.2906507e-10}
+      rotation: {x: 3.82218747e-15, y: 1.30104261e-18, z: -4.97282893e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Neck
+      position: {x: -.257767558, y: -8.69833166e-05, z: -2.0115587e-10}
+      rotation: {x: -3.65307116e-14, y: -4.33886839e-07, z: .156434536, w: .987688363}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored Head
+      position: {x: -.0956959724, y: 0, z: 1.13686838e-13}
+      rotation: {x: 4.02302161e-13, y: 6.22848404e-07, z: -.224562481, w: .974459708}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyArmored HeadNub
+      position: {x: -.226218104, y: 0, z: 0}
+      rotation: {x: -2.48689958e-14, y: -2.84217094e-14, z: -7.06819371e-28, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Clavicle
+      position: {x: -.00138831139, y: -.0633710027, z: .036625728}
+      rotation: {x: .704513371, y: -.111295521, z: -.692323685, w: -.109371729}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored L UpperArm
+      position: {x: -.226768687, y: -3.7252903e-09, z: 0}
+      rotation: {x: .00579215726, y: -.0483388901, z: -.00604142901, w: .998795927}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Forearm
+      position: {x: -.25331822, y: 7.4505806e-09, z: 0}
+      rotation: {x: -.000590570737, y: .0124463104, z: .0335765779, w: .999358535}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Hand
+      position: {x: -.265906572, y: 0, z: -1.1920929e-07}
+      rotation: {x: -.705856502, y: -.0370218493, z: -.0369923823, w: .706418812}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored L Finger0
+      position: {x: -.164865166, y: 0, z: -1.49011612e-08}
+      rotation: {x: -.000398158008, y: 3.20142135e-10, z: 1.27467156e-13, w: .99999994}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyArmored L Finger0Nub
+      position: {x: -.0300821662, y: 0, z: -7.4505806e-09}
+      rotation: {x: -1.68802217e-09, y: 5.93718186e-09, z: 1.00220947e-17, w: 1}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored R Clavicle
+      position: {x: .00029528141, y: -.0581749976, z: -.0366258845}
+      rotation: {x: .698445141, y: -.110337831, z: .698445141, w: .110337831}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored R UpperArm
+      position: {x: -.227030247, y: 0, z: 0}
+      rotation: {x: -.00415366283, y: .0400264151, z: .0056406674, w: .999174118}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Forearm
+      position: {x: -.254976988, y: -7.4505806e-09, z: 0}
+      rotation: {x: 4.65648131e-10, y: 3.5059399e-12, z: .00752894813, w: .999971688}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyArmored R Hand
+      position: {x: -.275800675, y: 7.4505806e-09, z: 1.1920929e-07}
+      rotation: {x: .705360711, y: .0418732055, z: -.0417706594, w: .706376731}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyArmored R Finger0
+      position: {x: -.148313224, y: 0, z: 1.49011612e-08}
+      rotation: {x: .000398159958, y: -4.6566126e-10, z: 1.85407679e-13, w: .99999994}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyArmored R Finger0Nub
+      position: {x: -.0300821662, y: 0, z: 0}
+      rotation: {x: 1.74622983e-10, y: 2.32830644e-10, z: 1, w: 6.1191685e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8b5953d24ce88de41b4c180a617ee1b4,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 99be6893b9fe58d42b389ad2302e0e81
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Juggernaut
+    100004: Juggernaut 1
+    100006: Juggernaut Footsteps
+    100008: Juggernaut Head
+    100010: Juggernaut HeadNub
+    100012: Juggernaut L Calf
+    100014: Juggernaut L Clavicle
+    100016: Juggernaut L Finger0
+    100018: Juggernaut L Finger0Nub
+    100020: Juggernaut L Foot
+    100022: Juggernaut L Forearm
+    100024: Juggernaut L Hand
+    100026: Juggernaut L Thigh
+    100028: Juggernaut L Toe0
+    100030: Juggernaut L Toe01
+    100032: Juggernaut L Toe0Nub
+    100034: Juggernaut L UpperArm
+    100036: Juggernaut Neck
+    100038: Juggernaut Pelvis
+    100040: Juggernaut R Calf
+    100042: Juggernaut R Clavicle
+    100044: Juggernaut R Finger0
+    100046: Juggernaut R Finger0Nub
+    100048: Juggernaut R Foot
+    100050: Juggernaut R Forearm
+    100052: Juggernaut R Hand
+    100054: Juggernaut R Thigh
+    100056: Juggernaut R Toe0
+    100058: Juggernaut R Toe01
+    100060: Juggernaut R Toe0Nub
+    100062: Juggernaut R UpperArm
+    100064: Juggernaut Spine
+    100066: Juggernaut Spine1
+    100068: MiniGun
+    100070: Root
+    100072: EnemyJuggernaut
+    100074: EnemyJuggernaut Bip
+    100076: EnemyJuggernaut Footsteps
+    100078: EnemyJuggernaut Head
+    100080: EnemyJuggernaut HeadNub
+    100082: EnemyJuggernaut L Calf
+    100084: EnemyJuggernaut L Clavicle
+    100086: EnemyJuggernaut L Finger0
+    100088: EnemyJuggernaut L Finger0Nub
+    100090: EnemyJuggernaut L Foot
+    100092: EnemyJuggernaut L Forearm
+    100094: EnemyJuggernaut L Hand
+    100096: EnemyJuggernaut L Thigh
+    100098: EnemyJuggernaut L Toe0
+    100100: EnemyJuggernaut L Toe01
+    100102: EnemyJuggernaut L Toe0Nub
+    100104: EnemyJuggernaut L UpperArm
+    100106: EnemyJuggernaut Neck
+    100108: EnemyJuggernaut Pelvis
+    100110: EnemyJuggernaut R Calf
+    100112: EnemyJuggernaut R Clavicle
+    100114: EnemyJuggernaut R Finger0
+    100116: EnemyJuggernaut R Finger0Nub
+    100118: EnemyJuggernaut R Foot
+    100120: EnemyJuggernaut R Forearm
+    100122: EnemyJuggernaut R Hand
+    100124: EnemyJuggernaut R Thigh
+    100126: EnemyJuggernaut R Toe0
+    100128: EnemyJuggernaut R Toe01
+    100130: EnemyJuggernaut R Toe0Nub
+    100132: EnemyJuggernaut R UpperArm
+    100134: EnemyJuggernaut Spine
+    100136: EnemyJuggernaut Spine1
+    100138: EnemyJuggernautWeapon
+    100140: EnemyJuggernautWeaponFire1_Dummy
+    100142: EnemyJuggernautWeaponShell1_Dummy
+    100144: WeaponDummy
+    400000: //RootNode
+    400002: Juggernaut
+    400004: Juggernaut 1
+    400006: Juggernaut Footsteps
+    400008: Juggernaut Head
+    400010: Juggernaut HeadNub
+    400012: Juggernaut L Calf
+    400014: Juggernaut L Clavicle
+    400016: Juggernaut L Finger0
+    400018: Juggernaut L Finger0Nub
+    400020: Juggernaut L Foot
+    400022: Juggernaut L Forearm
+    400024: Juggernaut L Hand
+    400026: Juggernaut L Thigh
+    400028: Juggernaut L Toe0
+    400030: Juggernaut L Toe01
+    400032: Juggernaut L Toe0Nub
+    400034: Juggernaut L UpperArm
+    400036: Juggernaut Neck
+    400038: Juggernaut Pelvis
+    400040: Juggernaut R Calf
+    400042: Juggernaut R Clavicle
+    400044: Juggernaut R Finger0
+    400046: Juggernaut R Finger0Nub
+    400048: Juggernaut R Foot
+    400050: Juggernaut R Forearm
+    400052: Juggernaut R Hand
+    400054: Juggernaut R Thigh
+    400056: Juggernaut R Toe0
+    400058: Juggernaut R Toe01
+    400060: Juggernaut R Toe0Nub
+    400062: Juggernaut R UpperArm
+    400064: Juggernaut Spine
+    400066: Juggernaut Spine1
+    400068: MiniGun
+    400070: Root
+    400072: EnemyJuggernaut
+    400074: EnemyJuggernaut Bip
+    400076: EnemyJuggernaut Footsteps
+    400078: EnemyJuggernaut Head
+    400080: EnemyJuggernaut HeadNub
+    400082: EnemyJuggernaut L Calf
+    400084: EnemyJuggernaut L Clavicle
+    400086: EnemyJuggernaut L Finger0
+    400088: EnemyJuggernaut L Finger0Nub
+    400090: EnemyJuggernaut L Foot
+    400092: EnemyJuggernaut L Forearm
+    400094: EnemyJuggernaut L Hand
+    400096: EnemyJuggernaut L Thigh
+    400098: EnemyJuggernaut L Toe0
+    400100: EnemyJuggernaut L Toe01
+    400102: EnemyJuggernaut L Toe0Nub
+    400104: EnemyJuggernaut L UpperArm
+    400106: EnemyJuggernaut Neck
+    400108: EnemyJuggernaut Pelvis
+    400110: EnemyJuggernaut R Calf
+    400112: EnemyJuggernaut R Clavicle
+    400114: EnemyJuggernaut R Finger0
+    400116: EnemyJuggernaut R Finger0Nub
+    400118: EnemyJuggernaut R Foot
+    400120: EnemyJuggernaut R Forearm
+    400122: EnemyJuggernaut R Hand
+    400124: EnemyJuggernaut R Thigh
+    400126: EnemyJuggernaut R Toe0
+    400128: EnemyJuggernaut R Toe01
+    400130: EnemyJuggernaut R Toe0Nub
+    400132: EnemyJuggernaut R UpperArm
+    400134: EnemyJuggernaut Spine
+    400136: EnemyJuggernaut Spine1
+    400138: EnemyJuggernautWeapon
+    400140: EnemyJuggernautWeaponFire1_Dummy
+    400142: EnemyJuggernautWeaponShell1_Dummy
+    400144: WeaponDummy
+    2300000: Juggernaut
+    2300002: MiniGun
+    2300004: Root
+    2300006: EnemyJuggernautWeapon
+    3300000: Juggernaut
+    3300002: MiniGun
+    3300004: Root
+    3300006: EnemyJuggernautWeapon
+    4300000: Juggernaut
+    4300002: Root
+    4300004: MiniGun
+    4300006: EnemyJuggernaut
+    4300008: EnemyJuggernautWeapon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Juggernaut
+    13700002: EnemyJuggernaut
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: EnemyJuggernaut Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut Neck
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyJuggernaut R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemyJuggernaut(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Bip
+      position: {x: 0, y: 1.22129607, z: 0}
+      rotation: {x: -.500000417, y: -.499999613, z: -.499999613, w: .500000417}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Footsteps
+      position: {x: 1.07700458e-07, y: 1.62528872e-13, z: -1.23194945}
+      rotation: {x: -3.0908609e-08, y: -3.09086481e-08, z: .707107365, w: .707106292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Pelvis
+      position: {x: 0, y: 0, z: .0476118326}
+      rotation: {x: .500000775, y: .499999195, z: -.500000775, w: .499999195}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Spine
+      position: {x: -.159750819, y: -.000231211845, z: 2.21863274e-07}
+      rotation: {x: -2.08047618e-06, y: 6.936761e-07, z: -.000398115313, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Spine1
+      position: {x: -.29029119, y: -.000201915507, z: -5.60032909e-10}
+      rotation: {x: 2.64430405e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut Neck
+      position: {x: -.310443163, y: -8.85600457e-05, z: -2.45637288e-10}
+      rotation: {x: 2.64430405e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Clavicle
+      position: {x: .0288040638, y: -.0705719963, z: -.0624279641}
+      rotation: {x: .642787516, y: .000254872022, z: .766044378, w: -.000305896247}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R UpperArm
+      position: {x: -.247900426, y: 0, z: 0}
+      rotation: {x: -.00481298612, y: -.0470960028, z: -.00230434001, w: .998876154}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyJuggernaut R Forearm
+      position: {x: -.280543774, y: 0, z: 0}
+      rotation: {x: 5.17537437e-11, y: -7.45040118e-09, z: .00694626942, w: .99997586}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemyJuggernaut R Hand
+      position: {x: -.348393261, y: 0, z: 0}
+      rotation: {x: .706825197, y: -5.47616619e-09, z: 5.060381e-09, w: .707388222}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Finger0
+      position: {x: -.245920718, y: 0, z: 7.4505806e-09}
+      rotation: {x: .000398159551, y: -2.3283063e-10, z: 9.27037445e-14, w: .99999994}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: EnemyJuggernaut R Finger0Nub
+      position: {x: -.0348907113, y: -1.1920929e-07, z: 0}
+      rotation: {x: -4.65661287e-10, y: -3.46944695e-18, z: 1, w: -7.4505806e-09}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Clavicle
+      position: {x: .0288040638, y: -.070572339, z: .0624275766}
+      rotation: {x: -.642787516, y: -.000256996689, z: .766044378, w: -.000304113375}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L UpperArm
+      position: {x: -.247900426, y: 7.4505806e-09, z: 0}
+      rotation: {x: .00481306575, y: .0470972471, z: -.002304208, w: .998876095}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyJuggernaut L Forearm
+      position: {x: -.280543804, y: 7.4505806e-09, z: 0}
+      rotation: {x: 4.65650074e-10, y: 3.2346092e-12, z: .00694626989, w: .99997586}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Hand
+      position: {x: -.348393202, y: -7.4505806e-09, z: 0}
+      rotation: {x: -.706825197, y: -5.22931032e-09, z: -5.3074336e-09, w: .707388222}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyJuggernaut L Finger0
+      position: {x: -.245920658, y: -1.1920929e-07, z: 0}
+      rotation: {x: -.000398159522, y: -5.82076574e-11, z: -2.31759344e-14, w: .99999994}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyJuggernaut L Finger0Nub
+      position: {x: -.0348908305, y: -1.1920929e-07, z: -7.4505806e-09}
+      rotation: {x: -1.73472348e-18, y: -2.32830644e-10, z: -7.4505806e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: WeaponDummy
+      position: {x: 1.1920929e-07, y: 1.1920929e-07, z: 1.1920929e-07}
+      rotation: {x: .0805622116, y: -.489399225, z: .868142068, w: .0180973224}
+      scale: {x: 2.25418663, y: 2.25418568, z: 2.25418711}
+      transformModified: 1
+    - name: EnemyJuggernautWeapon
+      position: {x: .130065739, y: -.00290223956, z: -.063179791}
+      rotation: {x: .0833586901, y: -.225427553, z: -.823937774, w: .513186395}
+      scale: {x: .5668118, y: .566811562, z: .566811323}
+      transformModified: 1
+    - name: EnemyJuggernautWeaponFire1_Dummy
+      position: {x: 1.1920929e-07, y: .609543681, z: -.0152360201}
+      rotation: {x: 1.14235156e-07, y: 8.56763904e-08, z: 9.28160659e-08, w: 1}
+      scale: {x: .782656908, y: .782657385, z: .782657504}
+      transformModified: 1
+    - name: EnemyJuggernautWeaponShell1_Dummy
+      position: {x: -.00516667962, y: .113685578, z: -.15724802}
+      rotation: {x: .0833588541, y: -.225427717, z: -.823937714, w: .513186455}
+      scale: {x: .4436194, y: .443619221, z: .443619043}
+      transformModified: 1
+    - name: EnemyJuggernaut Head
+      position: {x: -.0543564558, y: -1.16415322e-10, z: 0}
+      rotation: {x: -1.60054245e-14, y: -1.10427345e-09, z: .000398830569, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut HeadNub
+      position: {x: -.208638668, y: 2.27373675e-13, z: -4.06575815e-20}
+      rotation: {x: 1.24504938e-19, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Thigh
+      position: {x: .159750581, y: .000358666584, z: -.111650504}
+      rotation: {x: .0536680929, y: .997863531, z: -.00213689962, w: -.037196368}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Calf
+      position: {x: -.480199277, y: 0, z: 0}
+      rotation: {x: 4.85580798e-10, y: -3.72274589e-09, z: .00534888869, w: .999985695}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Foot
+      position: {x: -.57924974, y: 0, z: 0}
+      rotation: {x: -.00232240767, y: -.037185248, z: -.0594020002, w: .997538626}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyJuggernaut R Toe0
+      position: {x: -.182326287, y: .234645933, z: 1.49011612e-08}
+      rotation: {x: -1.54543116e-08, y: 1.54543116e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Toe01
+      position: {x: -.0167475715, y: 0, z: 1.49011612e-08}
+      rotation: {x: 0, y: 2.86604164e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut R Toe0Nub
+      position: {x: -.016747579, y: 0, z: -1.49011612e-08}
+      rotation: {x: 0, y: 2.86604164e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Thigh
+      position: {x: .159750581, y: .000358047255, z: .111650504}
+      rotation: {x: .0536681935, y: .997863531, z: .00213966193, w: .0371961296}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Calf
+      position: {x: -.480199218, y: 1.49011612e-08, z: 0}
+      rotation: {x: -4.65654654e-10, y: -2.49077235e-12, z: .00534889242, w: .999985695}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Foot
+      position: {x: -.579249799, y: 0, z: 0}
+      rotation: {x: .00232240208, y: .0371851623, z: -.0594020002, w: .997538626}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Toe0
+      position: {x: -.182326287, y: .234645933, z: 1.49011612e-08}
+      rotation: {x: 1.54543134e-08, y: -1.54543134e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Toe01
+      position: {x: -.0167475715, y: 0, z: 1.49011612e-08}
+      rotation: {x: 0, y: -2.86601581e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyJuggernaut L Toe0Nub
+      position: {x: -.016747579, y: 0, z: -1.49011612e-08}
+      rotation: {x: -2.86601581e-15, y: 1.75492855e-31, z: 1, w: 6.12323426e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

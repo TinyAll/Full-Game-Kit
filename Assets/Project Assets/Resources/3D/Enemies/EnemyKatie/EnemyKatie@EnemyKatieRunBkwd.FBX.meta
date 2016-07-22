@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: da243522900d19c428fa83949a2f191c
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Player
+    100004: Player Bip
+    100006: Player Head
+    100008: Player HeadNub
+    100010: Player L Calf
+    100012: Player L Clavicle
+    100014: Player L Finger0
+    100016: Player L Finger01
+    100018: Player L Finger0Nub
+    100020: Player L Finger1
+    100022: Player L Finger11
+    100024: Player L Finger1Nub
+    100026: Player L Finger2
+    100028: Player L Finger21
+    100030: Player L Finger2Nub
+    100032: Player L Foot
+    100034: Player L Forearm
+    100036: Player L Hand
+    100038: Player L Thigh
+    100040: Player L Toe0
+    100042: Player L Toe01
+    100044: Player L Toe0Nub
+    100046: Player L UpperArm
+    100048: Player LeftBoob
+    100050: Player LeftBoobNub
+    100052: Player Neck
+    100054: Player Pelvis
+    100056: Player Ponytail1
+    100058: Player Ponytail11
+    100060: Player Ponytail12
+    100062: Player Ponytail1Nub
+    100064: Player Ponytail2
+    100066: Player Ponytail2Nub
+    100068: Player R Calf
+    100070: Player R Clavicle
+    100072: Player R Finger0
+    100074: Player R Finger01
+    100076: Player R Finger0Nub
+    100078: Player R Finger1
+    100080: Player R Finger11
+    100082: Player R Finger1Nub
+    100084: Player R Finger2
+    100086: Player R Finger21
+    100088: Player R Finger2Nub
+    100090: Player R Foot
+    100092: Player R Forearm
+    100094: Player R Hand
+    100096: Player R Thigh
+    100098: Player R Toe0
+    100100: Player R Toe01
+    100102: Player R Toe0Nub
+    100104: Player R UpperArm
+    100106: Player RightBoob
+    100108: Player RightBoobNub
+    100110: Player Spine
+    100112: Player Spine1
+    100114: Player Spine2
+    100116: EnemyKatie
+    100118: EnemyKatie Bip
+    100120: EnemyKatie Bip Head
+    100122: EnemyKatie Bip HeadNub
+    100124: EnemyKatie Bip L Calf
+    100126: EnemyKatie Bip L Clavicle
+    100128: EnemyKatie Bip L Finger0
+    100130: EnemyKatie Bip L Finger01
+    100132: EnemyKatie Bip L Finger0Nub
+    100134: EnemyKatie Bip L Finger1
+    100136: EnemyKatie Bip L Finger11
+    100138: EnemyKatie Bip L Finger1Nub
+    100140: EnemyKatie Bip L Finger2
+    100142: EnemyKatie Bip L Finger21
+    100144: EnemyKatie Bip L Finger2Nub
+    100146: EnemyKatie Bip L Foot
+    100148: EnemyKatie Bip L Forearm
+    100150: EnemyKatie Bip L Hand
+    100152: EnemyKatie Bip L Thigh
+    100154: EnemyKatie Bip L Toe0
+    100156: EnemyKatie Bip L Toe01
+    100158: EnemyKatie Bip L Toe0Nub
+    100160: EnemyKatie Bip L UpperArm
+    100162: EnemyKatie Bip LeftBoob
+    100164: EnemyKatie Bip LeftBoobNub
+    100166: EnemyKatie Bip Neck
+    100168: EnemyKatie Bip Pelvis
+    100170: EnemyKatie Bip Ponytail1
+    100172: EnemyKatie Bip Ponytail11
+    100174: EnemyKatie Bip Ponytail12
+    100176: EnemyKatie Bip Ponytail1Nub
+    100178: EnemyKatie Bip Ponytail2
+    100180: EnemyKatie Bip Ponytail2Nub
+    100182: EnemyKatie Bip R Calf
+    100184: EnemyKatie Bip R Clavicle
+    100186: EnemyKatie Bip R Finger0
+    100188: EnemyKatie Bip R Finger01
+    100190: EnemyKatie Bip R Finger0Nub
+    100192: EnemyKatie Bip R Finger1
+    100194: EnemyKatie Bip R Finger11
+    100196: EnemyKatie Bip R Finger1Nub
+    100198: EnemyKatie Bip R Finger2
+    100200: EnemyKatie Bip R Finger21
+    100202: EnemyKatie Bip R Finger2Nub
+    100204: EnemyKatie Bip R Foot
+    100206: EnemyKatie Bip R Forearm
+    100208: EnemyKatie Bip R Hand
+    100210: EnemyKatie Bip R Thigh
+    100212: EnemyKatie Bip R Toe0
+    100214: EnemyKatie Bip R Toe01
+    100216: EnemyKatie Bip R Toe0Nub
+    100218: EnemyKatie Bip R UpperArm
+    100220: EnemyKatie Bip RightBoob
+    100222: EnemyKatie Bip RightBoobNub
+    100224: EnemyKatie Bip Spine
+    100226: EnemyKatie Bip Spine1
+    100228: EnemyKatie Bip Spine2
+    100230: WeaponDummy
+    100232: EnemyKatie Bip Footsteps
+    100234: EnemyKatieRpg
+    100236: EnemyKatieRpgRocket
+    100238: EnemyKatie Footsteps
+    100240: EnemyKatie Head
+    100242: EnemyKatie HeadNub
+    100244: EnemyKatie L Calf
+    100246: EnemyKatie L Clavicle
+    100248: EnemyKatie L Finger0
+    100250: EnemyKatie L Finger01
+    100252: EnemyKatie L Finger0Nub
+    100254: EnemyKatie L Finger1
+    100256: EnemyKatie L Finger11
+    100258: EnemyKatie L Finger1Nub
+    100260: EnemyKatie L Finger2
+    100262: EnemyKatie L Finger21
+    100264: EnemyKatie L Finger2Nub
+    100266: EnemyKatie L Foot
+    100268: EnemyKatie L Forearm
+    100270: EnemyKatie L Hand
+    100272: EnemyKatie L Thigh
+    100274: EnemyKatie L Toe0
+    100276: EnemyKatie L Toe01
+    100278: EnemyKatie L Toe0Nub
+    100280: EnemyKatie L UpperArm
+    100282: EnemyKatie LeftBoob
+    100284: EnemyKatie LeftBoobNub
+    100286: EnemyKatie Neck
+    100288: EnemyKatie Pelvis
+    100290: EnemyKatie Ponytail1
+    100292: EnemyKatie Ponytail11
+    100294: EnemyKatie Ponytail12
+    100296: EnemyKatie Ponytail1Nub
+    100298: EnemyKatie Ponytail2
+    100300: EnemyKatie Ponytail2Nub
+    100302: EnemyKatie R Calf
+    100304: EnemyKatie R Clavicle
+    100306: EnemyKatie R Finger0
+    100308: EnemyKatie R Finger01
+    100310: EnemyKatie R Finger0Nub
+    100312: EnemyKatie R Finger1
+    100314: EnemyKatie R Finger11
+    100316: EnemyKatie R Finger1Nub
+    100318: EnemyKatie R Finger2
+    100320: EnemyKatie R Finger21
+    100322: EnemyKatie R Finger2Nub
+    100324: EnemyKatie R Foot
+    100326: EnemyKatie R Forearm
+    100328: EnemyKatie R Hand
+    100330: EnemyKatie R Thigh
+    100332: EnemyKatie R Toe0
+    100334: EnemyKatie R Toe01
+    100336: EnemyKatie R Toe0Nub
+    100338: EnemyKatie R UpperArm
+    100340: EnemyKatie RightBoob
+    100342: EnemyKatie RightBoobNub
+    100344: EnemyKatie Spine
+    100346: EnemyKatie Spine1
+    100348: EnemyKatie Spine2
+    100350: EnemyKatieWeapon
+    100352: EnemyKatieWeaponFire1_Dummy
+    100354: EnemyKatieWeaponRocket
+    100356: EnemyKatieWeaponShell1_Dummy
+    400000: //RootNode
+    400002: Player
+    400004: Player Bip
+    400006: Player Head
+    400008: Player HeadNub
+    400010: Player L Calf
+    400012: Player L Clavicle
+    400014: Player L Finger0
+    400016: Player L Finger01
+    400018: Player L Finger0Nub
+    400020: Player L Finger1
+    400022: Player L Finger11
+    400024: Player L Finger1Nub
+    400026: Player L Finger2
+    400028: Player L Finger21
+    400030: Player L Finger2Nub
+    400032: Player L Foot
+    400034: Player L Forearm
+    400036: Player L Hand
+    400038: Player L Thigh
+    400040: Player L Toe0
+    400042: Player L Toe01
+    400044: Player L Toe0Nub
+    400046: Player L UpperArm
+    400048: Player LeftBoob
+    400050: Player LeftBoobNub
+    400052: Player Neck
+    400054: Player Pelvis
+    400056: Player Ponytail1
+    400058: Player Ponytail11
+    400060: Player Ponytail12
+    400062: Player Ponytail1Nub
+    400064: Player Ponytail2
+    400066: Player Ponytail2Nub
+    400068: Player R Calf
+    400070: Player R Clavicle
+    400072: Player R Finger0
+    400074: Player R Finger01
+    400076: Player R Finger0Nub
+    400078: Player R Finger1
+    400080: Player R Finger11
+    400082: Player R Finger1Nub
+    400084: Player R Finger2
+    400086: Player R Finger21
+    400088: Player R Finger2Nub
+    400090: Player R Foot
+    400092: Player R Forearm
+    400094: Player R Hand
+    400096: Player R Thigh
+    400098: Player R Toe0
+    400100: Player R Toe01
+    400102: Player R Toe0Nub
+    400104: Player R UpperArm
+    400106: Player RightBoob
+    400108: Player RightBoobNub
+    400110: Player Spine
+    400112: Player Spine1
+    400114: Player Spine2
+    400116: EnemyKatie
+    400118: EnemyKatie Bip
+    400120: EnemyKatie Bip Head
+    400122: EnemyKatie Bip HeadNub
+    400124: EnemyKatie Bip L Calf
+    400126: EnemyKatie Bip L Clavicle
+    400128: EnemyKatie Bip L Finger0
+    400130: EnemyKatie Bip L Finger01
+    400132: EnemyKatie Bip L Finger0Nub
+    400134: EnemyKatie Bip L Finger1
+    400136: EnemyKatie Bip L Finger11
+    400138: EnemyKatie Bip L Finger1Nub
+    400140: EnemyKatie Bip L Finger2
+    400142: EnemyKatie Bip L Finger21
+    400144: EnemyKatie Bip L Finger2Nub
+    400146: EnemyKatie Bip L Foot
+    400148: EnemyKatie Bip L Forearm
+    400150: EnemyKatie Bip L Hand
+    400152: EnemyKatie Bip L Thigh
+    400154: EnemyKatie Bip L Toe0
+    400156: EnemyKatie Bip L Toe01
+    400158: EnemyKatie Bip L Toe0Nub
+    400160: EnemyKatie Bip L UpperArm
+    400162: EnemyKatie Bip LeftBoob
+    400164: EnemyKatie Bip LeftBoobNub
+    400166: EnemyKatie Bip Neck
+    400168: EnemyKatie Bip Pelvis
+    400170: EnemyKatie Bip Ponytail1
+    400172: EnemyKatie Bip Ponytail11
+    400174: EnemyKatie Bip Ponytail12
+    400176: EnemyKatie Bip Ponytail1Nub
+    400178: EnemyKatie Bip Ponytail2
+    400180: EnemyKatie Bip Ponytail2Nub
+    400182: EnemyKatie Bip R Calf
+    400184: EnemyKatie Bip R Clavicle
+    400186: EnemyKatie Bip R Finger0
+    400188: EnemyKatie Bip R Finger01
+    400190: EnemyKatie Bip R Finger0Nub
+    400192: EnemyKatie Bip R Finger1
+    400194: EnemyKatie Bip R Finger11
+    400196: EnemyKatie Bip R Finger1Nub
+    400198: EnemyKatie Bip R Finger2
+    400200: EnemyKatie Bip R Finger21
+    400202: EnemyKatie Bip R Finger2Nub
+    400204: EnemyKatie Bip R Foot
+    400206: EnemyKatie Bip R Forearm
+    400208: EnemyKatie Bip R Hand
+    400210: EnemyKatie Bip R Thigh
+    400212: EnemyKatie Bip R Toe0
+    400214: EnemyKatie Bip R Toe01
+    400216: EnemyKatie Bip R Toe0Nub
+    400218: EnemyKatie Bip R UpperArm
+    400220: EnemyKatie Bip RightBoob
+    400222: EnemyKatie Bip RightBoobNub
+    400224: EnemyKatie Bip Spine
+    400226: EnemyKatie Bip Spine1
+    400228: EnemyKatie Bip Spine2
+    400230: WeaponDummy
+    400232: EnemyKatie Bip Footsteps
+    400234: EnemyKatieRpg
+    400236: EnemyKatieRpgRocket
+    400238: EnemyKatie Footsteps
+    400240: EnemyKatie Head
+    400242: EnemyKatie HeadNub
+    400244: EnemyKatie L Calf
+    400246: EnemyKatie L Clavicle
+    400248: EnemyKatie L Finger0
+    400250: EnemyKatie L Finger01
+    400252: EnemyKatie L Finger0Nub
+    400254: EnemyKatie L Finger1
+    400256: EnemyKatie L Finger11
+    400258: EnemyKatie L Finger1Nub
+    400260: EnemyKatie L Finger2
+    400262: EnemyKatie L Finger21
+    400264: EnemyKatie L Finger2Nub
+    400266: EnemyKatie L Foot
+    400268: EnemyKatie L Forearm
+    400270: EnemyKatie L Hand
+    400272: EnemyKatie L Thigh
+    400274: EnemyKatie L Toe0
+    400276: EnemyKatie L Toe01
+    400278: EnemyKatie L Toe0Nub
+    400280: EnemyKatie L UpperArm
+    400282: EnemyKatie LeftBoob
+    400284: EnemyKatie LeftBoobNub
+    400286: EnemyKatie Neck
+    400288: EnemyKatie Pelvis
+    400290: EnemyKatie Ponytail1
+    400292: EnemyKatie Ponytail11
+    400294: EnemyKatie Ponytail12
+    400296: EnemyKatie Ponytail1Nub
+    400298: EnemyKatie Ponytail2
+    400300: EnemyKatie Ponytail2Nub
+    400302: EnemyKatie R Calf
+    400304: EnemyKatie R Clavicle
+    400306: EnemyKatie R Finger0
+    400308: EnemyKatie R Finger01
+    400310: EnemyKatie R Finger0Nub
+    400312: EnemyKatie R Finger1
+    400314: EnemyKatie R Finger11
+    400316: EnemyKatie R Finger1Nub
+    400318: EnemyKatie R Finger2
+    400320: EnemyKatie R Finger21
+    400322: EnemyKatie R Finger2Nub
+    400324: EnemyKatie R Foot
+    400326: EnemyKatie R Forearm
+    400328: EnemyKatie R Hand
+    400330: EnemyKatie R Thigh
+    400332: EnemyKatie R Toe0
+    400334: EnemyKatie R Toe01
+    400336: EnemyKatie R Toe0Nub
+    400338: EnemyKatie R UpperArm
+    400340: EnemyKatie RightBoob
+    400342: EnemyKatie RightBoobNub
+    400344: EnemyKatie Spine
+    400346: EnemyKatie Spine1
+    400348: EnemyKatie Spine2
+    400350: EnemyKatieWeapon
+    400352: EnemyKatieWeaponFire1_Dummy
+    400354: EnemyKatieWeaponRocket
+    400356: EnemyKatieWeaponShell1_Dummy
+    2300000: Player
+    2300002: EnemyKatie
+    2300004: EnemyKatieRpg
+    2300006: EnemyKatieRpgRocket
+    2300008: EnemyKatieWeapon
+    2300010: EnemyKatieWeaponRocket
+    3300000: Player
+    3300002: EnemyKatie
+    3300004: EnemyKatieRpg
+    3300006: EnemyKatieRpgRocket
+    3300008: EnemyKatieWeapon
+    3300010: EnemyKatieWeaponRocket
+    4300000: Player
+    4300002: EnemyKatie
+    4300004: EnemyKatieRpg
+    4300006: EnemyKatieRpgRocket
+    4300008: EnemyKatieWeapon
+    4300010: EnemyKatieWeaponRocket
+    7400000: EnemyKatieRunBkwd
+    9500000: //RootNode
+    13700000: EnemyKatie
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "MuscleClip 'EnemyKatie@EnemyKatieRunBkwd' conversion
+      warning: Bone length is different in avatar and animation\n\n     'EnemyKatie
+      L Thigh' : position error = 32.758835 mm\n\n     'EnemyKatie R Thigh' : position
+      error = 50.485668 mm\n\nMuscleClip 'EnemyKatie@EnemyKatieRunBkwd'conversion
+      warning: 'EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine' has translation
+      animation. It is not supported.\n\nMuscleClip 'EnemyKatie@EnemyKatieRunBkwd'
+      conversion warning: 'EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine' is between
+      humanoid transforms and has rotation animation. This might lower retargeting
+      quality.\n\nMuscleClip 'EnemyKatie@EnemyKatieRunBkwd'conversion warning: 'EnemyKatie
+      Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh' has translation animation.
+      It is not supported.\n\nMuscleClip 'EnemyKatie@EnemyKatieRunBkwd'conversion
+      warning: 'EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh'
+      has translation animation. It is not supported.\n\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EnemyKatieRunBkwd
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemyKatie
+        weight: 1
+      - path: EnemyKatie Bip
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Footsteps
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh/EnemyKatie
+          L Calf
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh/EnemyKatie
+          L Calf/EnemyKatie L Foot
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh/EnemyKatie
+          L Calf/EnemyKatie L Foot/EnemyKatie L Toe0
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh/EnemyKatie
+          L Calf/EnemyKatie L Foot/EnemyKatie L Toe0/EnemyKatie L Toe01
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie L Thigh/EnemyKatie
+          L Calf/EnemyKatie L Foot/EnemyKatie L Toe0/EnemyKatie L Toe01/EnemyKatie
+          L Toe0Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh/EnemyKatie
+          R Calf
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh/EnemyKatie
+          R Calf/EnemyKatie R Foot
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh/EnemyKatie
+          R Calf/EnemyKatie R Foot/EnemyKatie R Toe0
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh/EnemyKatie
+          R Calf/EnemyKatie R Foot/EnemyKatie R Toe0/EnemyKatie R Toe01
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie R Thigh/EnemyKatie
+          R Calf/EnemyKatie R Foot/EnemyKatie R Toe0/EnemyKatie R Toe01/EnemyKatie
+          R Toe0Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie LeftBoob
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie LeftBoob/EnemyKatie LeftBoobNub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie HeadNub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail1
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail1/EnemyKatie Ponytail11
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail1/EnemyKatie Ponytail11/EnemyKatie
+          Ponytail12
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail1/EnemyKatie Ponytail11/EnemyKatie
+          Ponytail12/EnemyKatie Ponytail1Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail2
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie Head/EnemyKatie Ponytail2/EnemyKatie Ponytail2Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger0
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger0/EnemyKatie L Finger01
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger0/EnemyKatie L Finger01/EnemyKatie
+          L Finger0Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger1
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger1/EnemyKatie L Finger11
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger1/EnemyKatie L Finger11/EnemyKatie
+          L Finger1Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger2
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger2/EnemyKatie L Finger21
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie L Clavicle/EnemyKatie L UpperArm/EnemyKatie
+          L Forearm/EnemyKatie L Hand/EnemyKatie L Finger2/EnemyKatie L Finger21/EnemyKatie
+          L Finger2Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger0
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger0/EnemyKatie R Finger01
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger0/EnemyKatie R Finger01/EnemyKatie
+          R Finger0Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger1
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger1/EnemyKatie R Finger11
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger1/EnemyKatie R Finger11/EnemyKatie
+          R Finger1Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger2
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger2/EnemyKatie R Finger21
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/EnemyKatie R Finger2/EnemyKatie R Finger21/EnemyKatie
+          R Finger2Nub
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/WeaponDummy
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/WeaponDummy/EnemyKatieWeapon
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/WeaponDummy/EnemyKatieWeapon/EnemyKatieWeaponFire1_Dummy
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/WeaponDummy/EnemyKatieWeapon/EnemyKatieWeaponRocket
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie Neck/EnemyKatie R Clavicle/EnemyKatie R UpperArm/EnemyKatie
+          R Forearm/EnemyKatie R Hand/WeaponDummy/EnemyKatieWeapon/EnemyKatieWeaponShell1_Dummy
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie RightBoob
+        weight: 1
+      - path: EnemyKatie Bip/EnemyKatie Pelvis/EnemyKatie Spine/EnemyKatie Spine1/EnemyKatie
+          Spine2/EnemyKatie RightBoob/EnemyKatie RightBoobNub
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: EnemyKatie Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger2
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie R Finger21
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyKatie L Finger21
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemyKatie(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie
+      position: {x: -.00479614735, y: 0, z: -6.03182784e-08}
+      rotation: {x: -.707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Bip
+      position: {x: 0, y: .935137987, z: 0}
+      rotation: {x: -.5, y: -.5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Footsteps
+      position: {x: -0, y: 0, z: -.922739983}
+      rotation: {x: 0, y: 0, z: .707107306, w: .707106292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .500000358, y: .499999642, z: -.500000358, w: .499999642}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Spine
+      position: {x: -.0958330631, y: -.000114413342, z: 1.33059984e-07}
+      rotation: {x: -2.11387123e-06, y: 7.29000703e-07, z: -.0527335219, w: .998608649}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Thigh
+      position: {x: .0952880383, y: .0102071539, z: -.0901649743}
+      rotation: {x: -.0528704524, y: .996137321, z: -.0693118721, w: -.0105395028}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie R Calf
+      position: {x: -.364882052, y: 9.31322575e-10, z: 7.4505806e-09}
+      rotation: {x: 2.60079691e-09, y: 2.97462077e-09, z: .0668984056, w: .997759819}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Foot
+      position: {x: -.416613966, y: -7.4505806e-09, z: -7.4505806e-09}
+      rotation: {x: .0175559558, y: -.0153115783, z: -.0653816685, w: .997588396}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatie R Toe0
+      position: {x: -.145147994, y: .123318002, z: 7.4505806e-09}
+      rotation: {x: -1.15520683e-16, y: -1.15520683e-16, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Toe01
+      position: {x: -.0699359924, y: 0, z: 0}
+      rotation: {x: 0, y: -1.63370897e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Toe0Nub
+      position: {x: -.0124980062, y: 0, z: 0}
+      rotation: {x: 0, y: -1.63370897e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Spine1
+      position: {x: -.144402146, y: -.000112481415, z: -3.11985104e-10}
+      rotation: {x: -1.04510557e-13, y: -2.89921275e-07, z: .104528844, w: .994521856}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Spine2
+      position: {x: -.144425988, y: -.000115022063, z: -3.18976845e-10}
+      rotation: {x: 5.5067062e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Neck
+      position: {x: -.228807569, y: -.0324726552, z: -9.00661803e-08}
+      rotation: {x: 2.6392886e-14, y: 6.2392462e-07, z: -.224951178, w: .974370062}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Head
+      position: {x: -.0486809015, y: -.0037317872, z: -1.03505045e-08}
+      rotation: {x: -1.46861188e-13, y: -3.39112091e-07, z: .122264907, w: .992497504}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie HeadNub
+      position: {x: -.195809007, y: 0, z: -5.68434189e-14}
+      rotation: {x: 7.9936051e-14, y: -1.4210853e-14, z: 1.13595941e-27, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Ponytail2
+      position: {x: -.0992680788, y: .139328822, z: 9.63282037e-06}
+      rotation: {x: -.0182981044, y: -.0495658256, z: .995183945, w: -.0825674832}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie Ponytail2Nub
+      position: {x: -.108319879, y: 0, z: 3.7252903e-09}
+      rotation: {x: .707388282, y: -.706825197, z: -9.77585614e-07, w: -9.74174441e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Ponytail1
+      position: {x: -.0650005341, y: -.0649177432, z: -1.8005619e-07}
+      rotation: {x: -1.92068388e-12, y: -2.77295021e-06, z: .999765694, w: .0216470398}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Ponytail11
+      position: {x: -.108335614, y: -8.48174095e-05, z: -2.35331754e-10}
+      rotation: {x: 3.08838811e-13, y: 2.52223742e-07, z: -.0909373015, w: .995856643}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Ponytail12
+      position: {x: -.108282924, y: -7.78436661e-05, z: -2.16004992e-10}
+      rotation: {x: 8.44030588e-14, y: -6.13659267e-07, z: .221250102, w: .975217104}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: EnemyKatie Ponytail1Nub
+      position: {x: -.108319879, y: 0, z: 0}
+      rotation: {x: .707388282, y: -.706825256, z: -9.80225423e-07, w: -9.81006224e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Clavicle
+      position: {x: .0516409874, y: .0625407696, z: -.0291628279}
+      rotation: {x: .599826694, y: .138731554, z: .767743587, w: -.177570462}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R UpperArm
+      position: {x: -.100032985, y: 0, z: 0}
+      rotation: {x: -.05738369, y: -.0895405859, z: -.00928350911, w: .994285464}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie R Forearm
+      position: {x: -.221673995, y: 1.86264515e-09, z: 0}
+      rotation: {x: .000243782968, y: -.00617257319, z: .0320228562, w: .999468029}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Hand
+      position: {x: -.272114038, y: -5.58793545e-09, z: 0}
+      rotation: {x: .706825256, y: -1.02117665e-08, z: 1.08619203e-08, w: .707388282}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: WeaponDummy
+      position: {x: -0, y: 0, z: -2.42143869e-07}
+      rotation: {x: 3.22237582e-07, y: 4.65670724e-10, z: 2.98023117e-08, w: 1}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatieWeapon
+      position: {x: -.200828701, y: .0113214254, z: -.00306427479}
+      rotation: {x: -.116608523, y: -.110993855, z: .697841644, w: .697925448}
+      scale: {x: .999999821, y: .999999702, z: 1}
+      transformModified: 1
+    - name: EnemyKatieWeaponFire1_Dummy
+      position: {x: .0238642693, y: .323338717, z: .124057591}
+      rotation: {x: 3.67703706e-07, y: -4.15474204e-07, z: -.681998253, w: .731353819}
+      scale: {x: 1.00000036, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatieWeaponRocket
+      position: {x: .0232636929, y: .315756559, z: .124058016}
+      rotation: {x: -1.86264515e-09, y: -9.31322686e-10, z: -1.73472368e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatieWeaponShell1_Dummy
+      position: {x: .0277783871, y: -.678148627, z: .124057584}
+      rotation: {x: 3.67703706e-07, y: -4.15474204e-07, z: -.681998253, w: .731353819}
+      scale: {x: 1.00000036, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatie R Finger0
+      position: {x: -.0523799658, y: -.00268161297, z: .0283238757}
+      rotation: {x: -.692416668, y: .292026073, z: .28815192, w: .593505144}
+      scale: {x: 1.00000036, y: .99999994, z: 1.0000006}
+      transformModified: 1
+    - name: EnemyKatie R Finger01
+      position: {x: -.0410700142, y: -5.96046448e-08, z: 1.1920929e-07}
+      rotation: {x: -2.670138e-10, y: -1.48987693e-08, z: -.0179189928, w: .999839485}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: EnemyKatie R Finger0Nub
+      position: {x: -.0267159939, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 1, w: 1.86264515e-08}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: EnemyKatie R Finger1
+      position: {x: -.101911902, y: -.00128543377, z: .0270449873}
+      rotation: {x: .0243068226, y: .030722972, z: .00257722917, w: .999229014}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie R Finger11
+      position: {x: -.0322669446, y: 0, z: 0}
+      rotation: {x: -1.03879074e-07, y: 1.57786587e-07, z: -.0347910896, w: .999394655}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: EnemyKatie R Finger1Nub
+      position: {x: -.0431379974, y: 0, z: 0}
+      rotation: {x: -3.7252903e-09, y: -5.55111512e-17, z: 1, w: -1.49011612e-08}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: EnemyKatie R Finger2
+      position: {x: -.102285922, y: -.000828146935, z: -.00738366507}
+      rotation: {x: .064035356, y: -.0329685844, z: -.0532958023, w: .995977998}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: EnemyKatie R Finger21
+      position: {x: -.0338780284, y: 0, z: 0}
+      rotation: {x: -.00153186393, y: .00298291259, z: -.0390927196, w: .999229968}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie R Finger2Nub
+      position: {x: -.0389980674, y: 0, z: -1.49011612e-08}
+      rotation: {x: 3.7252903e-09, y: -3.72529074e-09, z: 1, w: 7.51101304e-17}
+      scale: {x: -1, y: -.99999994, z: -1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Clavicle
+      position: {x: .0516409874, y: .0625406504, z: .0291631706}
+      rotation: {x: -.59982717, y: -.138733685, z: .76774323, w: -.177568808}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatie L UpperArm
+      position: {x: -.100032985, y: 0, z: 2.38418579e-07}
+      rotation: {x: .0573837273, y: .0895419195, z: -.00928344764, w: .994285285}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatie L Forearm
+      position: {x: -.221673936, y: 1.86264515e-09, z: 0}
+      rotation: {x: -.000243824499, y: .00617261976, z: .0320228301, w: .999468088}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Hand
+      position: {x: -.272114038, y: -1.86264515e-09, z: 0}
+      rotation: {x: -.706825256, y: 1.31656475e-09, z: -1.31761357e-09, w: .707388282}
+      scale: {x: .999999881, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: EnemyKatie L Finger0
+      position: {x: -.0523799658, y: -.00268149376, z: -.0283238757}
+      rotation: {x: .746662676, y: -.135007054, z: .144042298, w: .63523221}
+      scale: {x: 1.00000024, y: .999999762, z: 1.0000006}
+      transformModified: 1
+    - name: EnemyKatie L Finger01
+      position: {x: -.0410699546, y: 2.98023224e-08, z: -1.1920929e-07}
+      rotation: {x: 1.46317563e-08, y: -1.51657851e-08, z: -.0179190077, w: .999839485}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: EnemyKatie L Finger0Nub
+      position: {x: -.0267160237, y: 2.98023224e-08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Finger1
+      position: {x: -.101911962, y: -.00128555298, z: -.0270449873}
+      rotation: {x: -.0242501386, y: -.0474578738, z: .00265574595, w: .99857533}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Finger11
+      position: {x: -.0322670043, y: -1.1920929e-07, z: -7.4505806e-09}
+      rotation: {x: -9.53660901e-08, y: -3.47017277e-07, z: -.0347885303, w: .999394774}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Finger1Nub
+      position: {x: -.0431379378, y: 0, z: 1.49011612e-08}
+      rotation: {x: -3.72529074e-09, y: -5.55111578e-17, z: 1.49011612e-08, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Finger2
+      position: {x: -.102285981, y: -.000828146935, z: .00738366507}
+      rotation: {x: -.0716406927, y: -.0603337139, z: -.0392002203, w: .994832039}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Finger21
+      position: {x: -.0338779688, y: 0, z: 0}
+      rotation: {x: .00153167162, y: -.00298326509, z: -.0390916578, w: .999230027}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Finger2Nub
+      position: {x: -.0389980376, y: 0, z: 0}
+      rotation: {x: 3.72528985e-09, y: 5.55111446e-17, z: 1.49011612e-08, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: EnemyKatie RightBoob
+      position: {x: -.0350092649, y: .0467403531, z: -.0599998832}
+      rotation: {x: -.119755276, y: -.100647345, z: -.756613374, w: .634873986}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie RightBoobNub
+      position: {x: -.108320013, y: 0, z: 0}
+      rotation: {x: .707388282, y: -.706825256, z: -9.7277632e-07, w: -9.89693376e-07}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie LeftBoob
+      position: {x: -.0350092649, y: .0467410237, z: .060000129}
+      rotation: {x: .119753562, y: .100653842, z: -.756613135, w: .634873629}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie LeftBoobNub
+      position: {x: -.108320013, y: 0, z: 7.4505806e-09}
+      rotation: {x: .707388282, y: -.706825256, z: -9.91042043e-07, w: -9.6746021e-07}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Thigh
+      position: {x: .0952880383, y: .0102066547, z: .090165019}
+      rotation: {x: -.0528704152, y: .996137142, z: .0693146214, w: .0105395634}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: EnemyKatie L Calf
+      position: {x: -.364882052, y: 9.31322575e-10, z: 0}
+      rotation: {x: 1.23230293e-09, y: -2.71761702e-09, z: .0668984056, w: .997759819}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Foot
+      position: {x: -.416613996, y: -3.7252903e-09, z: 7.4505806e-09}
+      rotation: {x: -.0175559688, y: .0153114926, z: -.0653816834, w: .997588396}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: EnemyKatie L Toe0
+      position: {x: -.145147994, y: .123318017, z: 0}
+      rotation: {x: 1.15522496e-16, y: 1.15522496e-16, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Toe01
+      position: {x: -.0699359849, y: 0, z: 7.4505806e-09}
+      rotation: {x: 0, y: 1.63373465e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EnemyKatie L Toe0Nub
+      position: {x: -.0124980062, y: 0, z: 0}
+      rotation: {x: 1.63373465e-16, y: -1.00037398e-32, z: 1, w: 6.12323426e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: EnemyKatie Bip
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7dd2f8cc5a2ff62429dc5c30755b1b89,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 71bfbea41af998e46a1600abd7797f3e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BuildingEnterA
+    100002: BuildingEnterB
+    100004: BuildingHighA
+    100006: BuildingHighB
+    100008: BuildingHighC
+    100010: BuildingHighD
+    100012: BuildingHighE
+    100014: BuildingHighF
+    100016: BuildingHighG
+    100018: BuildingLowA
+    100020: BuildingLowB
+    100022: BuildingLowC
+    100024: BuildingLowD
+    100026: BuildingLowE
+    100028: BuildingLowF
+    100030: BuildingLowG
+    100032: BuildingLowH
+    100034: BuildingMidA
+    100036: BuildingMidB
+    100038: BuildingMidC
+    100040: BuildingMidD
+    100042: BuildingMidE
+    100044: BuildingMidF
+    100046: BuildingMidG
+    100048: BuildingRooftopsOfficeA
+    100050: BuildingRooftopsOfficeB
+    100052: //RootNode
+    100054: BuildingHighSpecialA1
+    100056: BuildingHighSpecialA2
+    100058: BuildingHighSpecialA3
+    100060: BuildingHighSpecialB1
+    100062: BuildingHighSpecialB2
+    100064: BuildingHighSpecialB3
+    100066: BuildingHighSpecialB4
+    100068: BuildingHighSpecialEnterA1
+    100070: BuildingHighSpecialEnterA2
+    100072: BuildingHighSpecialEnterA3
+    100074: BuildingMidSpecialA1
+    100076: BuildingMidSpecialA2
+    100078: BuildingMidSpecialA3
+    100080: BuildingMidSpecialA4
+    100082: BuildingMidSpecialA5
+    100084: BuildingMidSpecialB1
+    100086: BuildingMidSpecialB2
+    100088: BuildingMidSpecialB3
+    100090: BuildingMidSpecialB4
+    100092: BuildingMidSpecialB5
+    100094: BuildingParkWallHalf
+    100096: BuildingParkWallNorthCorner
+    100098: BuildingParkWallSouthCorner
+    100100: BuildingParkWallStraight
+    100102: BuildingSpecialEnterA1
+    100104: BuildingSpecialEnterA2
+    100106: BuildingSubwayA
+    100108: BuildingSubwayB
+    100110: BuildingSubwayEntrance
+    100112: BuildingSubwayExit
+    100114: BuildingSubwayExitTransition
+    100116: Particle View 01
+    100118: Particle View 01 1
+    100120: Particle View 01 10
+    100122: Particle View 01 11
+    100124: Particle View 01 12
+    100126: Particle View 01 13
+    100128: Particle View 01 14
+    100130: Particle View 01 15
+    100132: Particle View 01 16
+    100134: Particle View 01 17
+    100136: Particle View 01 18
+    100138: Particle View 01 19
+    100140: Particle View 01 2
+    100142: Particle View 01 20
+    100144: Particle View 01 21
+    100146: Particle View 01 22
+    100148: Particle View 01 23
+    100150: Particle View 01 24
+    100152: Particle View 01 25
+    100154: Particle View 01 26
+    100156: Particle View 01 27
+    100158: Particle View 01 28
+    100160: Particle View 01 29
+    100162: Particle View 01 3
+    100164: Particle View 01 30
+    100166: Particle View 01 31
+    100168: Particle View 01 32
+    100170: Particle View 01 33
+    100172: Particle View 01 34
+    100174: Particle View 01 35
+    100176: Particle View 01 36
+    100178: Particle View 01 37
+    100180: Particle View 01 38
+    100182: Particle View 01 39
+    100184: Particle View 01 4
+    100186: Particle View 01 40
+    100188: Particle View 01 41
+    100190: Particle View 01 5
+    100192: Particle View 01 6
+    100194: Particle View 01 7
+    100196: Particle View 01 8
+    100198: Particle View 01 9
+    100200: BuildingMidToHighA2
+    100202: BuildingsHigh1
+    100204: BuildingsHigh2
+    100206: BuildingsMid1
+    100208: BuildingsMid2
+    100210: BuildingsMidToHigh
+    100212: BuildingsStreetToMid
+    100214: BuildingStreetToMidA1
+    100216: Roof Aligner
+    100218: BuildingsSubway
+    100220: BuildingParkWallCorner
+    100222: BuildingParkWallCornerDouble
+    100224: BuildingParkWallDeadEnd
+    100226: BuildingParkWallEntrance
+    100228: BuildingSubwayEndOfLine
+    400000: BuildingEnterA
+    400002: BuildingEnterB
+    400004: BuildingHighA
+    400006: BuildingHighB
+    400008: BuildingHighC
+    400010: BuildingHighD
+    400012: BuildingHighE
+    400014: BuildingHighF
+    400016: BuildingHighG
+    400018: BuildingLowA
+    400020: BuildingLowB
+    400022: BuildingLowC
+    400024: BuildingLowD
+    400026: BuildingLowE
+    400028: BuildingLowF
+    400030: BuildingLowG
+    400032: BuildingLowH
+    400034: BuildingMidA
+    400036: BuildingMidB
+    400038: BuildingMidC
+    400040: BuildingMidD
+    400042: BuildingMidE
+    400044: BuildingMidF
+    400046: BuildingMidG
+    400048: BuildingRooftopsOfficeA
+    400050: BuildingRooftopsOfficeB
+    400052: //RootNode
+    400054: BuildingHighSpecialA1
+    400056: BuildingHighSpecialA2
+    400058: BuildingHighSpecialA3
+    400060: BuildingHighSpecialB1
+    400062: BuildingHighSpecialB2
+    400064: BuildingHighSpecialB3
+    400066: BuildingHighSpecialB4
+    400068: BuildingHighSpecialEnterA1
+    400070: BuildingHighSpecialEnterA2
+    400072: BuildingHighSpecialEnterA3
+    400074: BuildingMidSpecialA1
+    400076: BuildingMidSpecialA2
+    400078: BuildingMidSpecialA3
+    400080: BuildingMidSpecialA4
+    400082: BuildingMidSpecialA5
+    400084: BuildingMidSpecialB1
+    400086: BuildingMidSpecialB2
+    400088: BuildingMidSpecialB3
+    400090: BuildingMidSpecialB4
+    400092: BuildingMidSpecialB5
+    400094: BuildingParkWallHalf
+    400096: BuildingParkWallNorthCorner
+    400098: BuildingParkWallSouthCorner
+    400100: BuildingParkWallStraight
+    400102: BuildingSpecialEnterA1
+    400104: BuildingSpecialEnterA2
+    400106: BuildingSubwayA
+    400108: BuildingSubwayB
+    400110: BuildingSubwayEntrance
+    400112: BuildingSubwayExit
+    400114: BuildingSubwayExitTransition
+    400116: Particle View 01
+    400118: Particle View 01 1
+    400120: Particle View 01 10
+    400122: Particle View 01 11
+    400124: Particle View 01 12
+    400126: Particle View 01 13
+    400128: Particle View 01 14
+    400130: Particle View 01 15
+    400132: Particle View 01 16
+    400134: Particle View 01 17
+    400136: Particle View 01 18
+    400138: Particle View 01 19
+    400140: Particle View 01 2
+    400142: Particle View 01 20
+    400144: Particle View 01 21
+    400146: Particle View 01 22
+    400148: Particle View 01 23
+    400150: Particle View 01 24
+    400152: Particle View 01 25
+    400154: Particle View 01 26
+    400156: Particle View 01 27
+    400158: Particle View 01 28
+    400160: Particle View 01 29
+    400162: Particle View 01 3
+    400164: Particle View 01 30
+    400166: Particle View 01 31
+    400168: Particle View 01 32
+    400170: Particle View 01 33
+    400172: Particle View 01 34
+    400174: Particle View 01 35
+    400176: Particle View 01 36
+    400178: Particle View 01 37
+    400180: Particle View 01 38
+    400182: Particle View 01 39
+    400184: Particle View 01 4
+    400186: Particle View 01 40
+    400188: Particle View 01 41
+    400190: Particle View 01 5
+    400192: Particle View 01 6
+    400194: Particle View 01 7
+    400196: Particle View 01 8
+    400198: Particle View 01 9
+    400200: BuildingMidToHighA2
+    400202: BuildingsHigh1
+    400204: BuildingsHigh2
+    400206: BuildingsMid1
+    400208: BuildingsMid2
+    400210: BuildingsMidToHigh
+    400212: BuildingsStreetToMid
+    400214: BuildingStreetToMidA1
+    400216: Roof Aligner
+    400218: BuildingsSubway
+    400220: BuildingParkWallCorner
+    400222: BuildingParkWallCornerDouble
+    400224: BuildingParkWallDeadEnd
+    400226: BuildingParkWallEntrance
+    400228: BuildingSubwayEndOfLine
+    2300000: BuildingEnterA
+    2300002: BuildingEnterB
+    2300004: BuildingHighA
+    2300006: BuildingHighB
+    2300008: BuildingHighC
+    2300010: BuildingHighD
+    2300012: BuildingHighE
+    2300014: BuildingHighF
+    2300016: BuildingHighG
+    2300018: BuildingLowA
+    2300020: BuildingLowB
+    2300022: BuildingLowC
+    2300024: BuildingLowD
+    2300026: BuildingLowE
+    2300028: BuildingLowF
+    2300030: BuildingLowG
+    2300032: BuildingLowH
+    2300034: BuildingMidA
+    2300036: BuildingMidB
+    2300038: BuildingMidC
+    2300040: BuildingMidD
+    2300042: BuildingMidE
+    2300044: BuildingMidF
+    2300046: BuildingMidG
+    2300048: BuildingRooftopsOfficeA
+    2300050: BuildingRooftopsOfficeB
+    2300052: BuildingHighSpecialA1
+    2300054: BuildingHighSpecialA2
+    2300056: BuildingHighSpecialA3
+    2300058: BuildingHighSpecialB1
+    2300060: BuildingHighSpecialB2
+    2300062: BuildingHighSpecialB3
+    2300064: BuildingHighSpecialB4
+    2300066: BuildingHighSpecialEnterA1
+    2300068: BuildingHighSpecialEnterA2
+    2300070: BuildingHighSpecialEnterA3
+    2300072: BuildingMidSpecialA1
+    2300074: BuildingMidSpecialA2
+    2300076: BuildingMidSpecialA3
+    2300078: BuildingMidSpecialA4
+    2300080: BuildingMidSpecialA5
+    2300082: BuildingMidSpecialB1
+    2300084: BuildingMidSpecialB2
+    2300086: BuildingMidSpecialB3
+    2300088: BuildingMidSpecialB4
+    2300090: BuildingMidSpecialB5
+    2300092: BuildingParkWallHalf
+    2300094: BuildingParkWallNorthCorner
+    2300096: BuildingParkWallSouthCorner
+    2300098: BuildingParkWallStraight
+    2300100: BuildingSpecialEnterA1
+    2300102: BuildingSpecialEnterA2
+    2300104: BuildingSubwayA
+    2300106: BuildingSubwayB
+    2300108: BuildingSubwayEntrance
+    2300110: BuildingSubwayExit
+    2300112: BuildingSubwayExitTransition
+    2300114: BuildingMidToHighA2
+    2300116: BuildingStreetToMidA1
+    2300118: Roof Aligner
+    2300120: BuildingParkWallCorner
+    2300122: BuildingParkWallCornerDouble
+    2300124: BuildingParkWallDeadEnd
+    2300126: BuildingParkWallEntrance
+    2300128: BuildingSubwayEndOfLine
+    3300000: BuildingEnterA
+    3300002: BuildingEnterB
+    3300004: BuildingHighA
+    3300006: BuildingHighB
+    3300008: BuildingHighC
+    3300010: BuildingHighD
+    3300012: BuildingHighE
+    3300014: BuildingHighF
+    3300016: BuildingHighG
+    3300018: BuildingLowA
+    3300020: BuildingLowB
+    3300022: BuildingLowC
+    3300024: BuildingLowD
+    3300026: BuildingLowE
+    3300028: BuildingLowF
+    3300030: BuildingLowG
+    3300032: BuildingLowH
+    3300034: BuildingMidA
+    3300036: BuildingMidB
+    3300038: BuildingMidC
+    3300040: BuildingMidD
+    3300042: BuildingMidE
+    3300044: BuildingMidF
+    3300046: BuildingMidG
+    3300048: BuildingRooftopsOfficeA
+    3300050: BuildingRooftopsOfficeB
+    3300052: BuildingHighSpecialA1
+    3300054: BuildingHighSpecialA2
+    3300056: BuildingHighSpecialA3
+    3300058: BuildingHighSpecialB1
+    3300060: BuildingHighSpecialB2
+    3300062: BuildingHighSpecialB3
+    3300064: BuildingHighSpecialB4
+    3300066: BuildingHighSpecialEnterA1
+    3300068: BuildingHighSpecialEnterA2
+    3300070: BuildingHighSpecialEnterA3
+    3300072: BuildingMidSpecialA1
+    3300074: BuildingMidSpecialA2
+    3300076: BuildingMidSpecialA3
+    3300078: BuildingMidSpecialA4
+    3300080: BuildingMidSpecialA5
+    3300082: BuildingMidSpecialB1
+    3300084: BuildingMidSpecialB2
+    3300086: BuildingMidSpecialB3
+    3300088: BuildingMidSpecialB4
+    3300090: BuildingMidSpecialB5
+    3300092: BuildingParkWallHalf
+    3300094: BuildingParkWallNorthCorner
+    3300096: BuildingParkWallSouthCorner
+    3300098: BuildingParkWallStraight
+    3300100: BuildingSpecialEnterA1
+    3300102: BuildingSpecialEnterA2
+    3300104: BuildingSubwayA
+    3300106: BuildingSubwayB
+    3300108: BuildingSubwayEntrance
+    3300110: BuildingSubwayExit
+    3300112: BuildingSubwayExitTransition
+    3300114: BuildingMidToHighA2
+    3300116: BuildingStreetToMidA1
+    3300118: Roof Aligner
+    3300120: BuildingParkWallCorner
+    3300122: BuildingParkWallCornerDouble
+    3300124: BuildingParkWallDeadEnd
+    3300126: BuildingParkWallEntrance
+    3300128: BuildingSubwayEndOfLine
+    4300000: BuildingLowH
+    4300002: BuildingMidE
+    4300004: BuildingLowD
+    4300006: BuildingLowE
+    4300008: BuildingLowG
+    4300010: BuildingLowA
+    4300012: BuildingMidC
+    4300014: BuildingLowB
+    4300016: BuildingHighB
+    4300018: BuildingHighE
+    4300020: BuildingHighF
+    4300022: BuildingMidG
+    4300024: BuildingHighG
+    4300026: BuildingHighC
+    4300028: BuildingMidF
+    4300030: BuildingLowC
+    4300032: BuildingLowF
+    4300034: BuildingHighA
+    4300036: BuildingMidB
+    4300038: BuildingMidA
+    4300040: BuildingMidD
+    4300042: BuildingHighD
+    4300044: BuildingEnterA
+    4300046: BuildingEnterB
+    4300048: BuildingRooftopsOfficeA
+    4300050: BuildingRooftopsOfficeB
+    4300052: BuildingParkWallStraight
+    4300054: BuildingSubwayExit
+    4300056: BuildingSubwayEntrance
+    4300058: BuildingSubwayB
+    4300060: BuildingSubwayA
+    4300062: BuildingMidSpecialB1
+    4300064: BuildingMidSpecialB5
+    4300066: BuildingHighSpecialEnterA3
+    4300068: BuildingHighSpecialB1
+    4300070: BuildingHighSpecialA3
+    4300072: BuildingHighSpecialA2
+    4300074: BuildingHighSpecialA1
+    4300076: BuildingParkWallHalf
+    4300078: BuildingMidSpecialA3
+    4300080: BuildingSpecialEnterA2
+    4300082: BuildingParkWallSouthCorner
+    4300084: BuildingSubwayExitTransition
+    4300086: BuildingMidSpecialA1
+    4300088: BuildingMidSpecialB2
+    4300090: BuildingMidSpecialB4
+    4300092: BuildingHighSpecialEnterA1
+    4300094: BuildingHighSpecialB3
+    4300096: BuildingParkWallNorthCorner
+    4300098: BuildingMidSpecialB3
+    4300100: BuildingHighSpecialB4
+    4300102: BuildingHighSpecialB2
+    4300104: BuildingMidSpecialA2
+    4300106: BuildingMidSpecialA5
+    4300108: BuildingMidSpecialA4
+    4300110: BuildingSpecialEnterA1
+    4300112: BuildingHighSpecialEnterA2
+    4300114: Roof Aligner
+    4300116: BuildingStreetToMidA1
+    4300118: BuildingMidToHighA2
+    4300120: BuildingSubwayEndOfLine
+    4300122: BuildingParkWallCorner
+    4300124: BuildingParkWallEntrance
+    4300126: BuildingParkWallDeadEnd
+    4300128: BuildingParkWallCornerDouble
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
