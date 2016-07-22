@@ -5,6 +5,15 @@ using System.Collections.Generic;
 /// <summary>
 /// Pool manager.
 /// Pool stuff for re-use!!
+/// 描述：
+///     对象池管理
+/// 目标：
+///     初始化
+///     设置根节点
+///     维护对象池列表
+///     从指定对象池中获取对象
+///     回收对象
+///     重置管理器
 /// </summary>
 public static class PoolManager
 {

@@ -1,3 +1,16 @@
+/*
+ * 描述：
+ *  对象池
+ * 目标：
+ *  维护空闲列表和使用列表
+ *  初始化一些对象放在holder中， holder放入PoolManager.poolHolder中
+ *  对象不够可以创建对象也可以使用最旧的对象
+ *  回收对象
+ *  回收旧对象的时候删除不必要的组建
+
+ */
+
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

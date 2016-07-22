@@ -1,5 +1,15 @@
 // ENGINE SCRIPT: AVOID PUTTING GAME SPECIFIC CODE IN HERE
-
+/*
+ * 描述：
+ *  unity的本地存储
+ * 
+ * 目标：
+ *  存储功能
+ *  对比版本，如果版本不同， 重置本地存储
+ * 
+ * 
+ * 
+ */
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
