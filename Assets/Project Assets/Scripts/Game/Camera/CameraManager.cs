@@ -7,6 +7,10 @@ using UnityStandardAssets.ImageEffects;
 /// Camera manager.
 /// <para>Static class which manages everything related to a camera.</para>
 /// <para>E.g. Add a new one, update its settings, update a single setting, etc.</para>
+/// 
+/// 描述：
+///     管理相机
+///     维护相机列表
 /// </summary>
 public static class CameraManager
 {

@@ -5,6 +5,8 @@ using System.Collections.Generic;
 /// <summary>
 /// MissionData.
 /// <para>Contains all data mission related.</para>
+/// 描述：
+///     任务数据
 /// </summary>
 [System.Serializable]
 public class MissionData

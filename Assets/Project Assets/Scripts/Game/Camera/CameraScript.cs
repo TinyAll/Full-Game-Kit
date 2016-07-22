@@ -6,6 +6,18 @@ using System.Collections.Generic;
 /// <summary>
 /// Camera Script.
 /// <para>Main camera script. Controls camera position, look at, etc. etc. </para>
+/// 描述：
+///     控制相机脚本
+/// 
+/// 目标：
+///     记录shared的相机属性CameraData
+///     记录follow属性
+///     声音的位置跟随相机的位置
+///     
+///     相机的位置
+///     相机的角度
+///     位置和角度线性变化
+///     
 /// </summary>
 [RequireComponent(typeof(Camera))]
 public class CameraScript : MonoBehaviour

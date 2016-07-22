@@ -1,7 +1,20 @@
 // Stijn 15/10/2012
 // This entire class only consist of static variables for easy access without having to create or get instances
 // If you need globals in your game, you put them here (so not in Data as that's an engine script)
-
+/*
+ * 描述：
+ *  游戏数据
+ *  
+ * 目标：
+ *  记录各个layer值
+ *  记录游戏属性值
+ *  记录Globals值
+ *  
+ *  创建MedalsManager
+ *  加载登录界面
+ *  设置显示
+ *  语言的初始化
+ */
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

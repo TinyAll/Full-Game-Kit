@@ -8,6 +8,13 @@ using MiniJSON;
 /// <summary>
 /// MissionManager.
 /// <para>Controls and sets everything for each mission.</para>
+/// 
+/// 描述：
+///     任務管理
+/// 目標：
+///     维护当前任务和已经完成的任务
+///     設置當前任務
+///     添加一个节点用来显示当前任务
 /// </summary>
 public static class MissionManager
 {

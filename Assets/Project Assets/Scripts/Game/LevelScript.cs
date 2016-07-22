@@ -2,7 +2,25 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-
+/*
+ * 描述：
+ *  管理游戏关卡
+ * 目标：
+ *  初始化相机管理
+ *  添加一个相机
+ *  
+ *  更新声音管理器
+ *  更新输入管理器
+ *  更新秘籍管理器
+ *  
+ *  设置任务
+ *  暂停游戏
+ *  恢复游戏
+ *  关卡完成
+ *  下一关卡
+ *  重玩关卡
+ *  退出关卡
+ */
 public class LevelScript : MonoBehaviour
 {
 	// public vars

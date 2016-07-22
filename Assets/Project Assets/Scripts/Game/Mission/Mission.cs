@@ -5,6 +5,8 @@ using System.Collections.Generic;
 /// <summary>
 /// Mission behavior.
 /// <para>Simple script </para>
+/// 描述：
+///     用来在面板上显示
 /// </summary>
 public class Mission : MonoBehaviour
 {

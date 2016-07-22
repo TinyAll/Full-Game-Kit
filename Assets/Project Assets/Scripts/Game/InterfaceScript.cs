@@ -16,6 +16,16 @@ using System.Collections.Generic;
 /// But isn't yet for various reasons.
 /// Other UI related functionality is mostly done by scripts on the panel themselves.
 /// The GamePanel script being a good example of this.
+/// 描述：
+///     UI界面管理
+/// 目标：
+///     记录UI对象
+///     初始化AtlasManager
+///     设置时间缩放比例
+///     显示版本
+///     检查手柄
+///     设置UI可见性
+///     开启关卡level
 /// </summary> 
 
 public class InterfaceScript : MonoBehaviour
