@@ -6,7 +6,7 @@
 // maybe we can use a template somehow
 /*
  * 描述：
- *  加载资源
+ *  简化加载资源
  * 
  * 目标：
  *  加载各种资源
